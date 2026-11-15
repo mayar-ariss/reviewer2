@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research articles, and the matching chapters of theses and dissertations, in which every rule cites one named authority. It covers abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types and Cotos, Huffman and Link's move/step model; Results, from Cotos, Huffman and Link's move/step framework; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms and obscure wording (Grice); for health research, it also checks completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
+**An agent skill for writing and revising research articles, and the matching chapters of theses and dissertations, in which every rule cites one named authority. It covers titles, from Hyland and Zou's study of research article titles; abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types and Cotos, Huffman and Link's move/step model; Results, from Cotos, Huffman and Link's move/step framework; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), cohesion: what pronouns and *this* point to, whether linking words fit, and whether key terms stay consistent (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms and obscure wording (Grice); for health research, it also checks completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -14,6 +14,7 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 
 | Part or check | File | Authority |
 |---|---|---|
+| Titles | `rules/titles.md` | Hyland & Zou 2022 |
 | Abstracts | `rules/abstracts.md` | Hyland 2000 |
 | Introductions | `rules/introduction.md` | Swales 1990, 2004; Swales & Feak 1994, 2012 |
 | Literature reviews | `rules/literature-review.md` | Feak & Swales 2009 |
@@ -24,7 +25,7 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Claims and reader engagement, in any part | `rules/claims.md` | Hyland 2005, 2010, 2017, 2023; Hyland & Jiang 2023 |
 | Argument, in any part | `rules/argument.md` | Toulmin 1958 |
 | Sentences, in any part | `rules/sentences.md` | Gopen & Swan 1990 |
-| Reference, in any part | `rules/reference.md` | Halliday & Hasan 1976 |
+| Cohesion, in any part | `rules/cohesion.md` | Halliday & Hasan 1976 |
 | Vague quantities, in any part | `rules/vagueness.md` | Channell 1994 |
 | Dense or empty wording, in any part | `rules/unpacking.md` | Halliday 1985, 1993 |
 | Informativeness, in any part | `rules/informativeness.md` | Grice 1975 |
@@ -32,6 +33,10 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Spin, in any part (health research only) | `rules/spin.md` | Boutron & Ravaud 2018 |
 
 For a full review the agent applies the section's file and then every check; for a quick review it applies the section's file and the two or three checks most relevant to the draft, and says which it skipped.
+
+### Titles
+
+From Hyland and Zou's analysis of 5,070 titles in six disciplines: statements or questions, single or compound titles, descriptive titles or ones that also give the approach or a result, and length, all judged against the field and the target journal. It checks that the title names the paper's subject in searchable terms and adds no method or result the author has not stated.
 
 ### Abstracts
 
@@ -89,9 +94,9 @@ From Toulmin's model of argument: for each main claim, the data it rests on, the
 
 From Gopen and Swan's "The Science of Scientific Writing": the seven structural principles for placing information where readers expect it. Whose story a sentence tells belongs in the topic position, the action in the verb, and the new information to be stressed at the end; links between sentences are stated rather than left to the reader. It catches sentences that sound like conclusions but state no relation between specific things.
 
-### Reference
+### Cohesion
 
-From Halliday and Hasan's *Cohesion in English*: personal, demonstrative and comparative reference, and the requirement that every reference item point to something the reader can recover. It catches pronouns and possessives whose referent is missing, ambiguous, or does not make sense in the clause.
+From Halliday and Hasan's *Cohesion in English*: personal, demonstrative and comparative reference, and the requirement that every reference item point to something the reader can recover; conjunction (additive, adversative, causal, temporal), checked against the relation that actually holds; and lexical cohesion, keeping track of each key object and quantity with the same or a recognizably related word. It catches pronouns whose referent is missing or does not fit, a *however* with nothing to contradict, and a quantity that changes name halfway through.
 
 ### Vague quantities
 
@@ -142,7 +147,6 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 
 ## Planned
 
-- **Titles:** no authority chosen yet
 - **Research proposals and whole theses:** the moves of a research or grant proposal, and the organization of a thesis across chapters
 - **Verification:** check page numbers taken from open texts and secondary sources against the original works, starting with the Methods table in `rules/methods.md`
 
@@ -171,6 +175,7 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 - Cotos, E., Huffman, S., & Link, S. (2017). A move/step model for methods sections: Demonstrating rigour and credibility. *English for Specific Purposes*, 46, 90–106.
 - Hyland, K. (2000). *Disciplinary Discourses: Social Interactions in Academic Writing*. Longman.
 - Hyland, K. (2023). Changing times; changing texts. WAC Clearinghouse. https://doi.org/10.37514/PER-B.2023.1800.2.03
+- Hyland, K., & Zou, H. (2022). Titles in research articles. *Journal of English for Academic Purposes*, 56, 101094.
 - Toulmin, S. (1958). *The Uses of Argument*. Cambridge University Press.
 
 The skill paraphrases these works and cites them; it does not reproduce their text. Read the originals for the full treatment, examples and exercises.
