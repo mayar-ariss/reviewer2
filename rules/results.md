@@ -60,6 +60,7 @@ The Results section reminds readers how the niche was approached methodologicall
 Reporting specific results is traditionally accompanied by indicating alternative presentation of results, which directs the reader to tables, figures and graphs (§2.2.2).
 
 - Check that each table and figure is referred to in the text where its results are reported.
+- For what the text should say about each table and figure, see `rules/data-commentary.md`.
 
 ### 4. Keep commentary within the scope of the study
 
