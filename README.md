@@ -1,14 +1,23 @@
-# swales
+# Reviewer 2
 
-**An agent skill for writing and revising research paper introductions and literature reviews, from the work of John M. Swales: his Create-a-Research-Space (CARS) model, and Feak and Swales's guidance on literature reviews. Every rule cites Swales by work and page.**
+**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority by work and page. It currently covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model, and literature reviews, from Feak and Swales's *Telling a Research Story*.**
 
 ```bash
-npx skills add mayar-ariss/swales
+npx skills add mayar-ariss/reviewer2
 ```
 
 Works with Claude Code, Cursor, Codex, GitHub Copilot, Gemini CLI and any agent the [skills CLI](https://skills.sh) supports.
 
 ## What it does
+
+The skill keeps one rules file per part of the text, and each file draws on a single authority. `SKILL.md` tells the agent which file to read for the task.
+
+| Part | File | Authority |
+|---|---|---|
+| Introductions | `rules/introduction.md` | Swales 1990, 2004; Swales & Feak 1994, 2012 |
+| Literature reviews | `rules/literature-review.md` | Feak & Swales 2009 |
+
+### Introductions
 
 John M. Swales's analysis of research article introductions found a recurring pattern of three rhetorical moves, which he called Create a Research Space (CARS):
 
@@ -28,21 +37,31 @@ It also applies Swales and Feak's guidance on:
 - tense in purpose statements
 - which optional Move 3 elements a field expects
 
-**Literature reviews** (`rules/literature-review.md`, from Feak and Swales's *Telling a Research Story*): why the review is there and how it leads to your research, imposing order on the literature, describing selection criteria, metadiscourse, integral and non-integral citations, citation tense, reporting verbs and ambiguous citations, taking a stance, and paraphrasing and summarizing in your own words.
+### Literature reviews
+
+From Feak and Swales's *Telling a Research Story*: why the review is there and how it leads to your research, imposing order on the literature, describing selection criteria, metadiscourse, integral and non-integral citations, citation tense, reporting verbs and ambiguous citations, taking a stance, and paraphrasing and summarizing in your own words.
 
 ## Try it
 
 Once installed, ask your agent the way you normally would:
 
-- *"Review the introduction of my paper with the swales skill."*
+- *"Review the introduction of my paper with the reviewer2 skill."*
 - *"Label the moves in this introduction and tell me what's missing."*
 - *"My Move 2 is weak. How can I state the gap?"*
 - *"Should my introduction announce the main findings? The paper is for a physics journal."*
-- *"Review the literature review chapter of my dissertation with the swales skill."*
+- *"Review the literature review chapter of my dissertation with the reviewer2 skill."*
 
-## Faithful to Swales
+## Faithful to its sources
 
-Every rule names its source by work and page. Where Swales gives no rule (an introduction's length, the number of citations, a required opening sentence), the skill says so instead of supplying one. The skill keeps the author's claims and citations, and asks for content a move needs rather than inventing it.
+Every rule names its source by work and page, and no rule combines authorities. Where an authority gives no rule (an introduction's length, the number of citations, a required opening sentence), the skill says so instead of supplying one. The skill keeps the author's claims and citations, and asks for content a rule needs rather than inventing it.
+
+## Planned
+
+Each part will be added only once its rules can be cited by page from the source:
+
+- **Methods, Results and Discussion:** Swales & Feak, *Academic Writing for Graduate Students*
+- **Strength of claims:** attribution, hedges and boosters, from Ken Hyland
+- **Empty sentences:** unpacking abstract wording into its congruent form, from M.A.K. Halliday
 
 ## Based on
 
