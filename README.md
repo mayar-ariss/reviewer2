@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority by work and page. It currently covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; and the claims in any part of a paper, from Ken Hyland's work on stance and metadiscourse.**
+**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority by work and page. It currently covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Discussions, from Moreno and Swales's functional scheme; and the claims in any part of a paper, from Ken Hyland's work on stance and metadiscourse.**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -16,6 +16,7 @@ The skill keeps one rules file per part of the text, plus one for claims, and ea
 |---|---|---|
 | Introductions | `rules/introduction.md` | Swales 1990, 2004; Swales & Feak 1994, 2012 |
 | Literature reviews | `rules/literature-review.md` | Feak & Swales 2009 |
+| Discussions | `rules/discussion.md` | Moreno & Swales 2018 |
 | Claims, in any part | `rules/claims.md` | Hyland 2005, 2010, 2017; Hyland & Jiang 2023 |
 
 ### Introductions
@@ -42,6 +43,10 @@ It also applies Swales and Feak's guidance on:
 
 From Feak and Swales's *Telling a Research Story*: why the review is there and how it leads to your research, imposing order on the literature, describing selection criteria, metadiscourse, integral and non-integral citations, citation tense, reporting verbs and ambiguous citations, taking a stance, and paraphrasing and summarizing in your own words.
 
+### Discussions
+
+From Moreno and Swales's scheme for the Discussion and other closing sections of empirical articles: five moves (background information, restating key results, commenting on them, evaluating the study, drawing implications) and their steps, labelled proposition by proposition. It checks that a Discussion interprets, compares and explains its results, states its contribution and limitations, and shows why the study matters beyond itself.
+
 ### Claims
 
 From Ken Hyland's interpersonal model of metadiscourse and his work on hedging and stance: where each claim comes from, whether its certainty matches its evidence, why and how much fields hedge, explicit evaluation, self-mention, and the commitment carried by reporting verbs such as *show* and *suggest*. It catches sentences that sound authoritative but have no source, no stated evidence and no writer standing behind them.
@@ -55,6 +60,7 @@ Once installed, ask your agent the way you normally would:
 - *"My Move 2 is weak. How can I state the gap?"*
 - *"Should my introduction announce the main findings? The paper is for a physics journal."*
 - *"Review the literature review chapter of my dissertation with the reviewer2 skill."*
+- *"Label the moves in my Discussion. Did I state the contribution and the limitations?"*
 - *"Check the claims in my Discussion: am I overstating anything?"*
 
 ## Faithful to its sources
@@ -65,7 +71,7 @@ Every rule names its source by work and page, and no rule combines authorities. 
 
 Each part will be added only once its rules can be cited by page from the source:
 
-- **Methods, Results and Discussion:** Swales & Feak, *Academic Writing for Graduate Students*
+- **Methods and Results:** Swales & Feak, *Academic Writing for Graduate Students*
 - **Claims, extended:** the engagement side of Hyland's stance and engagement model, once his *Discourse Studies* article (2005) can be cited by page
 - **Empty sentences:** unpacking abstract wording into its congruent form, from M.A.K. Halliday
 
@@ -76,6 +82,7 @@ Each part will be added only once its rules can be cited by page from the source
 - Swales, J. M., & Feak, C. B. (1994; 3rd ed. 2012). *Academic Writing for Graduate Students: Essential Tasks and Skills*. University of Michigan Press.
 - Feak, C. B., & Swales, J. M. (2009). *Telling a Research Story: Writing a Literature Review*. University of Michigan Press.
 - Feak, C. B., & Swales, J. M. (2011). *Creating Contexts: Writing Introductions across Genres*. University of Michigan Press.
+- Moreno, A. I., & Swales, J. M. (2018). Strengthening move analysis methodology towards bridging the function-form gap. *English for Specific Purposes*, 50, 40–63.
 - Hyland, K. (2005). Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112.
 - Hyland, K. (2010). Metadiscourse: Mapping interactions in academic writing. *Nordic Journal of English Studies*, 9(2), 125–143.
 - Hyland, K. (2017). Metadiscourse: What is it and where is it going? *Journal of Pragmatics*, 113, 16–29.
