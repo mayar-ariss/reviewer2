@@ -2,11 +2,11 @@
 name: reviewer2
 description: >-
   Use when writing, reviewing or revising a research article, or the matching
-  chapters of a thesis or dissertation. Section rules: abstracts (Hyland),
-  introductions (Swales's CARS model), literature reviews (Feak and Swales), Methods
+  chapters of a thesis or dissertation. Section rules: titles and abstracts
+  (Hyland), introductions (Swales's CARS model), literature reviews (Feak and Swales), Methods
   (Swales and Feak; Cotos, Huffman and Link), Results (Cotos, Huffman and Link),
   Discussions (Moreno and Swales). Checks for any part: claims, hedging and reader
-  engagement, argument (Toulmin), sentence structure, reference, vague quantities,
+  engagement, argument (Toulmin), sentence structure, cohesion, vague quantities,
   dense or empty wording, truisms and obscure wording (Grice), and, for health
   research, completeness against reporting guidelines and spin. Every rule cites one
   named authority.
@@ -24,6 +24,7 @@ This skill reviews and revises parts of a research article, and the matching cha
 
 | The user is working on | Read | Authority |
 |---|---|---|
+| The title | `rules/titles.md` | Hyland & Zou 2022 |
 | The abstract | `rules/abstracts.md` | Hyland 2000 |
 | The introduction of a research article | `rules/introduction.md` | Swales (CARS model) |
 | A literature review: a review chapter, a proposal's review, or a review section | `rules/literature-review.md` | Feak & Swales 2009 |
@@ -40,7 +41,7 @@ This skill reviews and revises parts of a research article, and the matching cha
 | Claims: their sources, how strongly they are stated, evaluation, self-mention, reporting verbs, and how the text addresses the reader | `rules/claims.md` | Hyland |
 | Argument: whether each main claim has data, a warrant the reader would accept, backing, a stated strength and stated exceptions | `rules/argument.md` | Toulmin 1958 |
 | Sentences and paragraphs: whose story each sentence tells, where the action and the emphasis fall, the links between sentences | `rules/sentences.md` | Gopen & Swan 1990 |
-| Reference: what pronouns, possessives, *this*, *the* and comparatives point to | `rules/reference.md` | Halliday & Hasan 1976 |
+| Cohesion: what pronouns, *this*, *the* and comparatives point to; whether linking words signal the relation that holds; whether key terms are used consistently | `rules/cohesion.md` | Halliday & Hasan 1976 |
 | Vague quantities and categories: *about*, *many*, *how much*, *and so on* | `rules/vagueness.md` | Channell 1994 |
 | Dense or empty wording: nominalizations, relations packed into one verb, sentences that sound weighty but say little | `rules/unpacking.md` | Halliday |
 | Informativeness: truisms, platitudes, sentences that tell the reader nothing new or have no clear point, and loose words for technical properties | `rules/informativeness.md` | Grice |
@@ -49,10 +50,10 @@ This skill reviews and revises parts of a research article, and the matching cha
 
 Read only the files the task needs.
 
-- **Full review** of an abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`.
+- **Full review** of a title, abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/cohesion.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`.
 - **Quick review:** apply the section file, then only the two or three checks that address the problems most visible in the draft, and say which checks were not run.
 
-**Parts this skill does not cover yet:** titles, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
+**Parts this skill does not cover yet:** the structure of a whole thesis and of a research proposal, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
 
 ## How to apply any rules file
 
@@ -84,13 +85,14 @@ Read only the files the task needs.
 | Hyland 2017 (MS) | Metadiscourse: What is it and where is it going? *Journal of Pragmatics*, 113, 16–29. Author's manuscript. | `rules/claims.md` |
 | Hyland & Jiang 2023 (MS) | Talking to the literature: Stance taking in citing others' work. In R. Wette (Ed.), *Teaching and learning source-based writing*. Routledge. Authors' manuscript. | `rules/claims.md` |
 | G&S 1990 | Gopen, G. D., & Swan, J. A. The science of scientific writing. *American Scientist*, 78(6), 550–558. Cited by section. | `rules/sentences.md` |
-| H&H 1976 | Halliday, M. A. K., & Hasan, R. *Cohesion in English*. Longman. Cited as reported in open sources. | `rules/reference.md` |
+| H&H 1976 | Halliday, M. A. K., & Hasan, R. *Cohesion in English*. Longman. Cited as reported in open sources. | `rules/cohesion.md` |
 | Channell 1994 | Channell, J. *Vague Language*. Oxford University Press. Cited from its table of contents and as quoted in open sources. | `rules/vagueness.md` |
 | Halliday 1985, 1993 | Halliday, M. A. K. *An Introduction to Functional Grammar* (1985); "Some grammatical problems in scientific English", in Halliday & Martin, *Writing Science* (1993). Cited as reported in open sources. | `rules/unpacking.md` |
 | Grice | Grice, H. P. Logic and conversation (1975), in *Studies in the Way of Words* (1989). Cited as reported in open sources. | `rules/informativeness.md` |
 | EQUATOR | EQUATOR Network, key reporting guidelines and "What is a reporting guideline?". | `rules/reporting.md` |
 | Hyland 2000 | Hyland, K. *Disciplinary Discourses*. Longman. Cited as reported in an open source. | `rules/abstracts.md` |
 | Hyland 2023 | Hyland, K. Changing times; changing texts. WAC Clearinghouse, open access. | `rules/claims.md` (engagement) |
+| H&Z 2022 | Hyland, K., & Zou, H. Titles in research articles. *Journal of English for Academic Purposes* 56. Open access. | `rules/titles.md` |
 | Toulmin 1958 | Toulmin, S. *The Uses of Argument*. Cambridge University Press. Cited as reported in open sources. | `rules/argument.md` |
 | B&R 2018 | Boutron, I., & Ravaud, P. Misrepresentation and distortion of research in biomedical literature. *PNAS*, 115(11), 2613–2619. Open access; cited by section. | `rules/spin.md` |
 
