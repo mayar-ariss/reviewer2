@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims (Ken Hyland), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell) and dense or empty wording (Halliday).**
+**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims (Ken Hyland), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell) and dense or empty wording (Halliday).**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -16,6 +16,7 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 |---|---|---|
 | Introductions | `rules/introduction.md` | Swales 1990, 2004; Swales & Feak 1994, 2012 |
 | Literature reviews | `rules/literature-review.md` | Feak & Swales 2009 |
+| Methods | `rules/methods.md` | Swales 1990, 2004, 2008; Swales & Feak |
 | Discussions | `rules/discussion.md` | Moreno & Swales 2018 |
 | Claims, in any part | `rules/claims.md` | Hyland 2005, 2010, 2017; Hyland & Jiang 2023 |
 | Sentences, in any part | `rules/sentences.md` | Gopen & Swan 1990 |
@@ -46,6 +47,10 @@ It also applies Swales and Feak's guidance on:
 ### Literature reviews
 
 From Feak and Swales's *Telling a Research Story*: why the review is there and how it leads to your research, imposing order on the literature, describing selection criteria, metadiscourse, integral and non-integral citations, citation tense, reporting verbs and ambiguous citations, taking a stance, and paraphrasing and summarizing in your own words.
+
+### Methods
+
+From Swales and Feak's contrast between condensed and extended Methods sections, and Swales's observations on how Methods sections vary across disciplines: how much background to assume, shorthand versus description, subsections, saying how each step was done, justifying choices, and linking steps, all judged against what the target journal does. Swales and Feak give no fixed move structure for Methods, and neither does the skill.
 
 ### Discussions
 
@@ -80,6 +85,7 @@ Once installed, ask your agent the way you normally would:
 - *"My Move 2 is weak. How can I state the gap?"*
 - *"Should my introduction announce the main findings? The paper is for a physics journal."*
 - *"Review the literature review chapter of my dissertation with the reviewer2 skill."*
+- *"My Methods section is for an interdisciplinary journal. Is it too condensed?"*
 - *"Label the moves in my Discussion. Did I state the contribution and the limitations?"*
 - *"Check the claims in my Discussion: am I overstating anything?"*
 - *"This paragraph is hard to follow. Check whose story each sentence tells and where the action is."*
@@ -91,7 +97,7 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 
 ## Planned
 
-- **Methods and Results:** Swales & Feak, *Academic Writing for Graduate Students*
+- **Results:** Swales & Feak, *Academic Writing for Graduate Students*
 - **Claims, extended:** the engagement side of Hyland's stance and engagement model (*Discourse Studies*, 2005)
 
 ## Based on
@@ -101,6 +107,7 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 - Swales, J. M., & Feak, C. B. (1994; 3rd ed. 2012). *Academic Writing for Graduate Students: Essential Tasks and Skills*. University of Michigan Press.
 - Feak, C. B., & Swales, J. M. (2009). *Telling a Research Story: Writing a Literature Review*. University of Michigan Press.
 - Feak, C. B., & Swales, J. M. (2011). *Creating Contexts: Writing Introductions across Genres*. University of Michigan Press.
+- Swales, J. M. (2008). Variation in methods sections of research articles. Talk abstract, METM08, Mediterranean Editors and Translators.
 - Moreno, A. I., & Swales, J. M. (2018). Strengthening move analysis methodology towards bridging the function-form gap. *English for Specific Purposes*, 50, 40–63.
 - Hyland, K. (2005). Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112.
 - Hyland, K. (2010). Metadiscourse: Mapping interactions in academic writing. *Nordic Journal of English Studies*, 9(2), 125–143.
