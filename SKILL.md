@@ -10,8 +10,9 @@ description: >-
   hedges, boosters, evaluation, self-mention, reporting verbs), its sentences (Gopen
   and Swan: topic and stress positions, action in the verb, logical links), what its
   pronouns and demonstratives point to (Halliday and Hasan), vague quantities
-  (Channell) and dense or empty wording (Halliday's grammatical metaphor). Every
-  rule cites one named authority.
+  (Channell), dense or empty wording (Halliday's grammatical metaphor), truisms and
+  uninformative sentences (Grice's maxims), and vague or abstract word choice
+  (Strunk). Every rule cites one named authority.
 ---
 
 # Reviewer 2: research writing, rule by cited rule
@@ -41,8 +42,10 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 | Reference: what pronouns, possessives, *this*, *the* and comparatives point to | `rules/reference.md` | Halliday & Hasan 1976 |
 | Vague quantities and categories: *about*, *many*, *how much*, *and so on* | `rules/vagueness.md` | Channell 1994 |
 | Dense or empty wording: nominalizations, relations packed into one verb, sentences that sound weighty but say little | `rules/unpacking.md` | Halliday |
+| Informativeness: truisms, platitudes and sentences that tell the reader nothing new or have no clear point | `rules/informativeness.md` | Grice |
+| Precision: loose words for technical properties, general classes where a particular case is meant, noncommittal or padded phrasing | `rules/precision.md` | Strunk 1918 |
 
-Read only the files the task needs. When the user asks for a full review of an introduction, a literature review, a Methods section or a Discussion, apply its file first, then the checks in this order: `rules/claims.md`, `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`.
+Read only the files the task needs. When the user asks for a full review of an introduction, a literature review, a Methods section or a Discussion, apply its file first, then the checks in this order: `rules/claims.md`, `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`, `rules/precision.md`.
 
 **Parts this skill does not cover yet:** Results (outside a combined Results and Discussion) and abstracts, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
 
@@ -77,5 +80,7 @@ Read only the files the task needs. When the user asks for a full review of an i
 | H&H 1976 | Halliday, M. A. K., & Hasan, R. *Cohesion in English*. Longman. Cited as reported in open sources. | `rules/reference.md` |
 | Channell 1994 | Channell, J. *Vague Language*. Oxford University Press. Cited from its table of contents and as quoted in open sources. | `rules/vagueness.md` |
 | Halliday 1985, 1993 | Halliday, M. A. K. *An Introduction to Functional Grammar* (1985); "Some grammatical problems in scientific English", in Halliday & Martin, *Writing Science* (1993). Cited as reported in open sources. | `rules/unpacking.md` |
+| Grice | Grice, H. P. Logic and conversation (1975), in *Studies in the Way of Words* (1989). Cited as reported in open sources. | `rules/informativeness.md` |
+| Strunk 1918 | Strunk, W., Jr. *The Elements of Style*. Public domain; cited by rule number. | `rules/precision.md` |
 
 Page numbers refer to these editions. Each rules file gives its own citation conventions and lists its reporting sources.
