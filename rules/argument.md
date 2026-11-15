@@ -25,7 +25,7 @@ Toulmin set out to challenge the assumption that significant arguments can be fu
 
 1. **List the main claims** of the passage: the conclusions the author wants the reader to accept (rule 1).
 2. **For each claim, lay out the scheme:** data, warrant, backing, qualifier, rebuttal (see the model). Show the user the laid-out arguments.
-3. **Mark the missing elements** and check each against rules 2–5.
+3. **Mark the missing elements** and check each against rules 2–5. Then check the paper's figures and tables against the claims (rule 6).
 4. **Propose revisions citing the rule.** Do not supply data, warrants, backing or exceptions; ask the author for them.
 5. **Run the checklist** at the end.
 
@@ -84,9 +84,18 @@ Rebuttals are conditions of exception for the argument: circumstances in which t
 
 - For each main claim, ask under what conditions it would not hold, and whether the paper says so (in a Discussion, often as limitations).
 
+### 6. Treat each figure and table as data for a claim
+
+*Source: Toulmin 1958, p. 97 (Verheij, p. 3). Application to figures and tables is this skill's.*
+
+In Toulmin's scheme, data are the facts appealed to as the foundation for a claim (p. 97, as quoted by Verheij, p. 3). A figure or table in a research paper presents data, so it should be the data for some claim the text makes.
+
+- For each figure and table, name the claim in the text that it supports. Flag a figure or table that supports no claim, and ask the author whether it is needed, or belongs in supplementary material.
+- For each main claim, check that its data are shown somewhere: in a figure, a table or the text. Flag a main claim whose data appear nowhere, and ask the author for them.
+
 ## Where Toulmin gives no rule
 
-Toulmin gives no analogue of logical validity for evaluating arguments, and does not distinguish kinds of rebuttal or their effect (Verheij, pp. 2, 10–11). He does not prescribe how many claims a paper may make, or where in a paper each element must appear. Because the book was not available, this file covers only what the reporting sources give. This file adds nothing where Toulmin is silent.
+Toulmin gives no analogue of logical validity for evaluating arguments, and does not distinguish kinds of rebuttal or their effect (Verheij, pp. 2, 10–11). He does not prescribe how many claims a paper may make, where in a paper each element must appear, or how many figures and tables a paper should have; rule 6 applies his notion of data to figures and tables, and is this skill's application. Because the book was not available, this file covers only what the reporting sources give. This file adds nothing where Toulmin is silent.
 
 ## Example
 
@@ -104,4 +113,5 @@ Toulmin gives no analogue of logical validity for evaluating arguments, and does
 - [ ] Contestable warrants have backing of a kind the field accepts, or the author was asked for it (rule 3)
 - [ ] Each claim's strength matches its data and warrant (rule 4)
 - [ ] Exceptions to each main claim are stated, or the author was asked (rule 5)
+- [ ] Each figure and table supports a named claim, and each main claim's data are shown somewhere (rule 6)
 - [ ] No data, warrant, backing or exception was invented
