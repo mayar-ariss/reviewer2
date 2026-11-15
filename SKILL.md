@@ -1,20 +1,20 @@
 ---
 name: reviewer2
 description: >-
-  Use when writing, reviewing or revising a research article, thesis, dissertation
-  or proposal. Section rules: abstracts (Hyland), introductions (Swales's CARS
-  model), literature reviews (Feak and Swales), Methods (Swales and Feak; Cotos,
-  Huffman and Link), Results (Link), Discussions (Moreno and Swales). Checks for
-  any part: claims, hedging and
-  reader engagement, argument (Toulmin), sentence structure, reference, vague
-  quantities, dense or empty wording, truisms, word precision, and, for health
+  Use when writing, reviewing or revising a research article, or the matching
+  chapters of a thesis or dissertation. Section rules: abstracts (Hyland),
+  introductions (Swales's CARS model), literature reviews (Feak and Swales), Methods
+  (Swales and Feak; Cotos, Huffman and Link), Results (Cotos, Huffman and Link),
+  Discussions (Moreno and Swales). Checks for any part: claims, hedging and reader
+  engagement, argument (Toulmin), sentence structure, reference, vague quantities,
+  dense or empty wording, truisms and obscure wording (Grice), and, for health
   research, completeness against reporting guidelines and spin. Every rule cites one
   named authority.
 ---
 
 # Reviewer 2: research writing, rule by cited rule
 
-This skill reviews and revises parts of a research article, thesis, dissertation or proposal. Its rules come from published analyses of academic writing and research reporting, kept in rules files that each draw on one authority: one file per part of the text, plus files for checks that apply to any part.
+This skill reviews and revises parts of a research article, and the matching chapters of a thesis or dissertation. It does not model the structure of a whole thesis or of a research proposal, although the literature-review file covers their reviews. Its rules come from published analyses of academic writing and research reporting, kept in rules files that each draw on one authority: one file per part of the text, plus files for checks that apply to any part.
 
 **Every rule names its source.** Most rules cite the work and page; an article read in a reprint without page numbers is cited by section; where the primary work was not available, the rule cites it as reported in a named open source. Each rules file names its authority at the top and draws only on that authority; no rule combines authorities. Where an authority gives no rule, the file says so rather than supplying one. Nothing here is a general writing preference.
 
@@ -30,7 +30,7 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 | A review of previous work inside an introduction | `rules/introduction.md` (rules 3–5) together with `rules/literature-review.md` | Swales; Feak & Swales 2009 |
 | The Methods section (Materials and Methods, Methodology, Experimental Procedures): detail, background and justification | `rules/methods.md` | Swales; Swales & Feak |
 | The Methods section: which parts it contains, and in what order | `rules/methods-structure.md` | Cotos, Huffman & Link 2017 |
-| The Results section (Findings) | `rules/results.md` | Link 2023 |
+| The Results section (Findings) | `rules/results.md` | Cotos, Huffman & Link 2015 |
 | The Discussion of a research article, including a combined Results and Discussion or a closing Conclusion | `rules/discussion.md` | Moreno & Swales 2018 |
 
 **Checks for any part**
@@ -43,14 +43,13 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 | Reference: what pronouns, possessives, *this*, *the* and comparatives point to | `rules/reference.md` | Halliday & Hasan 1976 |
 | Vague quantities and categories: *about*, *many*, *how much*, *and so on* | `rules/vagueness.md` | Channell 1994 |
 | Dense or empty wording: nominalizations, relations packed into one verb, sentences that sound weighty but say little | `rules/unpacking.md` | Halliday |
-| Informativeness: truisms, platitudes and sentences that tell the reader nothing new or have no clear point | `rules/informativeness.md` | Grice |
-| Precision: loose words for technical properties, general classes where a particular case is meant, noncommittal or padded phrasing | `rules/precision.md` | Strunk 1918 |
+| Informativeness: truisms, platitudes, sentences that tell the reader nothing new or have no clear point, and loose words for technical properties | `rules/informativeness.md` | Grice |
 | Completeness (health research only): whether Methods and Results report the minimum information for the study design | `rules/reporting.md` | EQUATOR Network |
 | Spin (health research only): misreported methods or results, interpretation beyond the results, conclusions stronger than the evidence | `rules/spin.md` | Boutron & Ravaud 2018 |
 
 Read only the files the task needs.
 
-- **Full review** of an abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`, `rules/precision.md`.
+- **Full review** of an abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`.
 - **Quick review:** apply the section file, then only the two or three checks that address the problems most visible in the draft, and say which checks were not run.
 
 **Parts this skill does not cover yet:** titles, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
@@ -78,7 +77,7 @@ Read only the files the task needs.
 | Swales 1990, 2004; AWG (Methods) | Swales's and Swales & Feak's accounts of Methods sections. Cited as reported in open sources. | `rules/methods.md` |
 | Swales 2008 | Variation in methods sections of research articles. Talk abstract, METM08. | `rules/methods.md` |
 | CHL 2017 | Cotos, E., Huffman, S., & Link, S. A move/step model for methods sections. *English for Specific Purposes* 46. Accepted manuscript. | `rules/methods-structure.md` |
-| Link 2023 | Link, S. *Writing for Publication* (open textbook, CC BY 4.0), with *Preparing to Publish* (Iowa State University, open textbook). | `rules/results.md` |
+| CHL 2015 | Cotos, E., Huffman, S., & Link, S. Furthering and applying move/step constructs. *Journal of English for Academic Purposes* 19. Accepted manuscript. | `rules/results.md` |
 | M&S 2018 (MS) | Moreno, A. I., & Swales, J. M. Strengthening move analysis methodology towards bridging the function-form gap. *English for Specific Purposes*, 50, 40–63. Authors' preprint. | `rules/discussion.md` |
 | Hyland 2010 | Metadiscourse: Mapping interactions in academic writing. *Nordic Journal of English Studies*, 9(2), 125–143. | `rules/claims.md` |
 | Hyland 2005 | Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112. | `rules/claims.md` |
@@ -89,7 +88,6 @@ Read only the files the task needs.
 | Channell 1994 | Channell, J. *Vague Language*. Oxford University Press. Cited from its table of contents and as quoted in open sources. | `rules/vagueness.md` |
 | Halliday 1985, 1993 | Halliday, M. A. K. *An Introduction to Functional Grammar* (1985); "Some grammatical problems in scientific English", in Halliday & Martin, *Writing Science* (1993). Cited as reported in open sources. | `rules/unpacking.md` |
 | Grice | Grice, H. P. Logic and conversation (1975), in *Studies in the Way of Words* (1989). Cited as reported in open sources. | `rules/informativeness.md` |
-| Strunk 1918 | Strunk, W., Jr. *The Elements of Style*. Public domain; cited by rule number. | `rules/precision.md` |
 | EQUATOR | EQUATOR Network, key reporting guidelines and "What is a reporting guideline?". | `rules/reporting.md` |
 | Hyland 2000 | Hyland, K. *Disciplinary Discourses*. Longman. Cited as reported in an open source. | `rules/abstracts.md` |
 | Hyland 2023 | Hyland, K. Changing times; changing texts. WAC Clearinghouse, open access. | `rules/claims.md` (engagement) |
