@@ -20,7 +20,7 @@ The model was built from the Methods sections of 900 research articles, 30 from 
 |---|---|
 | Which functions does the section perform, and in what order? | this file |
 | How much detail, background and justification does the field expect? | `rules/methods.md` (Swales and Feak) |
-| What must be reported for this study design? | `rules/reporting.md` (EQUATOR) |
+| What must be reported for this study design (health research only)? | `rules/reporting.md` (EQUATOR) |
 
 ## How to apply this file
 
