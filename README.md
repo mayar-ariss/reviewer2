@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority by work and page. It currently covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Discussions, from Moreno and Swales's functional scheme; and the claims in any part of a paper, from Ken Hyland's work on stance and metadiscourse.**
+**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority by work and page or section. It currently covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Discussions, from Moreno and Swales's functional scheme; the claims in any part of a paper, from Ken Hyland's work on stance and metadiscourse; and how its sentences are built, from Gopen and Swan's reader expectations.**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -10,7 +10,7 @@ Works with Claude Code, Cursor, Codex, GitHub Copilot, Gemini CLI and any agent 
 
 ## What it does
 
-The skill keeps one rules file per part of the text, plus one for claims, and each file draws on a single authority. `SKILL.md` tells the agent which file to read for the task.
+The skill keeps one rules file per part of the text, plus files for claims and sentences, and each file draws on a single authority. `SKILL.md` tells the agent which file to read for the task.
 
 | Part | File | Authority |
 |---|---|---|
@@ -18,6 +18,7 @@ The skill keeps one rules file per part of the text, plus one for claims, and ea
 | Literature reviews | `rules/literature-review.md` | Feak & Swales 2009 |
 | Discussions | `rules/discussion.md` | Moreno & Swales 2018 |
 | Claims, in any part | `rules/claims.md` | Hyland 2005, 2010, 2017; Hyland & Jiang 2023 |
+| Sentences, in any part | `rules/sentences.md` | Gopen & Swan 1990 |
 
 ### Introductions
 
@@ -51,6 +52,10 @@ From Moreno and Swales's scheme for the Discussion and other closing sections of
 
 From Ken Hyland's interpersonal model of metadiscourse and his work on hedging and stance: where each claim comes from, whether its certainty matches its evidence, why and how much fields hedge, explicit evaluation, self-mention, and the commitment carried by reporting verbs such as *show* and *suggest*. It catches sentences that sound authoritative but have no source, no stated evidence and no writer standing behind them.
 
+### Sentences
+
+From Gopen and Swan's "The Science of Scientific Writing": the seven structural principles for placing information where readers expect it. Whose story a sentence tells belongs in the topic position, the action in the verb, and the new information to be stressed at the end; links between sentences are stated rather than left to the reader. It catches sentences that sound like conclusions but state no relation between specific things.
+
 ## Try it
 
 Once installed, ask your agent the way you normally would:
@@ -62,10 +67,11 @@ Once installed, ask your agent the way you normally would:
 - *"Review the literature review chapter of my dissertation with the reviewer2 skill."*
 - *"Label the moves in my Discussion. Did I state the contribution and the limitations?"*
 - *"Check the claims in my Discussion: am I overstating anything?"*
+- *"This paragraph is hard to follow. Check whose story each sentence tells and where the action is."*
 
 ## Faithful to its sources
 
-Every rule names its source by work and page, and no rule combines authorities. Where an authority gives no rule (an introduction's length, the number of citations, a required opening sentence), the skill says so instead of supplying one. The skill keeps the author's claims and citations, and asks for content a rule needs rather than inventing it.
+Every rule names its source by work and page (or by section, for an article read in a reprint without page numbers), and no rule combines authorities. Where an authority gives no rule (an introduction's length, the number of citations, a required opening sentence), the skill says so instead of supplying one. The skill keeps the author's claims and citations, and asks for content a rule needs rather than inventing it.
 
 ## Planned
 
@@ -74,6 +80,7 @@ Each part will be added only once its rules can be cited by page from the source
 - **Methods and Results:** Swales & Feak, *Academic Writing for Graduate Students*
 - **Claims, extended:** the engagement side of Hyland's stance and engagement model, once his *Discourse Studies* article (2005) can be cited by page
 - **Empty sentences:** unpacking abstract wording into its congruent form, from M.A.K. Halliday
+- **Reference and vague quantities:** what pronouns and *this* point to (Halliday & Hasan, *Cohesion in English*), and when vague quantities are appropriate (Channell, *Vague Language*)
 
 ## Based on
 
@@ -82,6 +89,7 @@ Each part will be added only once its rules can be cited by page from the source
 - Swales, J. M., & Feak, C. B. (1994; 3rd ed. 2012). *Academic Writing for Graduate Students: Essential Tasks and Skills*. University of Michigan Press.
 - Feak, C. B., & Swales, J. M. (2009). *Telling a Research Story: Writing a Literature Review*. University of Michigan Press.
 - Feak, C. B., & Swales, J. M. (2011). *Creating Contexts: Writing Introductions across Genres*. University of Michigan Press.
+- Gopen, G. D., & Swan, J. A. (1990). The science of scientific writing. *American Scientist*, 78(6), 550–558.
 - Moreno, A. I., & Swales, J. M. (2018). Strengthening move analysis methodology towards bridging the function-form gap. *English for Specific Purposes*, 50, 40–63.
 - Hyland, K. (2005). Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112.
 - Hyland, K. (2010). Metadiscourse: Mapping interactions in academic writing. *Nordic Journal of English Studies*, 9(2), 125–143.
