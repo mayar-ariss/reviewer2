@@ -81,7 +81,7 @@ Hyland saw identifying a problem as a critical step in all disciplines, and a cr
 
 The Conclusion move interprets or extends results beyond the scope of the paper and points to wider implications. Because it reaches beyond the paper, it is the move most likely to claim more than the results show.
 
-- Check each sentence of the Conclusion move against the paper's results, and apply `rules/spin.md` to it.
+- Check each sentence of the Conclusion move against the paper's results, and, in health research, apply `rules/spin.md` to it.
 - Check that every finding in the Product move appears in the paper's Results.
 
 ## Where Hyland gives no rule
