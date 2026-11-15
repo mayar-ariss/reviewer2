@@ -2,12 +2,12 @@
 name: reviewer2
 description: >-
   Use when writing, reviewing or revising a research article, thesis, dissertation
-  or proposal. Section rules: introductions (Swales's CARS model), literature
-  reviews (Feak and Swales), Methods (Swales and Feak), Results (Link), Discussions
-  (Moreno and Swales). Checks for any part: claims and hedging, sentence structure,
-  reference, vague quantities, dense or empty wording, truisms, word precision,
-  completeness against reporting guidelines, and spin. Every rule cites one named
-  authority.
+  or proposal. Section rules: abstracts (Hyland), introductions (Swales's CARS
+  model), literature reviews (Feak and Swales), Methods (Swales and Feak), Results
+  (Link), Discussions (Moreno and Swales). Checks for any part: claims, hedging and
+  reader engagement, argument (Toulmin), sentence structure, reference, vague
+  quantities, dense or empty wording, truisms, word precision, completeness against
+  reporting guidelines, and spin. Every rule cites one named authority.
 ---
 
 # Reviewer 2: research writing, rule by cited rule
@@ -22,6 +22,7 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 
 | The user is working on | Read | Authority |
 |---|---|---|
+| The abstract | `rules/abstracts.md` | Hyland 2000 |
 | The introduction of a research article | `rules/introduction.md` | Swales (CARS model) |
 | A literature review: a review chapter, a proposal's review, or a review section | `rules/literature-review.md` | Feak & Swales 2009 |
 | A review of previous work inside an introduction | `rules/introduction.md` (rules 3–5) together with `rules/literature-review.md` | Swales; Feak & Swales 2009 |
@@ -33,7 +34,8 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 
 | The user wants checked | Read | Authority |
 |---|---|---|
-| Claims: their sources, how strongly they are stated, evaluation, self-mention, reporting verbs | `rules/claims.md` | Hyland |
+| Claims: their sources, how strongly they are stated, evaluation, self-mention, reporting verbs, and how the text addresses the reader | `rules/claims.md` | Hyland |
+| Argument: whether each main claim has data, a warrant the reader would accept, backing, a stated strength and stated exceptions | `rules/argument.md` | Toulmin 1958 |
 | Sentences and paragraphs: whose story each sentence tells, where the action and the emphasis fall, the links between sentences | `rules/sentences.md` | Gopen & Swan 1990 |
 | Reference: what pronouns, possessives, *this*, *the* and comparatives point to | `rules/reference.md` | Halliday & Hasan 1976 |
 | Vague quantities and categories: *about*, *many*, *how much*, *and so on* | `rules/vagueness.md` | Channell 1994 |
@@ -45,10 +47,10 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 
 Read only the files the task needs.
 
-- **Full review** of an introduction, literature review, Methods, Results or Discussion: apply its file first, then the checks in this order: `rules/claims.md`, `rules/spin.md`, `rules/reporting.md` (for Methods and Results), `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`, `rules/precision.md`.
+- **Full review** of an abstract, introduction, literature review, Methods, Results or Discussion: apply its file first, then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md`, `rules/reporting.md` (for Methods and Results), `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`, `rules/precision.md`.
 - **Quick review:** apply the section file, then only the two or three checks that address the problems most visible in the draft, and say which checks were not run.
 
-**Parts this skill does not cover yet:** abstracts and titles, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
+**Parts this skill does not cover yet:** titles, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
 
 ## How to apply any rules file
 
@@ -85,6 +87,9 @@ Read only the files the task needs.
 | Grice | Grice, H. P. Logic and conversation (1975), in *Studies in the Way of Words* (1989). Cited as reported in open sources. | `rules/informativeness.md` |
 | Strunk 1918 | Strunk, W., Jr. *The Elements of Style*. Public domain; cited by rule number. | `rules/precision.md` |
 | EQUATOR | EQUATOR Network, key reporting guidelines and "What is a reporting guideline?". | `rules/reporting.md` |
+| Hyland 2000 | Hyland, K. *Disciplinary Discourses*. Longman. Cited as reported in an open source. | `rules/abstracts.md` |
+| Hyland 2023 | Hyland, K. Changing times; changing texts. WAC Clearinghouse, open access. | `rules/claims.md` (engagement) |
+| Toulmin 1958 | Toulmin, S. *The Uses of Argument*. Cambridge University Press. Cited as reported in open sources. | `rules/argument.md` |
 | B&R 2018 | Boutron, I., & Ravaud, P. Misrepresentation and distortion of research in biomedical literature. *PNAS*, 115(11), 2613–2619. Open access; cited by section. | `rules/spin.md` |
 
 Page numbers refer to these editions. Each rules file gives its own citation conventions and lists its reporting sources.
