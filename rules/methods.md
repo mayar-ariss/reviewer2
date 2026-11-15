@@ -24,7 +24,7 @@ Each rule cites these works as reported by:
 
 **A caution on rules 3–7.** These rules rest on a single reproduction of Swales and Feak's condensed–extended table (Enago, which gives no edition or page). No second open source for the table was found. Check the table against *Academic Writing for Graduate Students* before relying on these rules for anything beyond a first pass.
 
-For what a Methods section must report, as distinct from how it is written, see `rules/reporting.md`.
+For what a Methods section must report, as distinct from how it is written, see `rules/reporting.md`. For which functions it performs and in what order, see `rules/methods-structure.md`.
 
 ## How to apply this file
 
@@ -120,7 +120,7 @@ Swales observes that a Methods section is often a reconstruction that differs fr
 
 ## Where Swales and Feak give no rule
 
-In Bruce's account, Swales and Feak offer no generic move structure for Methods sections (Bruce), and this file supplies none. The sources used here give no Swales rule on tense or voice in Methods sections, no required subsections and no length. Swales's checklist of features that may occur in Methods sections (Swales 2008) is described in his talk abstract but was not available. This file adds nothing where Swales and Feak are silent.
+In Bruce's account, Swales and Feak offer no generic move structure for Methods sections (Bruce), and this file supplies none; a move structure from another authority is in `rules/methods-structure.md`. The sources used here give no Swales rule on tense or voice in Methods sections, no required subsections and no length. Swales's checklist of features that may occur in Methods sections (Swales 2008) is described in his talk abstract but was not available. This file adds nothing where Swales and Feak are silent.
 
 ## Example
 
