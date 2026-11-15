@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims (Ken Hyland), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms and uninformative sentences (Grice) and vague or abstract word choice (Strunk).**
+**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types; Results, from Link's goals and strategies; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims (Ken Hyland), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms (Grice), word precision (Strunk), completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -17,6 +17,7 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Introductions | `rules/introduction.md` | Swales 1990, 2004; Swales & Feak 1994, 2012 |
 | Literature reviews | `rules/literature-review.md` | Feak & Swales 2009 |
 | Methods | `rules/methods.md` | Swales 1990, 2004, 2008; Swales & Feak |
+| Results | `rules/results.md` | Link 2023 |
 | Discussions | `rules/discussion.md` | Moreno & Swales 2018 |
 | Claims, in any part | `rules/claims.md` | Hyland 2005, 2010, 2017; Hyland & Jiang 2023 |
 | Sentences, in any part | `rules/sentences.md` | Gopen & Swan 1990 |
@@ -25,6 +26,10 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Dense or empty wording, in any part | `rules/unpacking.md` | Halliday 1985, 1993 |
 | Informativeness, in any part | `rules/informativeness.md` | Grice 1975 |
 | Precision of wording, in any part | `rules/precision.md` | Strunk 1918 |
+| Completeness of reporting, in Methods and Results | `rules/reporting.md` | EQUATOR Network |
+| Spin, in any part | `rules/spin.md` | Boutron & Ravaud 2018 |
+
+For a full review the agent applies the section's file and then every check; for a quick review it applies the section's file and the two or three checks most relevant to the draft, and says which it skipped.
 
 ### Introductions
 
@@ -53,6 +58,10 @@ From Feak and Swales's *Telling a Research Story*: why the review is there and h
 ### Methods
 
 From Swales and Feak's contrast between condensed and extended Methods sections, and Swales's observations on how Methods sections vary across disciplines: how much background to assume, shorthand versus description, subsections, saying how each step was done, justifying choices, and linking steps, all judged against what the target journal does. Swales and Feak give no fixed move structure for Methods, and neither does the skill.
+
+### Results
+
+From Link's goals and strategies for Results sections: approaching the niche (brief background and study specifics), occupying it (reporting findings and pointing to tables and figures) and construing it (comparing, explaining and qualifying specific results). It checks that the section reports findings for each question, keeps commentary on the study as a whole for the Discussion, and makes clear which kind of comment each sentence is.
 
 ### Discussions
 
@@ -86,6 +95,14 @@ From Grice's Cooperative Principle and conversational maxims: each sentence shou
 
 From Strunk's *The Elements of Style* (1918): prefer the specific to the general, the definite to the vague and the concrete to the abstract; make definite assertions; omit needless words. It catches loose everyday words standing in for technical properties (inputs that are "real" rather than accurate, uncertain or representative) and general classes where a particular case is meant, and lists the candidate terms for the author to choose from.
 
+### Completeness of reporting
+
+From the EQUATOR Network's reporting guidelines (CONSORT, STROBE, PRISMA, STARD, SRQR, ARRIVE and others): match the study design to its guideline, then check each item against the draft. A reporting guideline is the minimum a paper must report to be understood, replicated and included in systematic reviews.
+
+### Spin
+
+From Boutron and Ravaud's review of misrepresentation in biomedical research: misreported methods ("beautification", switched outcomes), selective or misleading reporting of results, interpretation beyond the results (causal language for observational data, non-significance read as equivalence, extrapolation), and rhetoric ("the first study", "strong evidence"). It checks the abstract's conclusions first, where spin is most common, and raises each instance as a question rather than an accusation.
+
 ## Try it
 
 Once installed, ask your agent the way you normally would:
@@ -96,11 +113,15 @@ Once installed, ask your agent the way you normally would:
 - *"Should my introduction announce the main findings? The paper is for a physics journal."*
 - *"Review the literature review chapter of my dissertation with the reviewer2 skill."*
 - *"My Methods section is for an interdisciplinary journal. Is it too condensed?"*
+- *"Does my Methods section report everything CONSORT asks for?"*
+- *"My Results section feels like a Discussion. What should move?"*
 - *"Label the moves in my Discussion. Did I state the contribution and the limitations?"*
 - *"Check the claims in my Discussion: am I overstating anything?"*
 - *"This paragraph is hard to follow. Check whose story each sentence tells and where the action is."*
 - *"Unpack the key sentences in my abstract. Do they actually say anything?"*
 - *"Are there sentences in my Discussion that just state the obvious?"*
+- *"Check my abstract's conclusion for spin."*
+- *"Give my Discussion a quick review."*
 
 ## Faithful to its sources
 
@@ -108,7 +129,8 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 
 ## Planned
 
-- **Results:** Swales & Feak, *Academic Writing for Graduate Students*
+- **Abstracts:** Swales & Feak, *Abstracts and the Writing of Abstracts*, or Hyland's five-move abstract model
+- **Argument:** Toulmin's model of claim, data and warrant, for Discussions
 - **Claims, extended:** the engagement side of Hyland's stance and engagement model (*Discourse Studies*, 2005)
 
 ## Based on
@@ -131,6 +153,9 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 - Halliday, M. A. K. (1993). Some grammatical problems in scientific English. In M. A. K. Halliday & J. R. Martin, *Writing Science: Literacy and Discursive Power*. Falmer.
 - Grice, H. P. (1975). Logic and conversation. Reprinted in *Studies in the Way of Words* (1989). Harvard University Press.
 - Strunk, W., Jr. (1918). *The Elements of Style*. Public domain.
+- Link, S. (2023). *Writing for Publication*. Open textbook, CC BY 4.0. With *Preparing to Publish*, Iowa State University (open textbook).
+- EQUATOR Network. Reporting guidelines. https://www.equator-network.org/
+- Boutron, I., & Ravaud, P. (2018). Misrepresentation and distortion of research in biomedical literature. *PNAS*, 115(11), 2613–2619.
 
 The skill paraphrases these works and cites them; it does not reproduce their text. Read the originals for the full treatment, examples and exercises.
 
