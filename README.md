@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types and Cotos, Huffman and Link's move/step model; Results, from Link's goals and strategies; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms (Grice), word precision (Strunk), completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
+**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types and Cotos, Huffman and Link's move/step model; Results, from Link's goals and strategies; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms (Grice) and word precision (Strunk); for health research, it also checks completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -29,8 +29,8 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Dense or empty wording, in any part | `rules/unpacking.md` | Halliday 1985, 1993 |
 | Informativeness, in any part | `rules/informativeness.md` | Grice 1975 |
 | Precision of wording, in any part | `rules/precision.md` | Strunk 1918 |
-| Completeness of reporting, in Methods and Results | `rules/reporting.md` | EQUATOR Network |
-| Spin, in any part | `rules/spin.md` | Boutron & Ravaud 2018 |
+| Completeness of reporting, in Methods and Results (health research only) | `rules/reporting.md` | EQUATOR Network |
+| Spin, in any part (health research only) | `rules/spin.md` | Boutron & Ravaud 2018 |
 
 For a full review the agent applies the section's file and then every check; for a quick review it applies the section's file and the two or three checks most relevant to the draft, and says which it skipped.
 
@@ -112,11 +112,11 @@ From Strunk's *The Elements of Style* (1918): prefer the specific to the general
 
 ### Completeness of reporting
 
-From the EQUATOR Network's reporting guidelines (CONSORT, STROBE, PRISMA, STARD, SRQR, ARRIVE and others): match the study design to its guideline, then check each item against the draft. A reporting guideline is the minimum a paper must report to be understood, replicated and included in systematic reviews.
+Health research only. From the EQUATOR Network's reporting guidelines (CONSORT, STROBE, PRISMA, STARD, SRQR, ARRIVE and others): match the study design to its guideline, then check each item against the draft. A reporting guideline is the minimum a paper must report to be understood, replicated and included in systematic reviews.
 
 ### Spin
 
-From Boutron and Ravaud's review of misrepresentation in biomedical research: misreported methods ("beautification", switched outcomes), selective or misleading reporting of results, interpretation beyond the results (causal language for observational data, non-significance read as equivalence, extrapolation), and rhetoric ("the first study", "strong evidence"). It checks the abstract's conclusions first, where spin is most common, and raises each instance as a question rather than an accusation.
+Health research only. From Boutron and Ravaud's review of misrepresentation in biomedical research: misreported methods ("beautification", switched outcomes), selective or misleading reporting of results, interpretation beyond the results (causal language for observational data, non-significance read as equivalence, extrapolation), and rhetoric ("the first study", "strong evidence"). It checks the abstract's conclusions first, where spin is most common, and raises each instance as a question rather than an accusation.
 
 ## Try it
 
@@ -136,7 +136,7 @@ Once installed, ask your agent the way you normally would:
 - *"This paragraph is hard to follow. Check whose story each sentence tells and where the action is."*
 - *"Unpack the key sentences in my abstract. Do they actually say anything?"*
 - *"Are there sentences in my Discussion that just state the obvious?"*
-- *"Check my abstract's conclusion for spin."*
+- *"Check my clinical paper's abstract for spin."*
 - *"Give my Discussion a quick review."*
 - *"Does my abstract actually state the findings?"*
 - *"Lay out the argument behind my main conclusion. Which warrants would a reviewer question?"*
