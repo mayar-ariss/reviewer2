@@ -1,16 +1,18 @@
 ---
 name: swales
 description: >-
-  Use when writing, reviewing or revising the Introduction of a research article
-  or paper. Applies John M. Swales's Create-a-Research-Space (CARS) model: the three
-  moves of an introduction, their steps, the signals that mark each move, and his
-  guidance on citation, tense and purpose statements. Every rule cites Swales by
-  work and page.
+  Use when writing, reviewing or revising the Introduction or the literature review
+  of a research article, thesis, dissertation or proposal. Applies John M. Swales's
+  Create-a-Research-Space (CARS) model for introductions, and Feak and Swales's
+  guidance on literature reviews (organization, citation, tense, stance,
+  paraphrase). Every rule cites Swales by work and page.
 ---
 
 # Swales: research article introductions
 
 This skill applies John M. Swales's analysis of English research article introductions, the Create-a-Research-Space (CARS) model, to an introduction the user is writing or revising.
+
+**Literature reviews:** for a review chapter, a proposal's review, or a review section, read `rules/literature-review.md`, drawn from Feak and Swales's *Telling a Research Story* (2009). For a review inside an introduction, use it together with rules 3–5 below.
 
 **Every rule below is Swales's.** Each names its source by work and page. Where Swales gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
@@ -22,6 +24,7 @@ This skill applies John M. Swales's analysis of English research article introdu
 | Swales 2004 | *Research Genres: Explorations and Applications*. Cambridge University Press. Revises the model. |
 | Swales & Feak 1994 | *Academic Writing for Graduate Students* (AWG), 1st ed. University of Michigan Press. Unit 8. |
 | Swales & Feak 2012 | *Academic Writing for Graduate Students*, 3rd ed. University of Michigan Press. Unit 8 (pp. 327–363). |
+| Feak & Swales 2009 | *Telling a Research Story: Writing a Literature Review*. University of Michigan Press. Used in `rules/literature-review.md`. |
 | Feak & Swales 2011 | *Creating Contexts: Writing Introductions across Genres*. University of Michigan Press. |
 
 Page numbers refer to these editions. Where the same guidance appears in both editions of AWG, both are cited.
