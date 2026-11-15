@@ -44,6 +44,7 @@ Move 4 is included for articles that integrate discussion into the Results secti
 The Results section shows how the study occupies the niche (§2.2.1). In Move 2, reporting specific results is the most frequently used step (§2.2.2); in some disciplines, such as animal science, authors report findings almost exclusively (§2.3.2).
 
 - Check that most of the section reports specific results, and that each research question or hypothesis has its results reported.
+- Check that each figure and table in the section presents results for a research question or hypothesis, and flag any that present none. *Application to figures and tables is this skill's.*
 
 ### 2. Remind readers how the results were obtained, so the findings mean something
 
@@ -109,6 +110,7 @@ The article presents the framework with step names and frequency findings, but d
 
 - [ ] Each sentence is labelled with a move and step
 - [ ] Most of the section reports specific results, for each question or hypothesis (rule 1)
+- [ ] Each figure and table presents results for a question or hypothesis (rule 1)
 - [ ] Restated methods and background serve the results that follow (rule 2)
 - [ ] Each table and figure is referred to where its results are reported (rule 3)
 - [ ] Commentary stays within the study, unless the sections are combined (rule 4)
