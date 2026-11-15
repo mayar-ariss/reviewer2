@@ -34,10 +34,11 @@ AWG is cited as reported by:
 *Procedure, not a rule of Swales and Feak's.*
 
 1. **For each table and figure, collect the text that comments on it**, and ask what the paper's question or hypothesis is at that point.
-2. **Label each sentence** with its element: location or summary, highlighting, or discussion (see the structure).
-3. **Check the commentary against rules 1–8** (rule 8 for graphs).
-4. **Propose revisions citing the rule.** Do not supply explanations, comparisons or critiques of method; where the commentary needs them, ask the author.
-5. **Run the checklist** at the end.
+2. **Count the figures and tables**, and compare the number with recent articles in the target journal and with its author guidelines. The sources give no rule on how many a paper should have, so report the comparison and leave the decision to the author. Whether each figure is needed at all is checked in `rules/argument.md` (rule 6) and `rules/results.md` (rule 1).
+3. **Label each sentence** with its element: location or summary, highlighting, or discussion (see the structure).
+4. **Check the commentary against rules 1–8** (rule 8 for graphs).
+5. **Propose revisions citing the rule.** Do not supply explanations, comparisons or critiques of method; where the commentary needs them, ask the author.
+6. **Run the checklist** at the end.
 
 ## The structure
 
@@ -58,6 +59,7 @@ Swales and Feak describe data commentaries as usually having these elements, in 
 Writing that accompanies non-verbal material typically takes the form of a selective and interpretive commentary; the writer must decide what, if anything, to repeat from the visual and how to interpret the data (p. 79). Swales and Feak ask why one would say the same thing twice, once in words and once in non-verbal form (p. 82). Commentaries that simply repeat the contents of a table they treat as information transfer, not commentary (pp. 85–86).
 
 - Flag sentences that restate values from a table or figure without singling them out or interpreting them, and ask what the reader should take from them.
+- Flag the same data shown twice, in a table and a figure, or in a figure and in full in the text, and ask the author which presentation to keep. *Extending Swales and Feak's point from text and visual to two visuals is this skill's application.*
 
 ### 2. Locate the visual where the reader needs it
 
@@ -119,7 +121,7 @@ The non-verbal material Swales and Feak have in mind includes graphs and charts 
 
 ## Where Swales and Feak give no rule
 
-The sources used here give no rule on the content of captions and legends, on which results deserve a visual at all, or on the design of tables and figures. Only pages 78–91 of the 1995 article were available, and the textbook was not read directly; AWG's structure is cited as reported by a scoping review, and its guidance on graphs as adapted in a course handout, which does not separate Swales and Feak's wording from the adapter's. This file adds nothing where Swales and Feak are silent.
+The sources used here give no rule on the content of captions and legends, on which results deserve a visual at all, on how many figures and tables a paper should have, or on the design of tables and figures; the checks on duplication (rule 1) and on number (procedure step 2) are this skill's. Only pages 78–91 of the 1995 article were available, and the textbook was not read directly; AWG's structure is cited as reported by a scoping review, and its guidance on graphs as adapted in a course handout, which does not separate Swales and Feak's wording from the adapter's. This file adds nothing where Swales and Feak are silent.
 
 ## Example
 
@@ -140,7 +142,8 @@ A second draft, on a figure of observed and modelled discharge over the flood: "
 ## Validation checklist
 
 - [ ] Each sentence of the commentary is labelled with its element
-- [ ] Values are not restated without being singled out or interpreted (rule 1)
+- [ ] Values are not restated without being singled out or interpreted, and no data are shown twice (rule 1)
+- [ ] The number of figures and tables was compared with the target journal (procedure)
 - [ ] The reader is told which visual is discussed, and where useful what it shows (rule 2)
 - [ ] Highlighted results bear on the question; relevant results are not left out (rule 3)
 - [ ] Results that do not fit are interpreted and linked to the question (rule 4)
