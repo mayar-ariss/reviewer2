@@ -22,6 +22,10 @@ Each rule cites these works as reported by:
 | SUU | Graduate Writing Center, Southern Utah University. Handout on drafting a Methods section, citing AWG p. 224: https://www.suu.edu/writingcenter/graduate/pdf/drafting-a-methods-section.pdf |
 | Marcuzzo | Marcuzzo, P. (2010). Uma análise da seção de metodologia de relatos de pesquisa em Linguística Aplicada. *The ESPecialist*, 31(2), 121–143: https://revistas.pucsp.br/index.php/esp/article/download/7165/6516/21345 |
 
+**A caution on rules 3–7.** These rules rest on a single reproduction of Swales and Feak's condensed–extended table (Enago, which gives no edition or page). No second open source for the table was found. Check the table against *Academic Writing for Graduate Students* before relying on these rules for anything beyond a first pass.
+
+For what a Methods section must report, as distinct from how it is written, see `rules/reporting.md`.
+
 ## How to apply this file
 
 *Procedure, not a rule of Swales and Feak.* Their central distinction is between condensed and extended Methods sections (rule 1), so the agent works in this order:
