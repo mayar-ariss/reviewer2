@@ -12,6 +12,7 @@ Load this file when the user wants the claims in a draft checked: how strongly e
 | Hyland 2005 | Hyland, K. (2005). Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112. Open access. |
 | Hyland 2017 (MS) | Hyland, K. (2017). Metadiscourse: What is it and where is it going? *Journal of Pragmatics*, 113, 16–29. Cited from the author's accepted manuscript; page numbers are the manuscript's. |
 | Hyland & Jiang 2023 (MS) | Hyland, K., & Jiang, F. K. (2023). Talking to the literature: Stance taking in citing others' work. In R. Wette (Ed.), *Teaching and learning source-based writing*. Routledge. Cited from the authors' manuscript; page numbers are the manuscript's. |
+| Hyland 2023 | Hyland, K. (2023). Changing times; changing texts. Chapter 3 (pp. 79–100), WAC Clearinghouse, open access. https://doi.org/10.37514/PER-B.2023.1800.2.03 Corpus of research articles in four disciplines, 1965–2015. |
 
 Hyland's fuller treatments, *Hedging in Scientific Research Articles* (1998), *Metadiscourse* (2005) and "Stance and engagement: A model of interaction in academic discourse" (*Discourse Studies*, 2005), are not cited here by page, because they were not available to check. Page numbers were read from the open texts above; check them against your copies before a release.
 
@@ -23,7 +24,7 @@ For stance in a literature review, `rules/literature-review.md` rule 13 gives Fe
 
 1. **Ask for the field and the genre**, or read them from the draft. Rules 6–8 depend on field.
 2. **Find the claims.** Mark each sentence that states a finding, an interpretation or an evaluation.
-3. **For each claim, ask four questions:** Where does it come from (rule 3)? How strongly is it stated, and does the evidence support that strength (rules 4–5)? What attitude does it express, and whose (rules 7–8)? If it reports others' work, what does the reporting verb commit the writer to (rule 9)?
+3. **For each claim, ask four questions:** Where does it come from (rule 3)? How strongly is it stated, and does the evidence support that strength (rules 4–5)? What attitude does it express, and whose (rules 7–8)? If it reports others' work, what does the reporting verb commit the writer to (rule 9)? Then, for the passage as a whole: how does it address the reader (rules 10–13)?
 4. **Propose changes citing the rule.** Keep the author's claims, data and citations. Do not supply evidence, sources or findings; where a claim needs support the draft does not have, ask the author for it.
 5. **Run the checklist** at the end.
 
@@ -44,7 +45,17 @@ Hyland's interpersonal model divides metadiscourse into two kinds of resource (H
 | | Engagement markers | Address the reader or build a relationship with them | *consider, note that, you can see that* |
 | | **Self-mentions** | Refer explicitly to the author(s) | *I, we, my, our* |
 
-In Hyland's stance framework, as Hyland and Jiang summarize it, stance is the writer-oriented side of interaction, complementing engagement, and has three components: **evidentiality** (commitment to the reliability of statements, through hedges and boosters), **affect** (attitude, through attitude markers) and **presence** (first-person reference) (Hyland & Jiang 2023 (MS), pp. 4–5). The categories in bold are the ones this file checks.
+In Hyland's stance framework, as Hyland and Jiang summarize it, stance is the writer-oriented side of interaction, complementing engagement, and has three components: **evidentiality** (commitment to the reliability of statements, through hedges and boosters), **affect** (attitude, through attitude markers) and **presence** (first-person reference) (Hyland & Jiang 2023 (MS), pp. 4–5). The categories in bold are the ones rules 1–9 check.
+
+Engagement is the reader-oriented side: the ways writers recognize the presence of their readers, align with them and manage affiliation (Hyland 2023, p. 82). Hyland distinguishes five engagement markers (Hyland 2023, p. 82), which rules 10–13 check:
+
+| Marker | What it does | Examples |
+|---|---|---|
+| Reader mentions | Bring readers into the discourse | *you*, inclusive *we* |
+| Questions | Address the reader as someone with an interest in the issue | *How can these findings be reconciled?* |
+| Appeals to shared knowledge | Ask readers to recognize something as familiar or accepted | *obviously*, *of course* |
+| Directives | Tell readers to perform an action or see things as the writer intends | imperatives (*note*, *see*, *consider*); obligation modals (*must*, *should*) |
+| Personal asides | Interrupt the argument to comment on what has been said | a parenthetical comment to the reader |
 
 ## Rules
 
@@ -144,9 +155,43 @@ Verbs such as *demonstrate*, *prove* and *show* commit the writer to the claim; 
 - *show* makes the writer vouch for the claim. Use it only where the writer would.
 - Where the draft disagrees with prior work, note that writers in Hyland and Jiang's corpus now usually state the gap rather than criticise the author (pp. 9–10), and let the author choose.
 
+### 10. Engage the reader for a purpose
+
+*Source: Hyland 2023, pp. 82, 93.*
+
+Engagement serves to galvanize support, express collegiality, resolve difficulties and head off objections (p. 82). Hyland sees two main purposes: meeting readers' expectations of inclusion, through reader mentions and asides; and positioning the audience, predicting and responding to objections through questions, directives and appeals to shared knowledge (p. 93).
+
+- For each engagement marker, say which purpose it serves. Flag markers that serve neither.
+
+### 11. Use directives with care, especially those that steer the reader's thinking
+
+*Source: Hyland 2023, pp. 96–97.*
+
+Directives make up about 56% of engagement devices in Hyland's corpus and rose about 250% over fifty years, mostly as imperatives such as *note*, *let* and *see*, while obligation modals declined (p. 96). Obligation modals claim authority and can come close to breaching the conventions of a relationship between peers (p. 96). Directives that steer the reader's understanding (cognitive directives) are potentially the riskiest kind (p. 97).
+
+- Flag obligation modals addressed to the reader (*the reader must accept*, *one should conclude*) and directives that tell the reader what to think, and ask whether the evidence can carry the point instead.
+- Directives that guide the reader through the text (*see Table 2*, *note that*) are low risk.
+
+### 12. Do not presume shared knowledge or agreement the reader may not have
+
+*Source: Hyland 2023, pp. 93, 95, 97.*
+
+Appeals to shared knowledge and asides fell steadily in all four disciplines of Hyland's corpus (p. 93). Inclusive *we* can read as condescending, a claim of authority that leads readers toward a preferred conclusion (p. 95). Where writers are unsure who will read their work, Hyland suggests not assuming what readers already know or how they want to interact (p. 97).
+
+- Flag *obviously*, *of course* and *as is well known* where the point is not in fact settled in the field, and ask for a citation or the evidence (see also rule 3).
+- Flag inclusive *we* that draws the reader into a conclusion (*we can therefore see that…*).
+
+### 13. Fit engagement to the field
+
+*Source: Hyland 2023, pp. 83, 85–86, 93–94.*
+
+Engagement overall fell by about 13% per 10,000 words between 1965 and 2015 in Hyland's corpus (p. 83). The soft fields (applied linguistics, sociology) moved toward less visible, less interactive prose, while the hard fields (biology, electrical engineering) moved toward more stance and engagement (pp. 85–86). *You* declined across fields (p. 94).
+
+- Compare the draft's engagement with recent papers in the target journal, and flag direct address (*you*) where the journal does not use it.
+
 ## Where Hyland gives no rule
 
-The sources cited here describe practice; they do not prescribe it. Hyland gives no target number of hedges, boosters or self-mentions; his figures are averages for a corpus and a field, not quotas (rule 6). He gives no general rule for calibrating claims beyond matching commitment to evidence and to the field (rules 1, 4, 6). The sources read for this file do not discuss the problems of excessive hedging. The engagement categories of the *Discourse Studies* model (questions, directives, asides, appeals to shared knowledge) are not covered, because that article was not available to check. This file adds nothing where Hyland is silent.
+The sources cited here describe practice; they do not prescribe it. Hyland gives no target number of hedges, boosters or self-mentions; his figures are averages for a corpus and a field, not quotas (rule 6). He gives no general rule for calibrating claims beyond matching commitment to evidence and to the field (rules 1, 4, 6). The sources read for this file do not discuss the problems of excessive hedging. The engagement rules (10–13) rest on Hyland's 2023 chapter, which applies his engagement categories to a corpus of four disciplines; his 2005 *Discourse Studies* article, where the model was first set out, was not available to check. This file adds nothing where Hyland is silent.
 
 ## Example
 
@@ -167,4 +212,8 @@ The sources cited here describe practice; they do not prescribe it. Hyland gives
 - [ ] Evaluations are explicit, attributable and supported (rule 7)
 - [ ] Self-mention follows the field's practice (rule 8)
 - [ ] Reporting verbs commit the writer only where the writer would commit (rule 9)
+- [ ] Each engagement marker serves a purpose (rule 10)
+- [ ] Directives that impose or steer the reader's thinking were flagged (rule 11)
+- [ ] Presumed shared knowledge and agreement were checked (rule 12)
+- [ ] Engagement fits the field and the journal (rule 13)
 - [ ] No evidence, source or finding was invented; what the draft lacks was requested from the author
