@@ -1,6 +1,6 @@
 # Informativeness: Grice's maxims
 
-Load this file when the user wants a draft checked for sentences that tell the reader nothing new: truisms, platitudes and general principles that any reader of the field already accepts ("What a simulation can say depends on how real its inputs are"), and sentences whose point is unclear. It applies to any part of a research article, thesis, dissertation or proposal.
+Load this file when the user wants a draft checked for sentences that tell the reader nothing new: truisms, platitudes and general principles that any reader of the field already accepts ("What a simulation can say depends on how real its inputs are"), sentences whose point is unclear, and loose words that hide what is meant (inputs that are "real"). It applies to any part of a research article, thesis, dissertation or proposal.
 
 **Every rule below is Grice's.** His essay was not available to check, so rules cite it as reported in named open sources. Grice wrote about conversation, not academic writing; where a rule applies his maxims to a research text, the file says so. Where he gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
@@ -25,7 +25,7 @@ Each rule cites Grice as reported by:
 1. **For each sentence, say in one line what it tells the reader** that the reader did not know or accept before (rule 2).
 2. **Flag sentences that tell the reader nothing new** at the point where they stand: truisms, tautologies, principles every reader of the field already holds (rules 2–3).
 3. **For each flagged sentence, ask what the author meant to imply,** and whether the paper has the evidence to say it outright (rules 3–4).
-4. **Check that each sentence serves the paper's purpose and is clear** (rules 5–6).
+4. **Check that each sentence serves the paper's purpose and is clear** (rules 5–7).
 5. **Propose changes citing the rule.** Do not replace a truism with a specific claim the author has not made; ask the author for the specific claim and its evidence.
 6. **Run the checklist** at the end.
 
@@ -92,10 +92,22 @@ Relation asks the speaker to be relevant (SEP Grice).
 Manner asks the speaker to be perspicuous: to avoid obscurity and ambiguity, and to strive for brevity and order (SEP Implicature).
 
 - Flag sentences a reader could take in more than one way, or whose point is hidden.
+- Flag words and phrases that add nothing to the claim, and propose the shorter wording.
+
+### 7. Name the property, the case and the output that are meant
+
+*Source: Grice, Manner (SEP Implicature). Application to word choice in research writing is this skill's.*
+
+Manner asks the speaker to avoid obscurity (SEP Implicature). In a research text, an everyday word standing in for a technical property, or a general class standing in for a particular case, leaves the reader to guess what is meant.
+
+- Where a word names a loose property (*real*, *good*, *important*, *significant* used non-statistically), ask the author which definite property is meant, and offer the candidates. Do not choose the term yourself where several could be meant.
+- Where the subject is a general class (*a simulation*, *studies*, *models*), ask whether a particular one is meant.
+- Where an abstract phrase stands for something concrete (*what a simulation can say*), ask which outputs or conclusions are meant.
+- Vagueness that suits its purpose is not obscurity: for vague quantities, see `rules/vagueness.md`.
 
 ## Where Grice gives no rule
 
-Grice describes conversation; he gives no rules for academic writing, and no measure of how informative a contribution must be apart from the purpose of the exchange (rule 1). Applying the maxims to a research text, and the advice in rules 3 and 4 on what to do with a truism, are this skill's applications. Because the essay itself was not available, this file covers only the points the reporting sources give. This file adds nothing else where Grice is silent.
+Grice describes conversation; he gives no rules for academic writing, says nothing about technical terminology, and no measure of how informative a contribution must be apart from the purpose of the exchange (rule 1). Applying the maxims to a research text, the advice in rules 3 and 4 on what to do with a truism, and the word-level checks in rule 7 are this skill's applications. Because the essay itself was not available, this file covers only the points the reporting sources give. This file adds nothing else where Grice is silent.
 
 ## Example
 
@@ -103,6 +115,7 @@ Grice describes conversation; he gives no rules for academic writing, and no mea
 
 - **What it tells the reader (rule 2):** that a model's outputs are only as good as its inputs, which any reader of a simulation paper already accepts. At the level of what is said, it is close to a tautology.
 - **What it implies (rule 3):** ask the author. Is this the authors' own model? Which outputs are limited by which inputs? Is this a limitation of the present study?
+- **Obscure wording (rule 7):** inputs are not more or less *real*. Ask which property is meant: the accuracy of measured inputs, the uncertainty of estimated parameters, the resolution of spatial data, or how representative the boundary conditions are. *A simulation* names no particular model: ask whether it is the authors' own. *What a simulation can say* stands for particular outputs: ask which.
 - **Evidence (rule 4):** a specific version ("the predicted peak discharge is sensitive to channel roughness") needs results or a citation. Ask for them; do not supply them.
 
 ## Validation checklist
@@ -112,5 +125,6 @@ Grice describes conversation; he gives no rules for academic writing, and no mea
 - [ ] For each truism, the author was asked what it is meant to imply (rule 3)
 - [ ] No uninformative sentence was replaced by an unsupported one (rule 4)
 - [ ] Irrelevant sentences were flagged (rule 5)
-- [ ] Obscure or ambiguous sentences were flagged (rule 6)
+- [ ] Obscure or ambiguous sentences, and words that add nothing, were flagged (rule 6)
+- [ ] Loose words for properties, general classes and abstract phrases were flagged, with candidate terms offered and the choice left to the author (rule 7)
 - [ ] No claim, figure, result or citation was invented
