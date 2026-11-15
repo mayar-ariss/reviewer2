@@ -8,14 +8,16 @@ description: >-
   stance, paraphrase), and Moreno and Swales's functional scheme for Discussion and
   closing sections. Also checks the claims in any part of a paper (sources, hedges,
   boosters, evaluation, self-mention, reporting verbs) with Ken Hyland's work on
-  stance and metadiscourse. Every rule cites one named authority by work and page.
+  stance and metadiscourse, and how its sentences are built (topic and stress
+  positions, action in the verb, logical links) with Gopen and Swan's reader
+  expectations. Every rule cites one named authority by work and page or section.
 ---
 
 # Reviewer 2: research writing, rule by cited rule
 
-This skill reviews and revises parts of a research article, thesis, dissertation or proposal. Its rules come from published analyses of academic writing, kept in rules files that each draw on one authority: one file per part of the text, plus one for the claims in any part.
+This skill reviews and revises parts of a research article, thesis, dissertation or proposal. Its rules come from published analyses of academic writing, kept in rules files that each draw on one authority: one file per part of the text, plus files for the claims and the sentences in any part.
 
-**Every rule names its source by work and page.** Each rules file names its authority at the top and draws only on that authority; no rule combines authorities. Where an authority gives no rule, the file says so rather than supplying one. Nothing here is a general writing preference.
+**Every rule names its source by work and page** (or, for a journal article read in a reprint without page numbers, by section). Each rules file names its authority at the top and draws only on that authority; no rule combines authorities. Where an authority gives no rule, the file says so rather than supplying one. Nothing here is a general writing preference.
 
 ## Which file to read
 
@@ -26,8 +28,9 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 | A review of previous work inside an introduction | `rules/introduction.md` (rules 3–5) together with `rules/literature-review.md` | Swales; Feak & Swales 2009 |
 | The Discussion of a research article, including a combined Results and Discussion or a closing Conclusion | `rules/discussion.md` | Moreno & Swales 2018 |
 | The claims in any part of the text: their sources, how strongly they are stated, evaluation, self-mention, reporting verbs | `rules/claims.md` | Hyland |
+| How sentences and paragraphs are built in any part of the text: whose story each sentence tells, where the action and the emphasis fall, the links between sentences | `rules/sentences.md` | Gopen & Swan 1990 |
 
-Read only the files the task needs. When the user asks for a full review of an introduction, a literature review or a Discussion, apply its file first, then `rules/claims.md`.
+Read only the files the task needs. When the user asks for a full review of an introduction, a literature review or a Discussion, apply its file first, then `rules/claims.md`, then `rules/sentences.md`.
 
 **Parts this skill does not cover yet:** Methods, Results (outside a combined Results and Discussion) and abstracts, apart from the claims they contain. If the user asks about one of these, say that this skill has no rules for it. Do not stretch the rules above to cover it, and do not supply rules of your own.
 
@@ -56,5 +59,6 @@ Read only the files the task needs. When the user asks for a full review of an i
 | Hyland 2005 | Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112. | `rules/claims.md` |
 | Hyland 2017 (MS) | Metadiscourse: What is it and where is it going? *Journal of Pragmatics*, 113, 16–29. Author's manuscript. | `rules/claims.md` |
 | Hyland & Jiang 2023 (MS) | Talking to the literature: Stance taking in citing others' work. In R. Wette (Ed.), *Teaching and learning source-based writing*. Routledge. Authors' manuscript. | `rules/claims.md` |
+| G&S 1990 | Gopen, G. D., & Swan, J. A. The science of scientific writing. *American Scientist*, 78(6), 550–558. Cited by section. | `rules/sentences.md` |
 
 Page numbers refer to these editions. Each rules file gives its own citation conventions.
