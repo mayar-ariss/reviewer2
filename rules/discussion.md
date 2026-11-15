@@ -132,6 +132,15 @@ Moreno and Swales cite Williams (2011), who found the type of study to be the mo
 
 They do not specify which moves or steps are obligatory. The steps in their table are listed by likely frequency in English, but they make no claim about order, and positions may vary (p. 28). They give no quantitative results or teaching materials, which they defer to later papers (p. 8). Agreement between analysts was weak for two steps, suggesting applicability and reacting to results (pp. 34–36), so treat those labels with care. The scheme is a road map, which they say does not ensure publication (p. 11). This file adds nothing where they are silent.
 
+## Example
+
+*An illustration of this file's procedure, not Moreno and Swales's.* Draft Discussion, in full: "The model reproduced the observed peak within 5%. This confirms that the model is reliable. Future studies should use it."
+
+- **Labels (rules 2, 5–8):** sentence 1 summarizes a key result (presenting results neutrally); sentence 2 comments on it (establishing the meaning of results); sentence 3 draws an implication (making recommendations for future research).
+- **Missing moves (rule 7):** nothing evaluates the study: no limitation, contribution or strength. Ask the author what the study cannot show, and what it adds.
+- **Comment (rule 6):** no comparison with previous research and no explanation. Ask whether earlier models of the event exist.
+- **Implication (rule 8):** check that the recommendation follows from the results; a single reproduced peak may not support it (see `rules/argument.md` and `rules/claims.md`).
+
 ## Validation checklist
 
 - [ ] Everything after the results was treated as one closing section (rule 1)
