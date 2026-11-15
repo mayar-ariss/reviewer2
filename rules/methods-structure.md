@@ -21,7 +21,6 @@ The model was built from the Methods sections of 900 research articles, 30 from 
 | Which functions does the section perform, and in what order? | this file |
 | How much detail, background and justification does the field expect? | `rules/methods.md` (Swales and Feak) |
 | What must be reported for this study design? | `rules/reporting.md` (EQUATOR) |
-| What are the main sections called, and where does information obtained during the study go? | `rules/headings.md` (ICMJE) |
 
 ## How to apply this file
 
@@ -89,7 +88,6 @@ The model has a rationalizing step in each move: for decisions taken before the 
 Reporting incrementals (Move 2, step 7) covers observations made during the procedure that are not critical to the study's results and are therefore not reported in the Results section, such as incremental measurements or preliminary qualitative observations (§4.1.2).
 
 - For each observation or measurement reported in Methods, ask whether the paper's findings rest on it. If they do, it belongs in Results.
-- Where the journal follows ICMJE, see `rules/headings.md`, rule 4.
 
 ## Where Cotos, Huffman and Link give no rule
 
