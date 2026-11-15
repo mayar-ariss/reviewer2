@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research articles, and the matching chapters of theses and dissertations, in which every rule cites one named authority. It covers titles, from Hyland and Zou's study of research article titles; abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types and Cotos, Huffman and Link's move/step model; Results, from Cotos, Huffman and Link's move/step framework; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), cohesion: what pronouns and *this* point to, whether linking words fit, and whether key terms stay consistent (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms and obscure wording (Grice); for health research, it also checks completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
+**An agent skill for writing and revising research articles, and the matching chapters of theses and dissertations, in which every rule cites one named authority. It covers titles, from Hyland and Zou's study of research article titles; abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types and Cotos, Huffman and Link's move/step model; Results, from Cotos, Huffman and Link's move/step framework; and Discussions, from Moreno and Swales's functional scheme. It checks the text that comments on figures and tables (Swales and Feak's data commentary). For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), cohesion: what pronouns and *this* point to, whether linking words fit, and whether key terms stay consistent (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms and obscure wording (Grice); for health research, it also checks completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -23,6 +23,7 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Results | `rules/results.md` | Cotos, Huffman & Link 2015 |
 | Discussions | `rules/discussion.md` | Moreno & Swales 2018 |
 | Claims and reader engagement, in any part | `rules/claims.md` | Hyland 2005, 2010, 2017, 2023; Hyland & Jiang 2023 |
+| Data commentary on figures and tables | `rules/data-commentary.md` | Swales & Feak 1995; AWG |
 | Argument, in any part | `rules/argument.md` | Toulmin 1958 |
 | Sentences, in any part | `rules/sentences.md` | Gopen & Swan 1990 |
 | Cohesion, in any part | `rules/cohesion.md` | Halliday & Hasan 1976 |
@@ -86,6 +87,10 @@ From Moreno and Swales's scheme for the Discussion and other closing sections of
 
 From Ken Hyland's interpersonal model of metadiscourse and his work on hedging and stance: where each claim comes from, whether its certainty matches its evidence, why and how much fields hedge, explicit evaluation, self-mention, and the commitment carried by reporting verbs such as *show* and *suggest*. It catches sentences that sound authoritative but have no source, no stated evidence and no writer standing behind them. From Hyland's work on engagement, it also checks how the text addresses the reader: directives that impose on readers or steer their thinking, inclusive *we* that leads them to a conclusion, and "obviously" or "of course" claiming agreement the field may not share.
 
+### Data commentary
+
+From Swales and Feak's account of data commentary: the text that accompanies a figure or table should be a selective, interpretive commentary, not a restatement of the visual. It checks that the commentary locates the visual, highlights the results that bear on the question and says why, accounts for results that do not fit, qualifies its interpretations, and connects its statements into one account. It does not concern the design of the visual.
+
 ### Argument
 
 From Toulmin's model of argument: for each main claim, the data it rests on, the warrant that licenses the step from data to claim, backing for warrants a reader might doubt, a qualifier stating its strength, and the exceptions under which it would not hold. Warrants are usually left unstated; the skill writes them out so the author can see which ones need support.
@@ -130,6 +135,7 @@ Once installed, ask your agent the way you normally would:
 - *"My Methods section is for an interdisciplinary journal. Is it too condensed?"*
 - *"Does my Methods section report everything CONSORT asks for?"*
 - *"Label my Methods subsections by move. Is anything missing or out of order?"*
+- *"Does my text around Table 2 say anything the table doesn't?"*
 - *"My Results section feels like a Discussion. What should move?"*
 - *"Label the moves in my Discussion. Did I state the contribution and the limitations?"*
 - *"Check the claims in my Discussion: am I overstating anything?"*
@@ -175,6 +181,7 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 - Cotos, E., Huffman, S., & Link, S. (2017). A move/step model for methods sections: Demonstrating rigour and credibility. *English for Specific Purposes*, 46, 90–106.
 - Hyland, K. (2000). *Disciplinary Discourses: Social Interactions in Academic Writing*. Longman.
 - Hyland, K. (2023). Changing times; changing texts. WAC Clearinghouse. https://doi.org/10.37514/PER-B.2023.1800.2.03
+- Swales, J. M., & Feak, C. B. (1995). From information transfer to data commentary. *The Journal of TESOL-France*.
 - Hyland, K., & Zou, H. (2022). Titles in research articles. *Journal of English for Academic Purposes*, 56, 101094.
 - Toulmin, S. (1958). *The Uses of Argument*. Cambridge University Press.
 
