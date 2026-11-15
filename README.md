@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types; Results, from Link's goals and strategies; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms (Grice), word precision (Strunk), completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
+**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types and Cotos, Huffman and Link's move/step model; section headings, from the ICMJE Recommendations; Results, from Link's goals and strategies; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms (Grice), word precision (Strunk), completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -17,7 +17,8 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Abstracts | `rules/abstracts.md` | Hyland 2000 |
 | Introductions | `rules/introduction.md` | Swales 1990, 2004; Swales & Feak 1994, 2012 |
 | Literature reviews | `rules/literature-review.md` | Feak & Swales 2009 |
-| Methods | `rules/methods.md` | Swales 1990, 2004, 2008; Swales & Feak |
+| Methods: detail and justification | `rules/methods.md` | Swales 1990, 2004, 2008; Swales & Feak |
+| Methods: parts and order | `rules/methods-structure.md` | Cotos, Huffman & Link 2017 |
 | Results | `rules/results.md` | Link 2023 |
 | Discussions | `rules/discussion.md` | Moreno & Swales 2018 |
 | Claims and reader engagement, in any part | `rules/claims.md` | Hyland 2005, 2010, 2017, 2023; Hyland & Jiang 2023 |
@@ -29,6 +30,7 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Informativeness, in any part | `rules/informativeness.md` | Grice 1975 |
 | Precision of wording, in any part | `rules/precision.md` | Strunk 1918 |
 | Completeness of reporting, in Methods and Results | `rules/reporting.md` | EQUATOR Network |
+| Section headings | `rules/headings.md` | ICMJE |
 | Spin, in any part | `rules/spin.md` | Boutron & Ravaud 2018 |
 
 For a full review the agent applies the section's file and then every check; for a quick review it applies the section's file and the two or three checks most relevant to the draft, and says which it skipped.
@@ -63,7 +65,11 @@ From Feak and Swales's *Telling a Research Story*: why the review is there and h
 
 ### Methods
 
-From Swales and Feak's contrast between condensed and extended Methods sections, and Swales's observations on how Methods sections vary across disciplines: how much background to assume, shorthand versus description, subsections, saying how each step was done, justifying choices, and linking steps, all judged against what the target journal does. Swales and Feak give no fixed move structure for Methods, and neither does the skill.
+From Swales and Feak's contrast between condensed and extended Methods sections, and Swales's observations on how Methods sections vary across disciplines: how much background to assume, shorthand versus description, subsections, saying how each step was done, justifying choices, and linking steps, all judged against what the target journal does. Swales and Feak give no fixed move structure for Methods.
+
+### Methods structure
+
+From Cotos, Huffman and Link's Demonstrating Rigour and Credibility (DRaC) model, built from the Methods sections of 900 articles in 30 disciplines: three moves (contextualizing the study methods, describing the study, establishing credibility) and sixteen steps. It labels each subsection by move and step, lists the steps the study needs but the draft lacks, checks that analysis follows the description it depends on, puts each rationale with its decision, and moves observations the findings rest on to Results.
 
 ### Results
 
@@ -109,6 +115,10 @@ From Strunk's *The Elements of Style* (1918): prefer the specific to the general
 
 From the EQUATOR Network's reporting guidelines (CONSORT, STROBE, PRISMA, STARD, SRQR, ARRIVE and others): match the study design to its guideline, then check each item against the draft. A reporting guideline is the minimum a paper must report to be understood, replicated and included in systematic reviews.
 
+### Section headings
+
+From the International Committee of Medical Journal Editors' Recommendations: the IMRAD sections for original research, other formats for other article types, subheadings within sections, ICMJE's three areas of a Methods section (participants, data collection and measurements, statistics), keeping information obtained during the study in Results, and stating ethics approval in Methods. The target journal's instructions come first; ICMJE sets no rule on how subheadings are worded.
+
 ### Spin
 
 From Boutron and Ravaud's review of misrepresentation in biomedical research: misreported methods ("beautification", switched outcomes), selective or misleading reporting of results, interpretation beyond the results (causal language for observational data, non-significance read as equivalence, extrapolation), and rhetoric ("the first study", "strong evidence"). It checks the abstract's conclusions first, where spin is most common, and raises each instance as a question rather than an accusation.
@@ -124,6 +134,7 @@ Once installed, ask your agent the way you normally would:
 - *"Review the literature review chapter of my dissertation with the reviewer2 skill."*
 - *"My Methods section is for an interdisciplinary journal. Is it too condensed?"*
 - *"Does my Methods section report everything CONSORT asks for?"*
+- *"Label my Methods subsections by move. Is anything missing or out of order?"*
 - *"My Results section feels like a Discussion. What should move?"*
 - *"Label the moves in my Discussion. Did I state the contribution and the limitations?"*
 - *"Check the claims in my Discussion: am I overstating anything?"*
@@ -167,6 +178,8 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 - Link, S. (2023). *Writing for Publication*. Open textbook, CC BY 4.0. With *Preparing to Publish*, Iowa State University (open textbook).
 - EQUATOR Network. Reporting guidelines. https://www.equator-network.org/
 - Boutron, I., & Ravaud, P. (2018). Misrepresentation and distortion of research in biomedical literature. *PNAS*, 115(11), 2613–2619.
+- Cotos, E., Huffman, S., & Link, S. (2017). A move/step model for methods sections: Demonstrating rigour and credibility. *English for Specific Purposes*, 46, 90–106.
+- International Committee of Medical Journal Editors. *Recommendations for the Conduct, Reporting, Editing, and Publication of Scholarly Work in Medical Journals*.
 - Hyland, K. (2000). *Disciplinary Discourses: Social Interactions in Academic Writing*. Longman.
 - Hyland, K. (2023). Changing times; changing texts. WAC Clearinghouse. https://doi.org/10.37514/PER-B.2023.1800.2.03
 - Toulmin, S. (1958). *The Uses of Argument*. Cambridge University Press.
