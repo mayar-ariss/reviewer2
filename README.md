@@ -89,11 +89,11 @@ From Ken Hyland's interpersonal model of metadiscourse and his work on hedging a
 
 ### Data commentary
 
-From Swales and Feak's account of data commentary: the text that accompanies a figure or table should be a selective, interpretive commentary, not a restatement of the visual. It checks that the commentary locates the visual, highlights the results that bear on the question and says why, accounts for results that do not fit, qualifies its interpretations, and connects its statements into one account. For graphs, it checks that the axes are explained and that the commentary states the pattern or trend rather than reading off values. It does not concern the design of the visual.
+From Swales and Feak's account of data commentary: the text that accompanies a figure or table should be a selective, interpretive commentary, not a restatement of the visual. It checks that the commentary locates the visual, highlights the results that bear on the question and says why, accounts for results that do not fit, qualifies its interpretations, and connects its statements into one account. For graphs, it checks that the axes are explained and that the commentary states the pattern or trend rather than reading off values. It also flags data shown twice, and compares the number of figures and tables with the target journal. It does not concern the design of the visual.
 
 ### Argument
 
-From Toulmin's model of argument: for each main claim, the data it rests on, the warrant that licenses the step from data to claim, backing for warrants a reader might doubt, a qualifier stating its strength, and the exceptions under which it would not hold. Warrants are usually left unstated; the skill writes them out so the author can see which ones need support.
+From Toulmin's model of argument: for each main claim, the data it rests on, the warrant that licenses the step from data to claim, backing for warrants a reader might doubt, a qualifier stating its strength, and the exceptions under which it would not hold. Warrants are usually left unstated; the skill writes them out so the author can see which ones need support. Treating each figure and table as data, it flags visuals that support no claim and main claims whose data are shown nowhere.
 
 ### Sentences
 
