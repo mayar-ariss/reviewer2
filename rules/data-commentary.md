@@ -16,6 +16,7 @@ AWG is cited as reported by:
 | Reporting source | Work |
 |---|---|
 | T&R | Tikhonova, E., & Raitskaya, L. (2024). Data commentary in research publications: A systematic scoping review. *Journal of Language and Education*, 10(3), 5–24. https://doi.org/10.17323/jle.2024.23769 |
+| Yoo | Yoo, I. W. (2004). Data commentary, handout adapted from Swales and Feak, *Academic Writing for Graduate Students* (1994), pp. 77–104 (Unit 4, including its section on graphs). MIT OpenCourseWare, 21G.213: https://ocw.mit.edu/courses/21g-213-high-intermediate-academic-communication-spring-2004/029c4e6efe74b0083b96d1cea689ba7d_MIT21G_213S04_data.pdf |
 
 ## How this file relates to the other files
 
@@ -34,7 +35,7 @@ AWG is cited as reported by:
 
 1. **For each table and figure, collect the text that comments on it**, and ask what the paper's question or hypothesis is at that point.
 2. **Label each sentence** with its element: location or summary, highlighting, or discussion (see the structure).
-3. **Check the commentary against rules 1–7.**
+3. **Check the commentary against rules 1–8** (rule 8 for graphs).
 4. **Propose revisions citing the rule.** Do not supply explanations, comparisons or critiques of method; where the commentary needs them, ask the author.
 5. **Run the checklist** at the end.
 
@@ -65,6 +66,7 @@ Writing that accompanies non-verbal material typically takes the form of a selec
 Among the writer's decisions is where, if at all, to refer the reader to the location of the non-verbal content (p. 82). Location elements and summary statements open the commentary (AWG, as reported by T&R).
 
 - Check that the commentary tells the reader which visual it discusses before it discusses the results, and, where useful, what the visual shows overall.
+- For a graph, check that the reader is told what the axes represent and what any shading or symbols indicate, in the text or the caption (AWG 1994, as adapted by Yoo).
 
 ### 3. Highlight the results that bear on the question, and say why
 
@@ -106,9 +108,18 @@ In Swales and Feak's analysis, what most weakened one commentary was the lack of
 
 - Check that the highlighting statements and the discussion are linked into one account, not listed (see `rules/sentences.md`, rule 9, and `rules/cohesion.md`).
 
+### 8. For a graph, highlight the pattern and say what it suggests
+
+*Source: S&F 1995, p. 79; AWG 1994, Unit 4 (Yoo).*
+
+The non-verbal material Swales and Feak have in mind includes graphs and charts as well as tables (p. 79). In AWG's account as adapted by Yoo, highlighting moves from the details to the overall pattern; graphs are described in terms of trends (increases and decreases, levelling off, fluctuation, high and low points, sharp or gradual change); and the commentary can close by offering possible causes of the results and saying what a trend suggests, including its implications (Yoo).
+
+- Flag graph commentary that reads off individual values without stating the pattern they form, and ask the author for the trend and its turning points.
+- Where the commentary explains a trend or projects it forward, apply rules 4 and 5: the explanation is the author's, and the claim is no stronger than the data.
+
 ## Where Swales and Feak give no rule
 
-The sources used here give no rule on the content of captions and legends, on which results deserve a visual at all, or on the design of tables and figures. Only pages 78–91 of the 1995 article were available, and the textbook was not read directly; AWG's structure is cited as reported by a scoping review. This file adds nothing where Swales and Feak are silent.
+The sources used here give no rule on the content of captions and legends, on which results deserve a visual at all, or on the design of tables and figures. Only pages 78–91 of the 1995 article were available, and the textbook was not read directly; AWG's structure is cited as reported by a scoping review, and its guidance on graphs as adapted in a course handout, which does not separate Swales and Feak's wording from the adapter's. This file adds nothing where Swales and Feak are silent.
 
 ## Example
 
@@ -120,6 +131,12 @@ The sources used here give no rule on the content of captions and legends, on wh
 - **Exception (rule 4):** gauge D departs from the pattern. Ask the author what explains it and what it means for the model's use.
 - **Strength (rule 5):** once the author interprets the agreement at A–C, check that the claim fits four gauges and one event.
 
+A second draft, on a figure of observed and modelled discharge over the flood: "Figure 3 shows the hydrographs. At 06:00 the observed discharge was 120 m³/s and the modelled 115 m³/s; at 12:00, 410 and 455 m³/s; at 18:00, 300 and 290 m³/s."
+
+- **Orientation (rule 2):** the text does not say what the axes or the two lines are; check that the caption does.
+- **Pattern (rule 8):** the commentary reads off three points. Ask for the pattern: both hydrographs rise to a peak and recede, and the model overestimates the peak.
+- **Exception and meaning (rules 4, 8):** ask the author whether the peak is also early or late, what explains the overestimate, and what it means for the model's use; check that the claim fits one event.
+
 ## Validation checklist
 
 - [ ] Each sentence of the commentary is labelled with its element
@@ -130,4 +147,5 @@ The sources used here give no rule on the content of captions and legends, on wh
 - [ ] Interpretations are no stronger than the data (rule 5)
 - [ ] Any context, critique or comparison is supported (rule 6)
 - [ ] The statements form one connected commentary (rule 7)
+- [ ] For a graph, the axes and symbols are explained, and the commentary states the pattern rather than reading off points (rules 2, 8)
 - [ ] No explanation, comparison or critique was invented
