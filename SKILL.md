@@ -39,8 +39,8 @@ This skill reviews and revises parts of a research article, and the matching cha
 | The user wants checked | Read | Authority |
 |---|---|---|
 | Claims: their sources, how strongly they are stated, evaluation, self-mention, reporting verbs, and how the text addresses the reader | `rules/claims.md` | Hyland |
-| Data commentary: the text around each figure or table, which results it highlights, how it interprets them | `rules/data-commentary.md` | Swales & Feak |
-| Argument: whether each main claim has data, a warrant the reader would accept, backing, a stated strength and stated exceptions | `rules/argument.md` | Toulmin 1958 |
+| Data commentary: the text around each figure or table, which results it highlights, how it interprets them; data shown twice; the number of figures and tables against the journal | `rules/data-commentary.md` | Swales & Feak |
+| Argument: whether each main claim has data, a warrant the reader would accept, backing, a stated strength and stated exceptions; whether each figure and table supports a claim | `rules/argument.md` | Toulmin 1958 |
 | Sentences and paragraphs: whose story each sentence tells, where the action and the emphasis fall, the links between sentences | `rules/sentences.md` | Gopen & Swan 1990 |
 | Cohesion: what pronouns, *this*, *the*, comparatives and substitutes point to; whether linking words signal the relation that holds; whether key terms are used consistently | `rules/cohesion.md` | Halliday & Hasan 1976 |
 | Vague quantities and categories: *about*, *many*, *how much*, *and so on* | `rules/vagueness.md` | Channell 1994 |
