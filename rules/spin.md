@@ -1,6 +1,6 @@
 # Spin: Boutron and Ravaud on misrepresenting results
 
-Load this file when the user wants a draft checked for spin: reporting that makes the results look better, clearer or more important than they are, especially in the abstract and the conclusions. It applies to any empirical research article, thesis or proposal, and most directly to biomedical research.
+Load this file when the user wants a draft checked for spin: reporting that makes the results look better, clearer or more important than they are, especially in the abstract and the conclusions. **Scope: health research only.** Boutron and Ravaud's review is limited to biomedicine; do not apply this file to papers in other fields.
 
 **Every rule below is Boutron and Ravaud's.** Their review is open access and was read in full; rules cite it by section. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
