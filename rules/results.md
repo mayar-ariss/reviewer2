@@ -93,7 +93,7 @@ Results may be a separate section or combined with the Discussion; when they are
 
 ## Where Link gives no rule
 
-The sources used here give no rule on tense, on the wording of references to tables and figures, or on statistical reporting, and do not name the corpus behind the model. For what a Results section must report for a given study design, see `rules/reporting.md`; for selective or misleading reporting of results, see `rules/spin.md`. This file adds nothing else where Link is silent.
+The sources used here give no rule on tense, on the wording of references to tables and figures, or on statistical reporting, and do not name the corpus behind the model. In health research, for what a Results section must report for a given study design, see `rules/reporting.md`, and for selective or misleading reporting of results, see `rules/spin.md`. This file adds nothing else where Link is silent.
 
 ## Example
 
@@ -101,7 +101,7 @@ The sources used here give no rule on tense, on the wording of references to tab
 
 - **Goal (rules 1, 4):** neither sentence reports a finding (Occupy the Niche). Both comment on the study as a whole, and the second on the field.
 - **Placement (rule 4):** in a separate Results section, propose reporting the specific outcomes and moving the evaluation to the Discussion.
-- **Content:** ask the author which outcomes changed, by how much, and where they are shown (rule 3); then check the claims with `rules/claims.md` and `rules/spin.md`.
+- **Content:** ask the author which outcomes changed, by how much, and where they are shown (rule 3); then check the claims with `rules/claims.md` (and, in health research, `rules/spin.md`).
 
 ## Validation checklist
 
