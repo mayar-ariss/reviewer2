@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims (Ken Hyland), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell) and dense or empty wording (Halliday).**
+**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims (Ken Hyland), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms and uninformative sentences (Grice) and vague or abstract word choice (Strunk).**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -23,6 +23,8 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Reference, in any part | `rules/reference.md` | Halliday & Hasan 1976 |
 | Vague quantities, in any part | `rules/vagueness.md` | Channell 1994 |
 | Dense or empty wording, in any part | `rules/unpacking.md` | Halliday 1985, 1993 |
+| Informativeness, in any part | `rules/informativeness.md` | Grice 1975 |
+| Precision of wording, in any part | `rules/precision.md` | Strunk 1918 |
 
 ### Introductions
 
@@ -76,6 +78,14 @@ From Channell's *Vague Language*: the forms vague quantities take (approximators
 
 From Halliday's work on grammatical metaphor: congruent and metaphorical wording, nominalization, and the favourite clause type of scientific English, which packs two events and a relation into "A gives B". Unpacking a sentence into congruent wording shows what it says, and whether its participants, processes and relations are there at all.
 
+### Informativeness
+
+From Grice's Cooperative Principle and conversational maxims: each sentence should be as informative as the point requires, true and supported, relevant and clear. It catches truisms and platitudes ("What a simulation can say depends on how real its inputs are"), asks the author what they were meant to imply, and does not replace them with claims the evidence cannot support.
+
+### Precision
+
+From Strunk's *The Elements of Style* (1918): prefer the specific to the general, the definite to the vague and the concrete to the abstract; make definite assertions; omit needless words. It catches loose everyday words standing in for technical properties (inputs that are "real" rather than accurate, uncertain or representative) and general classes where a particular case is meant, and lists the candidate terms for the author to choose from.
+
 ## Try it
 
 Once installed, ask your agent the way you normally would:
@@ -90,6 +100,7 @@ Once installed, ask your agent the way you normally would:
 - *"Check the claims in my Discussion: am I overstating anything?"*
 - *"This paragraph is hard to follow. Check whose story each sentence tells and where the action is."*
 - *"Unpack the key sentences in my abstract. Do they actually say anything?"*
+- *"Are there sentences in my Discussion that just state the obvious?"*
 
 ## Faithful to its sources
 
@@ -118,6 +129,8 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 - Channell, J. (1994). *Vague Language*. Oxford University Press.
 - Halliday, M. A. K. (1985). *An Introduction to Functional Grammar*. Edward Arnold.
 - Halliday, M. A. K. (1993). Some grammatical problems in scientific English. In M. A. K. Halliday & J. R. Martin, *Writing Science: Literacy and Discursive Power*. Falmer.
+- Grice, H. P. (1975). Logic and conversation. Reprinted in *Studies in the Way of Words* (1989). Harvard University Press.
+- Strunk, W., Jr. (1918). *The Elements of Style*. Public domain.
 
 The skill paraphrases these works and cites them; it does not reproduce their text. Read the originals for the full treatment, examples and exercises.
 
