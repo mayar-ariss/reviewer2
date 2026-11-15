@@ -122,7 +122,7 @@ The principles are not rules, and any reader expectation can be violated to good
 
 ## Where Gopen and Swan give no rule
 
-The article does not discuss pronouns or reference, such as what *this*, *it* or *their* points to; for that, see `rules/reference.md`. It gives no limit on sentence length in words (rule 8), no fixed algorithm for good writing, and no rule for vague quantities (see `rules/vagueness.md`). Its principles are principles, not rules (rule 10). This file adds nothing where Gopen and Swan are silent.
+The article does not discuss pronouns or reference, such as what *this*, *it* or *their* points to; for that, see `rules/cohesion.md`. It gives no limit on sentence length in words (rule 8), no fixed algorithm for good writing, and no rule for vague quantities (see `rules/vagueness.md`). Its principles are principles, not rules (rule 10). This file adds nothing where Gopen and Swan are silent.
 
 ## Example
 
@@ -133,7 +133,7 @@ The article does not discuss pronouns or reference, such as what *this*, *it* or
 - **Stress position (rule 5):** the sentence ends on *their hydraulics*, which is not new information the reader can take away; what matters, and how much, is left unsaid.
 - **Logical gap (rule 9):** the link between the events and the hydraulics is asserted, not stated.
 - **Revision:** ask the author for the structure, the hydraulic property, the outcome and the evidence, then build the sentence so that whose story it is opens it, the action is the verb and the outcome is the stress position: "During [event], [structure]'s [hydraulic property] determined whether [outcome] ([citation])."
-- **Not covered here:** *their* refers to events, which have no hydraulics (see `rules/reference.md`); *how much* states no quantity (see `rules/vagueness.md`); the missing source and the unearned certainty of *show* are for `rules/claims.md`; unpacking the sentence to show its empty slots is in `rules/unpacking.md`.
+- **Not covered here:** *their* refers to events, which have no hydraulics (see `rules/cohesion.md`); *how much* states no quantity (see `rules/vagueness.md`); the missing source and the unearned certainty of *show* are for `rules/claims.md`; unpacking the sentence to show its empty slots is in `rules/unpacking.md`.
 
 ## Validation checklist
 
