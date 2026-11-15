@@ -1,6 +1,6 @@
 # Reviewer 2
 
-**An agent skill for writing and revising research papers, theses and proposals, in which every rule cites one named authority. It covers abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types and Cotos, Huffman and Link's move/step model; Results, from Link's goals and strategies; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms (Grice) and word precision (Strunk); for health research, it also checks completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
+**An agent skill for writing and revising research articles, and the matching chapters of theses and dissertations, in which every rule cites one named authority. It covers abstracts, from Hyland's five moves; introductions, from John M. Swales's Create-a-Research-Space (CARS) model; literature reviews, from Feak and Swales's *Telling a Research Story*; Methods sections, from Swales and Feak's condensed and extended types and Cotos, Huffman and Link's move/step model; Results, from Cotos, Huffman and Link's move/step framework; and Discussions, from Moreno and Swales's functional scheme. For any part of a paper it also checks the claims and how the text addresses the reader (Ken Hyland), the argument (Toulmin), the sentences (Gopen and Swan), what pronouns and *this* point to (Halliday and Hasan), vague quantities (Channell), dense or empty wording (Halliday), truisms and obscure wording (Grice); for health research, it also checks completeness against reporting guidelines (EQUATOR) and spin (Boutron and Ravaud).**
 
 ```bash
 npx skills add mayar-ariss/reviewer2
@@ -19,7 +19,7 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Literature reviews | `rules/literature-review.md` | Feak & Swales 2009 |
 | Methods: detail and justification | `rules/methods.md` | Swales 1990, 2004, 2008; Swales & Feak |
 | Methods: parts and order | `rules/methods-structure.md` | Cotos, Huffman & Link 2017 |
-| Results | `rules/results.md` | Link 2023 |
+| Results | `rules/results.md` | Cotos, Huffman & Link 2015 |
 | Discussions | `rules/discussion.md` | Moreno & Swales 2018 |
 | Claims and reader engagement, in any part | `rules/claims.md` | Hyland 2005, 2010, 2017, 2023; Hyland & Jiang 2023 |
 | Argument, in any part | `rules/argument.md` | Toulmin 1958 |
@@ -28,7 +28,6 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Vague quantities, in any part | `rules/vagueness.md` | Channell 1994 |
 | Dense or empty wording, in any part | `rules/unpacking.md` | Halliday 1985, 1993 |
 | Informativeness, in any part | `rules/informativeness.md` | Grice 1975 |
-| Precision of wording, in any part | `rules/precision.md` | Strunk 1918 |
 | Completeness of reporting, in Methods and Results (health research only) | `rules/reporting.md` | EQUATOR Network |
 | Spin, in any part (health research only) | `rules/spin.md` | Boutron & Ravaud 2018 |
 
@@ -72,7 +71,7 @@ From Cotos, Huffman and Link's Demonstrating Rigour and Credibility (DRaC) model
 
 ### Results
 
-From Link's goals and strategies for Results sections: approaching the niche (brief background and study specifics), occupying it (reporting findings and pointing to tables and figures) and construing it (comparing, explaining and qualifying specific results). It checks that the section reports findings for each question, keeps commentary on the study as a whole for the Discussion, and makes clear which kind of comment each sentence is.
+From Cotos, Huffman and Link's move/step framework, built from 900 research articles in 30 disciplines: approaching the niche (orientation and study specifics), occupying it (reporting results and pointing to tables and figures), construing it (comparing, explaining and qualifying specific results) and, where discussion is integrated, expanding it. It checks that the section reports results for each question, keeps commentary within the scope of the study, and makes clear which kind of comment each sentence is.
 
 ### Discussions
 
@@ -104,11 +103,7 @@ From Halliday's work on grammatical metaphor: congruent and metaphorical wording
 
 ### Informativeness
 
-From Grice's Cooperative Principle and conversational maxims: each sentence should be as informative as the point requires, true and supported, relevant and clear. It catches truisms and platitudes ("What a simulation can say depends on how real its inputs are"), asks the author what they were meant to imply, and does not replace them with claims the evidence cannot support.
-
-### Precision
-
-From Strunk's *The Elements of Style* (1918): prefer the specific to the general, the definite to the vague and the concrete to the abstract; make definite assertions; omit needless words. It catches loose everyday words standing in for technical properties (inputs that are "real" rather than accurate, uncertain or representative) and general classes where a particular case is meant, and lists the candidate terms for the author to choose from.
+From Grice's Cooperative Principle and conversational maxims: each sentence should be as informative as the point requires, true and supported, relevant and clear. It catches truisms and platitudes ("What a simulation can say depends on how real its inputs are"), asks the author what they were meant to imply, and does not replace them with claims the evidence cannot support. Under Grice's maxim of Manner, it also flags loose everyday words standing in for technical properties (inputs that are "real" rather than accurate, uncertain or representative) and lists the candidate terms for the author to choose from.
 
 ### Completeness of reporting
 
@@ -148,6 +143,7 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 ## Planned
 
 - **Titles:** no authority chosen yet
+- **Research proposals and whole theses:** the moves of a research or grant proposal, and the organization of a thesis across chapters
 - **Verification:** check page numbers taken from open texts and secondary sources against the original works, starting with the Methods table in `rules/methods.md`
 
 ## Based on
@@ -169,8 +165,7 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 - Halliday, M. A. K. (1985). *An Introduction to Functional Grammar*. Edward Arnold.
 - Halliday, M. A. K. (1993). Some grammatical problems in scientific English. In M. A. K. Halliday & J. R. Martin, *Writing Science: Literacy and Discursive Power*. Falmer.
 - Grice, H. P. (1975). Logic and conversation. Reprinted in *Studies in the Way of Words* (1989). Harvard University Press.
-- Strunk, W., Jr. (1918). *The Elements of Style*. Public domain.
-- Link, S. (2023). *Writing for Publication*. Open textbook, CC BY 4.0. With *Preparing to Publish*, Iowa State University (open textbook).
+- Cotos, E., Huffman, S., & Link, S. (2015). Furthering and applying move/step constructs: Technology-driven marshalling of Swalesian genre theory for EAP pedagogy. *Journal of English for Academic Purposes*, 19, 52–72.
 - EQUATOR Network. Reporting guidelines. https://www.equator-network.org/
 - Boutron, I., & Ravaud, P. (2018). Misrepresentation and distortion of research in biomedical literature. *PNAS*, 115(11), 2613–2619.
 - Cotos, E., Huffman, S., & Link, S. (2017). A move/step model for methods sections: Demonstrating rigour and credibility. *English for Specific Purposes*, 46, 90–106.
