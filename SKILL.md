@@ -7,8 +7,9 @@ description: >-
   Huffman and Link), Results (Link), Discussions (Moreno and Swales). Checks for
   any part: claims, hedging and
   reader engagement, argument (Toulmin), sentence structure, reference, vague
-  quantities, dense or empty wording, truisms, word precision, completeness against
-  reporting guidelines, and spin. Every rule cites one named authority.
+  quantities, dense or empty wording, truisms, word precision, and, for health
+  research, completeness against reporting guidelines and spin. Every rule cites one
+  named authority.
 ---
 
 # Reviewer 2: research writing, rule by cited rule
@@ -44,12 +45,12 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 | Dense or empty wording: nominalizations, relations packed into one verb, sentences that sound weighty but say little | `rules/unpacking.md` | Halliday |
 | Informativeness: truisms, platitudes and sentences that tell the reader nothing new or have no clear point | `rules/informativeness.md` | Grice |
 | Precision: loose words for technical properties, general classes where a particular case is meant, noncommittal or padded phrasing | `rules/precision.md` | Strunk 1918 |
-| Completeness: whether Methods and Results report the minimum information for the study design | `rules/reporting.md` | EQUATOR Network |
-| Spin: misreported methods or results, interpretation beyond the results, conclusions stronger than the evidence | `rules/spin.md` | Boutron & Ravaud 2018 |
+| Completeness (health research only): whether Methods and Results report the minimum information for the study design | `rules/reporting.md` | EQUATOR Network |
+| Spin (health research only): misreported methods or results, interpretation beyond the results, conclusions stronger than the evidence | `rules/spin.md` | Boutron & Ravaud 2018 |
 
 Read only the files the task needs.
 
-- **Full review** of an abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md`, `rules/reporting.md` (for Methods and Results), `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`, `rules/precision.md`.
+- **Full review** of an abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`, `rules/precision.md`.
 - **Quick review:** apply the section file, then only the two or three checks that address the problems most visible in the draft, and say which checks were not run.
 
 **Parts this skill does not cover yet:** titles, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
