@@ -24,7 +24,7 @@ Each rule cites these works as reported by:
 
 **A caution on rules 3–7.** These rules rest on a single reproduction of Swales and Feak's condensed–extended table (Enago, which gives no edition or page). No second open source for the table was found. Check the table against *Academic Writing for Graduate Students* before relying on these rules for anything beyond a first pass.
 
-For what a Methods section must report, as distinct from how it is written, see `rules/reporting.md`. For which functions it performs and in what order, see `rules/methods-structure.md`.
+For what a Methods section must report, as distinct from how it is written, see `rules/reporting.md` (health research only). For which functions it performs and in what order, see `rules/methods-structure.md`.
 
 ## How to apply this file
 
