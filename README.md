@@ -96,7 +96,7 @@ From Gopen and Swan's "The Science of Scientific Writing": the seven structural 
 
 ### Cohesion
 
-From Halliday and Hasan's *Cohesion in English*: personal, demonstrative and comparative reference, and the requirement that every reference item point to something the reader can recover; conjunction (additive, adversative, causal, temporal), checked against the relation that actually holds; and lexical cohesion, keeping track of each key object and quantity with the same or a recognizably related word. It catches pronouns whose referent is missing or does not fit, a *however* with nothing to contradict, and a quantity that changes name halfway through.
+From Halliday and Hasan's *Cohesion in English*: personal, demonstrative and comparative reference, and the requirement that every reference item point to something the reader can recover; conjunction (additive, adversative, causal, temporal), checked against the relation that actually holds; lexical cohesion, keeping track of each key object and quantity with the same or a recognizably related word; and substitution and ellipsis, checking that what *do so* or an omitted word stands for can be recovered. It catches pronouns whose referent is missing or does not fit, a *however* with nothing to contradict, and a quantity that changes name halfway through.
 
 ### Vague quantities
 
