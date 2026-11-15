@@ -1,12 +1,12 @@
 ---
 name: reviewer2
 description: >-
-  Use when writing, reviewing or revising the Introduction, the literature review
-  or the Discussion of a research article, thesis, dissertation or proposal.
+  Use when writing, reviewing or revising the Introduction, literature review,
+  Methods or Discussion of a research article, thesis, dissertation or proposal.
   Applies John M. Swales's Create-a-Research-Space (CARS) model for introductions,
   Feak and Swales's guidance on literature reviews (organization, citation, tense,
-  stance, paraphrase), and Moreno and Swales's functional scheme for Discussion and
-  closing sections. Also checks any part of a paper for its claims (Hyland: sources,
+  stance, paraphrase), Swales and Feak's condensed and extended Methods sections,
+  and Moreno and Swales's functional scheme for Discussion and closing sections. Also checks any part of a paper for its claims (Hyland: sources,
   hedges, boosters, evaluation, self-mention, reporting verbs), its sentences (Gopen
   and Swan: topic and stress positions, action in the verb, logical links), what its
   pronouns and demonstratives point to (Halliday and Hasan), vague quantities
@@ -29,6 +29,7 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 | The introduction of a research article | `rules/introduction.md` | Swales (CARS model) |
 | A literature review: a review chapter, a proposal's review, or a review section | `rules/literature-review.md` | Feak & Swales 2009 |
 | A review of previous work inside an introduction | `rules/introduction.md` (rules 3–5) together with `rules/literature-review.md` | Swales; Feak & Swales 2009 |
+| The Methods section (Materials and Methods, Methodology, Experimental Procedures) | `rules/methods.md` | Swales; Swales & Feak |
 | The Discussion of a research article, including a combined Results and Discussion or a closing Conclusion | `rules/discussion.md` | Moreno & Swales 2018 |
 
 **Checks for any part**
@@ -41,9 +42,9 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 | Vague quantities and categories: *about*, *many*, *how much*, *and so on* | `rules/vagueness.md` | Channell 1994 |
 | Dense or empty wording: nominalizations, relations packed into one verb, sentences that sound weighty but say little | `rules/unpacking.md` | Halliday |
 
-Read only the files the task needs. When the user asks for a full review of an introduction, a literature review or a Discussion, apply its file first, then the checks in this order: `rules/claims.md`, `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`.
+Read only the files the task needs. When the user asks for a full review of an introduction, a literature review, a Methods section or a Discussion, apply its file first, then the checks in this order: `rules/claims.md`, `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`.
 
-**Parts this skill does not cover yet:** Methods, Results (outside a combined Results and Discussion) and abstracts, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
+**Parts this skill does not cover yet:** Results (outside a combined Results and Discussion) and abstracts, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
 
 ## How to apply any rules file
 
@@ -65,6 +66,8 @@ Read only the files the task needs. When the user asks for a full review of an i
 | Swales & Feak 2012 | *Academic Writing for Graduate Students*, 3rd ed. University of Michigan Press. | `rules/introduction.md` |
 | Feak & Swales 2009 | *Telling a Research Story: Writing a Literature Review*. University of Michigan Press. | `rules/literature-review.md` |
 | Feak & Swales 2011 | *Creating Contexts: Writing Introductions across Genres*. University of Michigan Press. | `rules/introduction.md` (scope note) |
+| Swales 1990, 2004; AWG (Methods) | Swales's and Swales & Feak's accounts of Methods sections. Cited as reported in open sources. | `rules/methods.md` |
+| Swales 2008 | Variation in methods sections of research articles. Talk abstract, METM08. | `rules/methods.md` |
 | M&S 2018 (MS) | Moreno, A. I., & Swales, J. M. Strengthening move analysis methodology towards bridging the function-form gap. *English for Specific Purposes*, 50, 40–63. Authors' preprint. | `rules/discussion.md` |
 | Hyland 2010 | Metadiscourse: Mapping interactions in academic writing. *Nordic Journal of English Studies*, 9(2), 125–143. | `rules/claims.md` |
 | Hyland 2005 | Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112. | `rules/claims.md` |
