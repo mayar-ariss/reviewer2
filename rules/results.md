@@ -1,115 +1,116 @@
-# Results: Link's goals and strategies
+# Results: Cotos, Huffman and Link's move/step framework
 
 Load this file when the user is writing or revising the Results section of an empirical research article, thesis or dissertation (also headed Findings). For a combined Results and Discussion, apply this file to the propositions that report results and `rules/discussion.md` to the rest.
 
-**Every rule below is from Link's goal-and-strategy model of Results sections.** The rules cite her open textbook and, for the definitions of the commentary strategies, a companion open textbook that uses the same model. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
+**Every rule below is Cotos, Huffman and Link's.** Rules cite the authors' accepted manuscript by section, because the manuscript's page numbers differ from the journal's. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
 ## Sources and how they are cited
 
 | Short form | Work |
 |---|---|
-| Link 2023 | Link, S. (2023). *Writing for Publication* (open textbook, beta), "Summary of Goals/Strategies/Language Use for Results Sections." Oklahoma State University Libraries. CC BY 4.0: https://open.library.okstate.edu/writingforpublication/?p=323 |
-| ISU | *Preparing to Publish*, Chapter 5, "Writing the Results Section" (open textbook, Iowa State University): https://iastate.pressbooks.pub/preparingtopublish/?p=469 |
+| CHL 2015 | Cotos, E., Huffman, S., & Link, S. (2015). Furthering and applying move/step constructs: Technology-driven marshalling of Swalesian genre theory for EAP pedagogy. *Journal of English for Academic Purposes*, 19, 52–72. https://doi.org/10.1016/j.jeap.2015.05.004 Cited from the accepted manuscript, Iowa State University Digital Repository: https://dr.lib.iastate.edu/entities/publication/28d99fb0-7668-4470-8a86-6141785c264b |
 
-Both books present the same three goals for Results sections. Link 2023 names the goals and strategies; ISU defines the strategies of the third goal. Neither page names the corpus the model was derived from.
+The framework comes from a corpus of 900 empirical research articles, 30 from each of 30 disciplines, published in 2009–2011 in high-impact peer-reviewed journals recommended by disciplinary experts; three coders annotated it with high agreement (CHL 2015, §2.1.1–2.1.2). It follows Swales's metaphorical approach to research article discourse (§2.2.1). The same authors' full account of Methods sections is the basis of `rules/methods-structure.md`.
 
 ## How to apply this file
 
-*Procedure, not a rule of Link's.*
+*Procedure, not a rule of the authors'.*
 
-1. **Ask whether Results and Discussion are separate or combined** in the draft and in the target journal (rule 6).
-2. **Label the draft.** Mark each sentence with its goal and strategy (see the model). Show the user the labelled draft.
+1. **Ask whether Results and Discussion are separate or combined** in the draft and in the target journal (rule 4).
+2. **Label the draft.** Mark each sentence with its move and step (see the framework). Show the user the labelled draft.
 3. **Check the draft against rules 1–6** and list what is missing or misplaced.
-4. **Propose revisions citing the rule.** Keep the author's results, figures and citations. Do not invent results, comparisons, explanations or limitations; where a strategy needs content the draft does not have, ask the author for it.
+4. **Propose revisions citing the rule.** Keep the author's results, figures and citations. Do not invent results, comparisons, explanations or limitations; where a step needs content the draft does not have, ask the author for it.
 5. **Run the checklist** at the end.
 
-## The model
+## The framework
 
-Link's goals and strategies for Results sections (Link 2023; ISU):
+Cotos, Huffman and Link's move/step framework for Results sections (CHL 2015, §2.2.1, Table 1):
 
-| Goal | What it does | Strategies |
-|---|---|---|
-| **Approach the Niche** | Restates old information from the Introduction or Methods to prepare the reader | Providing background; Restating study specifics; Rationalizing study specifics |
-| **Occupy the Niche** | Reports the study's findings; the most extensive goal | Reporting findings; Indicating alternative presentation of results (for example, in tables and figures) |
-| **Construe the Niche** | Comments on and frames specific results, relating them to the study and to other research | Comparing results with the literature; Accounting for (explaining) results; Explicating results; Relating to expectations; Acknowledging limitations |
+| Move | Steps |
+|---|---|
+| **1. Approaching the niche** | 1 Providing general orientation · 2 Restating study specifics · 3 Justifying study specifics |
+| **2. Occupying the niche** | 1 Reporting specific results · 2 Indicating alternative presentation of results |
+| **3. Construing the niche** | 1 Comparing results · 2 Accounting for results · 3 Explicating results · 4 Clarifying expectations · 5 Acknowledging limitations |
+| **4. Expanding the niche** | 1 Generalizing results · 2 Claiming the value · 3 Noting implications · 4 Proposing directions |
 
-There is no fixed order for the goals; strategies can be combined, and their use varies by discipline (Link 2023).
+Move 4 is included for articles that integrate discussion into the Results section and have a separate Conclusion (Table 1, note). The moves and steps do not imply an order of occurrence (§2.2.1).
 
 ## Rules
 
-### 1. Make reporting findings the main business of the section
+### 1. Make reporting specific results the main business of the section
 
-*Source: Link 2023.*
+*Source: CHL 2015, §2.2.1–2.2.2, §2.3.2.*
 
-Occupy the Niche, which reports the findings, is likely to be the most extensive goal, and Results sections commonly go straight to it without restating old information (Link 2023).
+The Results section shows how the study occupies the niche (§2.2.1). In Move 2, reporting specific results is the most frequently used step (§2.2.2); in some disciplines, such as animal science, authors report findings almost exclusively (§2.3.2).
 
-- Check that most of the section reports findings, and that each research question or hypothesis has its findings reported.
+- Check that most of the section reports specific results, and that each research question or hypothesis has its results reported.
 
-### 2. Use old information only to prepare the reader
+### 2. Remind readers how the results were obtained, so the findings mean something
 
-*Source: Link 2023.*
+*Source: CHL 2015, §2.2.1–2.2.2.*
 
-Approach the Niche repeats information from the Introduction or Methods so that the reader is ready for the results: background, study specifics, and the reasons for them (Link 2023).
+The Results section reminds readers how the niche was approached methodologically, to make the demonstration of how the study occupies it more meaningful (§2.2.1). In Move 1, restating study specifics is the most prominent step in all disciplines, followed by providing general orientation; justifying study specifics is much less frequent but present across disciplines (§2.2.2).
 
-- Check that any restated background or method is short and leads into a finding. Where it repeats the Methods at length, propose cutting it back.
+- Check that each restatement of methods or background serves a result that follows. Where a restatement does not lead to a result, ask whether it belongs in the Methods.
 
 ### 3. Point the reader to the tables and figures
 
-*Source: Link 2023.*
+*Source: CHL 2015, §2.2.2.*
 
-Indicating alternative presentation of results is one of the two strategies for reporting findings (Link 2023).
+Reporting specific results is traditionally accompanied by indicating alternative presentation of results, which directs the reader to tables, figures and graphs (§2.2.2).
 
-- Check that each table and figure is referred to in the text where its results are reported, and that the text says what the reader should see in it.
+- Check that each table and figure is referred to in the text where its results are reported.
 
-### 4. Comment on specific results, not on the study as a whole
+### 4. Keep commentary within the scope of the study
 
-*Source: Link 2023; ISU.*
+*Source: CHL 2015, §2.2.1–2.2.2 and Table 1, note.*
 
-Construe the Niche is for commenting on specific results from the study; commentary on the study as a whole belongs to the Discussion, or to a combined Results and Discussion. A Results section stays specific to the study; depending on the discipline it may move a little beyond the study, but only minimally (Link 2023). The goal may be absent from a Results section that is separate from the Discussion (ISU).
+In Results, authors give their findings meaning within the internal scope of the study; the Discussion and Conclusion consider the findings from a broader, beyond-the-study perspective (§2.2.1). Where authors embed discussion in the Results section, it contains elements of construing and perhaps expanding the niche (§2.2.1). Move 4, which expands the niche, is rare in Results sections (less than 2.5%) and is included for articles that integrate discussion into Results and have a separate Conclusion (§2.2.2; Table 1, note).
 
-- Flag commentary on the study as a whole, or on the field, that appears in a separate Results section, and propose moving it to the Discussion.
+- In a separate Results section, flag generalizations, value claims, implications and future directions (Move 4), and ask whether they belong in the Discussion.
+- In a combined Results and Discussion, apply `rules/discussion.md` to those propositions.
 
-### 5. When commenting, say which kind of comment it is
+### 5. When commenting on a result, make clear which kind of comment it is
 
-*Source: ISU; Link 2023.*
+*Source: CHL 2015, §2.2.2.*
 
-The strategies of Construe the Niche are (ISU; Link 2023):
+Construing the niche has five steps. Explicating results occupies 34% to 74% of the move, depending on the discipline; the next most frequent step varies (§2.2.2):
 
-- **Comparing results with the literature:** relating findings to earlier studies, theory or predictions, to show similarities and differences.
-- **Accounting for results:** suggesting reasons, hypotheses or assumptions that may explain a result, typically hedged with expressions of likelihood (*likely*) and modal verbs (*may have been*).
-- **Explicating results:** interpreting results and drawing immediate inferences, preparing for further discussion.
-- **Relating to expectations:** named in the source but not defined there; read here as saying whether a result matches what was predicted.
-- **Acknowledging limitations:** explaining what went wrong, avoiding over-generalization from the findings, anticipating criticism, and possibly leading into recommendations for future research.
+- **Comparing results:** some disciplines compare different results obtained in the study (for example, chemical engineering, and the geological and atmospheric sciences).
+- **Accounting for results:** suggesting reasons that help explain what may have determined the results (for example, agricultural and bio-systems engineering, and meteorology).
+- **Clarifying expectations:** reasoning about anticipated or unanticipated findings, frequent in the humanities and social sciences.
+- **Acknowledging limitations:** infrequent, but used fairly consistently across disciplines, although one would expect it in the Discussion.
+- **Explicating results:** named in the framework; the text read for this file does not define it.
 
-- For each comment in the section, name the strategy, and check that comparisons cite the earlier work and that explanations are hedged as possibilities.
+- For each comment, name the step. Where an explanation is offered, check that it is presented as a possible reason; where a comparison is made, check that both results are reported.
 
-### 6. Fit the section to whether Results and Discussion are separate
+### 6. Fit the order of moves to the field and the study
 
-*Source: Link 2023; ISU.*
+*Source: CHL 2015, §2.2.1 and §2.3.2.*
 
-Results may be a separate section or combined with the Discussion; when they are separate, commentary is usually placed in the Discussion (ISU; Link 2023).
+The moves do not imply a sequence; they reflect the logic of the scientific argument (§2.2.1). Results sections show discipline-specific patterns: in applied linguistics, authors cycle through restating study specifics, reporting findings and explaining them; in molecular, cellular and developmental biology, they shift between the moves more often and intertwine them (§2.3.2). Within a discipline, the move structure of each text depends largely on the nature of the study and how the authors present their argument (§2.3.2).
 
-- Check the target journal's practice, and judge the amount of commentary in the draft against it.
+- Compare the draft's pattern with recent Results sections in the target journal. Do not flag cycling between moves as a fault.
 
-## Where Link gives no rule
+## Where Cotos, Huffman and Link give no rule
 
-The sources used here give no rule on tense, on the wording of references to tables and figures, or on statistical reporting, and do not name the corpus behind the model. In health research, for what a Results section must report for a given study design, see `rules/reporting.md`, and for selective or misleading reporting of results, see `rules/spin.md`. This file adds nothing else where Link is silent.
+The article presents the framework with step names and frequency findings, but defines only some of the steps for Results; it gives no rule on tense, on the wording of references to tables and figures, or on statistical reporting. In health research, for what a Results section must report for a given study design, see `rules/reporting.md`, and for selective or misleading reporting of results, see `rules/spin.md`. This file adds nothing else where the authors are silent.
 
 ## Example
 
-*An illustration of this file's procedure, not Link's.* Draft sentences, in a separate Results section: "Overall, the intervention was a success. This shows that community-based programs are the future of public health."
+*An illustration of this file's procedure, not the authors'.* Draft sentences, in a separate Results section of a hydraulic modelling paper: "Overall, the model performed well. This confirms that two-dimensional models are the best tool for flood mapping."
 
-- **Goal (rules 1, 4):** neither sentence reports a finding (Occupy the Niche). Both comment on the study as a whole, and the second on the field.
-- **Placement (rule 4):** in a separate Results section, propose reporting the specific outcomes and moving the evaluation to the Discussion.
-- **Content:** ask the author which outcomes changed, by how much, and where they are shown (rule 3); then check the claims with `rules/claims.md` (and, in health research, `rules/spin.md`).
+- **Moves (rules 1, 4):** neither sentence reports a specific result (Move 2). The first evaluates the study as a whole; the second generalizes beyond it (Move 4, generalizing results).
+- **Placement (rule 4):** in a separate Results section, ask whether the generalization belongs in the Discussion.
+- **Content:** ask the author which results show the model's performance (which measures, at which locations, for which events) and where they are shown (rule 3); then check the claim with `rules/claims.md` and `rules/argument.md`.
 
 ## Validation checklist
 
-- [ ] Each sentence is labelled with a goal and strategy
-- [ ] Most of the section reports findings, for each question or hypothesis (rule 1)
-- [ ] Restated background and methods are brief and lead into findings (rule 2)
+- [ ] Each sentence is labelled with a move and step
+- [ ] Most of the section reports specific results, for each question or hypothesis (rule 1)
+- [ ] Restated methods and background serve the results that follow (rule 2)
 - [ ] Each table and figure is referred to where its results are reported (rule 3)
-- [ ] Commentary on the study as a whole is in the Discussion, unless sections are combined (rule 4)
-- [ ] Each comment's strategy is identifiable; comparisons are cited and explanations hedged (rule 5)
-- [ ] The amount of commentary fits the journal's practice (rule 6)
+- [ ] Commentary stays within the study, unless the sections are combined (rule 4)
+- [ ] Each comment's step is identifiable; explanations are offered as possible reasons (rule 5)
+- [ ] The order of moves fits the field and the study (rule 6)
 - [ ] No result, comparison, explanation or limitation was invented
