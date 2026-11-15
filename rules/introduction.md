@@ -182,6 +182,16 @@ Swales describes the CARS model as fitting best where originality, especially in
 
 Swales gives no fixed length for an introduction or for each move, beyond noting that Move 2 is usually short (rule 6). He prescribes no number of citations, no paragraph count and no required opening sentence. His tense patterns are general guidelines, not rules (rule 5). The model describes research article introductions in English; for other part-genres (thesis introductions, proposals, grant applications) Swales and Feak treat introductions separately (Feak & Swales 2011), and this file does not cover them. This file adds nothing where Swales is silent.
 
+## Example
+
+*An illustration of this file's procedure, not Swales's.* Draft introduction, in full: "Extreme events show how much rests on their hydraulics. Flood models are widely used. This paper presents a two-dimensional model of the 2021 flood."
+
+- **Moves (rule 1):** sentences 1–2 attempt Move 1; sentence 3 is Move 3. There is no Move 2.
+- **Territory (rule 3):** neither sentence cites earlier work, and neither narrows from the general to the specific. Ask the author for the studies the paper builds on.
+- **Niche (rules 6–7):** nothing says what earlier work leaves open. Ask the author for the gap, and signal it.
+- **Present work (rule 9):** sentence 3 is a descriptive statement pointing to the present text, as Move 3 requires; once the niche is stated, check that the statement answers it.
+- For the wording of the first sentence, see `rules/informativeness.md` and `rules/unpacking.md`.
+
 ## Validation checklist
 
 - [ ] Every sentence is labelled with a move and step (rule 1)
