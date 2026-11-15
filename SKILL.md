@@ -5,8 +5,8 @@ description: >-
   chapters of a thesis or dissertation. Section rules: titles and abstracts
   (Hyland), introductions (Swales's CARS model), literature reviews (Feak and Swales), Methods
   (Swales and Feak; Cotos, Huffman and Link), Results (Cotos, Huffman and Link),
-  Discussions (Moreno and Swales). Checks for any part: claims, hedging and reader
-  engagement, argument (Toulmin), sentence structure, cohesion, vague quantities,
+  Discussions (Moreno and Swales), commentary on figures and tables (Swales and
+  Feak). Checks for any part: claims, hedging and reader engagement, argument (Toulmin), sentence structure, cohesion, vague quantities,
   dense or empty wording, truisms and obscure wording (Grice), and, for health
   research, completeness against reporting guidelines and spin. Every rule cites one
   named authority.
@@ -39,6 +39,7 @@ This skill reviews and revises parts of a research article, and the matching cha
 | The user wants checked | Read | Authority |
 |---|---|---|
 | Claims: their sources, how strongly they are stated, evaluation, self-mention, reporting verbs, and how the text addresses the reader | `rules/claims.md` | Hyland |
+| Data commentary: the text around each figure or table, which results it highlights, how it interprets them | `rules/data-commentary.md` | Swales & Feak |
 | Argument: whether each main claim has data, a warrant the reader would accept, backing, a stated strength and stated exceptions | `rules/argument.md` | Toulmin 1958 |
 | Sentences and paragraphs: whose story each sentence tells, where the action and the emphasis fall, the links between sentences | `rules/sentences.md` | Gopen & Swan 1990 |
 | Cohesion: what pronouns, *this*, *the*, comparatives and substitutes point to; whether linking words signal the relation that holds; whether key terms are used consistently | `rules/cohesion.md` | Halliday & Hasan 1976 |
@@ -50,7 +51,7 @@ This skill reviews and revises parts of a research article, and the matching cha
 
 Read only the files the task needs.
 
-- **Full review** of a title, abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/cohesion.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`.
+- **Full review** of a title, abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/data-commentary.md` (for sections that comment on figures or tables), `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/cohesion.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`.
 - **Quick review:** apply the section file, then only the two or three checks that address the problems most visible in the draft, and say which checks were not run.
 
 **Parts this skill does not cover yet:** the structure of a whole thesis and of a research proposal, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
@@ -92,6 +93,7 @@ Read only the files the task needs.
 | EQUATOR | EQUATOR Network, key reporting guidelines and "What is a reporting guideline?". | `rules/reporting.md` |
 | Hyland 2000 | Hyland, K. *Disciplinary Discourses*. Longman. Cited as reported in an open source. | `rules/abstracts.md` |
 | Hyland 2023 | Hyland, K. Changing times; changing texts. WAC Clearinghouse, open access. | `rules/claims.md` (engagement) |
+| S&F 1995 | Swales, J. M., & Feak, C. B. From information transfer to data commentary. *The Journal of TESOL-France*. With AWG Unit 4, as reported in an open source. | `rules/data-commentary.md` |
 | H&Z 2022 | Hyland, K., & Zou, H. Titles in research articles. *Journal of English for Academic Purposes* 56. Open access. | `rules/titles.md` |
 | Toulmin 1958 | Toulmin, S. *The Uses of Argument*. Cambridge University Press. Cited as reported in open sources. | `rules/argument.md` |
 | B&R 2018 | Boutron, I., & Ravaud, P. Misrepresentation and distortion of research in biomedical literature. *PNAS*, 115(11), 2613–2619. Open access; cited by section. | `rules/spin.md` |
