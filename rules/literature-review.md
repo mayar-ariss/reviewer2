@@ -4,7 +4,7 @@ Load this file when the user is writing or revising a literature review: a revie
 
 **Source.** Every rule is drawn from Christine B. Feak and John M. Swales, *Telling a Research Story: Writing a Literature Review* (University of Michigan Press, 2009), cited as **F&S** with page numbers. Where Feak and Swales report another researcher's finding (Hyland, Charles, Boote and Beile), the rule says so; the finding is theirs, the use of it is Feak and Swales's. Where Feak and Swales give no rule, this file says so rather than supplying one.
 
-The book covers student genres (review chapters, dissertation proposals, dissertations) most fully, and the review sections of research articles as well (F&S, p. xiv). For a review inside a research article introduction, apply this file together with SKILL.md rules 3–5.
+The book covers student genres (review chapters, dissertation proposals, dissertations) most fully, and the review sections of research articles as well (F&S, p. xiv). For a review inside a research article introduction, apply this file together with rules 3–5 in `rules/introduction.md`.
 
 ## How to apply this file
 
