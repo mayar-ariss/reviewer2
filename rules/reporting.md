@@ -1,6 +1,6 @@
 # Reporting: EQUATOR reporting guidelines
 
-Load this file when the user wants to know whether a draft reports what readers, reviewers and later systematic reviewers need: whether the Methods and Results contain the minimum information for the study's design. It applies mainly to health research, and to any study whose design has an EQUATOR reporting guideline.
+Load this file when the user wants to know whether a draft reports what readers, reviewers and later systematic reviewers need: whether the Methods and Results contain the minimum information for the study's design. **Scope: health research only.** EQUATOR's reporting guidelines are written for health research; do not apply this file to papers in other fields.
 
 **Every rule below is the EQUATOR Network's.** Rules cite EQUATOR's own pages. The checklists themselves are long and change between versions, so this file points to them rather than reproducing them. Where EQUATOR gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
