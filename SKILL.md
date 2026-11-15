@@ -4,8 +4,8 @@ description: >-
   Use when writing, reviewing or revising a research article, thesis, dissertation
   or proposal. Section rules: abstracts (Hyland), introductions (Swales's CARS
   model), literature reviews (Feak and Swales), Methods (Swales and Feak; Cotos,
-  Huffman and Link), Results (Link), Discussions (Moreno and Swales), section
-  headings (ICMJE). Checks for any part: claims, hedging and
+  Huffman and Link), Results (Link), Discussions (Moreno and Swales). Checks for
+  any part: claims, hedging and
   reader engagement, argument (Toulmin), sentence structure, reference, vague
   quantities, dense or empty wording, truisms, word precision, completeness against
   reporting guidelines, and spin. Every rule cites one named authority.
@@ -45,12 +45,11 @@ This skill reviews and revises parts of a research article, thesis, dissertation
 | Informativeness: truisms, platitudes and sentences that tell the reader nothing new or have no clear point | `rules/informativeness.md` | Grice |
 | Precision: loose words for technical properties, general classes where a particular case is meant, noncommittal or padded phrasing | `rules/precision.md` | Strunk 1918 |
 | Completeness: whether Methods and Results report the minimum information for the study design | `rules/reporting.md` | EQUATOR Network |
-| Headings: the main sections, subheadings, and what belongs in Methods versus Results | `rules/headings.md` | ICMJE |
 | Spin: misreported methods or results, interpretation beyond the results, conclusions stronger than the evidence | `rules/spin.md` | Boutron & Ravaud 2018 |
 
 Read only the files the task needs.
 
-- **Full review** of an abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then `rules/headings.md` for the section's headings, then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md`, `rules/reporting.md` (for Methods and Results), `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`, `rules/precision.md`.
+- **Full review** of an abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md`, `rules/reporting.md` (for Methods and Results), `rules/sentences.md`, `rules/reference.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`, `rules/precision.md`.
 - **Quick review:** apply the section file, then only the two or three checks that address the problems most visible in the draft, and say which checks were not run.
 
 **Parts this skill does not cover yet:** titles, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
@@ -78,7 +77,6 @@ Read only the files the task needs.
 | Swales 1990, 2004; AWG (Methods) | Swales's and Swales & Feak's accounts of Methods sections. Cited as reported in open sources. | `rules/methods.md` |
 | Swales 2008 | Variation in methods sections of research articles. Talk abstract, METM08. | `rules/methods.md` |
 | CHL 2017 | Cotos, E., Huffman, S., & Link, S. A move/step model for methods sections. *English for Specific Purposes* 46. Accepted manuscript. | `rules/methods-structure.md` |
-| ICMJE | International Committee of Medical Journal Editors, *Recommendations*, section IV.A. | `rules/headings.md` |
 | Link 2023 | Link, S. *Writing for Publication* (open textbook, CC BY 4.0), with *Preparing to Publish* (Iowa State University, open textbook). | `rules/results.md` |
 | M&S 2018 (MS) | Moreno, A. I., & Swales, J. M. Strengthening move analysis methodology towards bridging the function-form gap. *English for Specific Purposes*, 50, 40–63. Authors' preprint. | `rules/discussion.md` |
 | Hyland 2010 | Metadiscourse: Mapping interactions in academic writing. *Nordic Journal of English Studies*, 9(2), 125–143. | `rules/claims.md` |
