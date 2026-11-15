@@ -1,8 +1,14 @@
-# Literature reviews
+# Literature reviews: Feak and Swales
 
 Load this file when the user is writing or revising a literature review: a review chapter in a thesis or dissertation, the literature review of a proposal, or the review of previous work inside a research article.
 
-**Source.** Every rule is drawn from Christine B. Feak and John M. Swales, *Telling a Research Story: Writing a Literature Review* (University of Michigan Press, 2009), cited as **F&S** with page numbers. Where Feak and Swales report another researcher's finding (Hyland, Charles, Boote and Beile), the rule says so; the finding is theirs, the use of it is Feak and Swales's. Where Feak and Swales give no rule, this file says so rather than supplying one.
+## Source and how it is cited
+
+| Short form | Work |
+|---|---|
+| F&S | Feak, C. B., & Swales, J. M. (2009). *Telling a Research Story: Writing a Literature Review*. Ann Arbor: University of Michigan Press. |
+
+Every rule is drawn from this book and cited with page numbers. Where Feak and Swales report another researcher's finding (Hyland, Charles, Boote and Beile), the rule says so; the finding is theirs, the use of it is Feak and Swales's. Where Feak and Swales give no rule, this file says so rather than supplying one.
 
 The book covers student genres (review chapters, dissertation proposals, dissertations) most fully, and the review sections of research articles as well (F&S, p. xiv). For a review inside a research article introduction, apply this file together with rules 3–5 in `rules/introduction.md`.
 
@@ -173,3 +179,18 @@ Feak and Swales offer Boote and Beile's (2005) criteria for evaluating a review,
 ## Where Feak and Swales give no rule
 
 They give no fixed length for a review, no number of sources, and no single required organization; the categories for grouping depend on the field and purpose (rule 4). Whether a thesis review is a separate chapter or spread through the work, and whether an article's review is part of the introduction or a section of its own, they leave as questions for the field and the advisor (p. 4). Their tense patterns are guidelines, not rules (rule 11). This file adds nothing where they are silent.
+
+## Example
+
+*An illustration of this file's procedure, not Feak and Swales's.* Draft review paragraph: "Smith (2015) used a one-dimensional model. Jones (2017) used a two-dimensional model. Lee (2019) studied channel roughness. Many studies have modelled floods."
+
+- **Purpose (rules 1–2):** the paragraph lists studies but does not lead to a need for the present research. Ask the author which research question it serves.
+- **Order (rule 4):** the studies are ordered by date. Ask which grouping fits the research question, for example by model type or by what was calibrated.
+- **Citations (rule 10):** every citation is integral, which puts the researchers rather than the findings in focus. Check whether that is what the author intends.
+- **Stance (rule 13):** nothing evaluates the studies. Ask what the author makes of each, and how they bear on the gap.
+- For "many studies", see `rules/vagueness.md`.
+
+## Validation checklist
+
+- [ ] The questions in rule 16 were answered
+- [ ] No reference, finding or evaluation was invented
