@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: abstract-no-findings
+expected_outcome: |
+  The review applies Hyland's five moves, labels each sentence, and finds that the abstract
+  has no Method move and no Product move: "results are presented" states no finding. It also
+  notes that the introduction gives the importance of the topic but no problem. It asks the
+  author for the method, the main findings and the conclusion, taken from the paper.

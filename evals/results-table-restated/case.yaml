@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: results-table-restated
+expected_outcome: |
+  The review finds that the commentary restates the table instead of commenting on it, that
+  it does not highlight the result that matters (the large overestimate at gauge D), and
+  that the exception is left unexplained. It cites the data commentary rules (restatement,
+  highlighting, exceptions) and the Results file where relevant, and asks the author for the
+  explanation of gauge D rather than supplying one.

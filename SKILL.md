@@ -1,15 +1,18 @@
 ---
 name: reviewer2
 description: >-
-  Use when writing, reviewing or revising a research article, or the matching
-  chapters of a thesis or dissertation. Section rules: titles and abstracts
-  (Hyland), introductions (Swales's CARS model), literature reviews (Feak and Swales), Methods
-  (Swales and Feak; Cotos, Huffman and Link), Results (Cotos, Huffman and Link),
-  Discussions (Moreno and Swales), commentary on figures and tables (Swales and
-  Feak). Checks for any part: claims, hedging and reader engagement, argument (Toulmin), sentence structure, cohesion, vague quantities,
-  dense or empty wording, truisms and obscure wording (Grice), and, for health
-  research, completeness against reporting guidelines and spin. Every rule cites one
-  named authority.
+  Review, critique or revise a research paper the way a demanding peer reviewer
+  would, with every comment tied to a named authority on academic writing. Use this
+  skill whenever the user asks to review, check, edit, tighten or improve any part
+  of a research article, manuscript, thesis or dissertation chapter: the title,
+  abstract, introduction, literature review, Methods, Results, Discussion or
+  conclusion, the text around figures and tables, or a whole manuscript before
+  submission. Also use it when the user asks whether a sentence or claim is vague,
+  generic, unsupported, overstated or hard to follow, or how a reviewer would read
+  the draft, even if they never say "review". Rules come from Swales, Feak, Hyland,
+  Cotos and colleagues, Moreno, Toulmin, Gopen and Swan, Halliday and Hasan,
+  Channell and Grice; reporting-guideline and spin checks apply to health research
+  only.
 ---
 
 # Reviewer 2: research writing, rule by cited rule
@@ -49,16 +52,16 @@ This skill reviews and revises parts of a research article, and the matching cha
 | Completeness (health research only): whether Methods and Results report the minimum information for the study design | `rules/reporting.md` | EQUATOR Network |
 | Spin (health research only): misreported methods or results, interpretation beyond the results, conclusions stronger than the evidence | `rules/spin.md` | Boutron & Ravaud 2018 |
 
-Read only the files the task needs.
+Read only the files the task needs. `rules/index.md` lists every rule in one line each; use it to choose which checks to run, then open only the files whose checks you need.
 
-- **Full review** of a title, abstract, introduction, literature review, Methods, Results or Discussion: read the draft once and note the problems most visible in it; apply the section's file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/data-commentary.md` (for sections that comment on figures or tables), `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/cohesion.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`. Run first the checks that address the problems you noted, then the rest in this order.
+- **Full review** of a title, abstract, introduction, literature review, Methods, Results or Discussion: read the draft once, note the problems most visible in it, and match them to checks in `rules/index.md`; apply the section's file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/data-commentary.md` (for sections that comment on figures or tables), `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/cohesion.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`. Run first the checks that address the problems you noted, then the rest in this order.
 - **Whole manuscript:** review each section in the paper's order, as a full review, then check the sections against each other:
   - any result the title states is supported by the paper (`rules/titles.md`, rule 4);
   - every finding in the abstract appears in the Results (`rules/abstracts.md`, rule 5);
   - each question, hypothesis or purpose set out in the introduction (`rules/introduction.md`, rule 9) has its results reported (`rules/results.md`, rule 1);
   - the Discussion restates and interprets the results the Results section reports, and each of its main claims rests on them (`rules/discussion.md`, rules 5–6; `rules/argument.md`, rule 1);
   - each figure and table supports a claim (`rules/argument.md`, rule 6), and their number has been compared with the target journal (`rules/data-commentary.md`, procedure).
-- **Quick review:** apply the section file, then only the two or three checks that address the problems most visible in the draft, and say which checks were not run.
+- **Quick review:** apply the section file, then only the two or three checks in `rules/index.md` that address the problems most visible in the draft, and say which checks were not run.
 
 **Parts this skill does not cover yet:** the structure of a whole thesis and of a research proposal, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
 
@@ -66,8 +69,8 @@ Read only the files the task needs.
 
 *Procedure for this skill, not a rule from any authority.*
 
-1. **Establish the context.** Ask for the field, the target journal or degree, the genre and, for empirical work, the study design, or read them from the draft. Many rules depend on them.
-2. **Follow the procedure at the top of the rules file.**
+1. **Establish the context.** Ask for the field, the target journal or degree, the genre and, for empirical work, the study design, or read them from the draft. Many rules depend on them. If they cannot be found and the user is not there to ask, state your assumption once at the top of the review, and mark the findings that depend on the field or journal as conditional on it.
+2. **Follow the procedure at the top of the rules file.** Where it asks you to label each sentence and the draft is long, label paragraphs first, then label sentences only in the paragraphs where a check finds a problem. Keep every question for the author for the end of the review (see *How to present a review*), rather than stopping at each one.
 3. **Cite the rule behind every proposed change**, by file and number (for example, "introduction, rule 7").
 4. **Keep the author's content.** Keep the author's claims, data and citations. Never invent findings, gaps, references, figures or evaluations; where a rule needs content the draft does not have, ask the author for it.
 5. **Finish with the rules file's checklist.**
@@ -84,34 +87,4 @@ Read only the files the task needs.
 
 ## Sources
 
-| Short form | Work | Used in |
-|---|---|---|
-| Swales 1990 | *Genre Analysis: English in Academic and Research Settings*. Cambridge University Press. | `rules/introduction.md` |
-| Swales 2004 | *Research Genres: Explorations and Applications*. Cambridge University Press. | `rules/introduction.md` |
-| Swales & Feak 1994 | *Academic Writing for Graduate Students* (AWG), 1st ed. University of Michigan Press. | `rules/introduction.md` |
-| Swales & Feak 2012 | *Academic Writing for Graduate Students*, 3rd ed. University of Michigan Press. | `rules/introduction.md` |
-| Feak & Swales 2009 | *Telling a Research Story: Writing a Literature Review*. University of Michigan Press. | `rules/literature-review.md` |
-| Feak & Swales 2011 | *Creating Contexts: Writing Introductions across Genres*. University of Michigan Press. | `rules/introduction.md` (scope note) |
-| Swales 1990, 2004; AWG (Methods) | Swales's and Swales & Feak's accounts of Methods sections. Cited as reported in open sources. | `rules/methods.md` |
-| Swales 2008 | Variation in methods sections of research articles. Talk abstract, METM08. | `rules/methods.md` |
-| CHL 2017 | Cotos, E., Huffman, S., & Link, S. A move/step model for methods sections. *English for Specific Purposes* 46. Accepted manuscript. | `rules/methods-structure.md` |
-| CHL 2015 | Cotos, E., Huffman, S., & Link, S. Furthering and applying move/step constructs. *Journal of English for Academic Purposes* 19. Accepted manuscript. | `rules/results.md` |
-| M&S 2018 (MS) | Moreno, A. I., & Swales, J. M. Strengthening move analysis methodology towards bridging the function-form gap. *English for Specific Purposes*, 50, 40–63. Authors' preprint. | `rules/discussion.md` |
-| Hyland 2010 | Metadiscourse: Mapping interactions in academic writing. *Nordic Journal of English Studies*, 9(2), 125–143. | `rules/claims.md` |
-| Hyland 2005 | Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112. | `rules/claims.md` |
-| Hyland 2017 (MS) | Metadiscourse: What is it and where is it going? *Journal of Pragmatics*, 113, 16–29. Author's manuscript. | `rules/claims.md` |
-| Hyland & Jiang 2023 (MS) | Talking to the literature: Stance taking in citing others' work. In R. Wette (Ed.), *Teaching and learning source-based writing*. Routledge. Authors' manuscript. | `rules/claims.md` |
-| G&S 1990 | Gopen, G. D., & Swan, J. A. The science of scientific writing. *American Scientist*, 78(6), 550–558. Cited by section. | `rules/sentences.md` |
-| H&H 1976 | Halliday, M. A. K., & Hasan, R. *Cohesion in English*. Longman. Cited as reported in open sources. | `rules/cohesion.md` |
-| Channell 1994 | Channell, J. *Vague Language*. Oxford University Press. Cited from its table of contents and as quoted in open sources. | `rules/vagueness.md` |
-| Halliday 1985, 1993 | Halliday, M. A. K. *An Introduction to Functional Grammar* (1985); "Some grammatical problems in scientific English", in Halliday & Martin, *Writing Science* (1993). Cited as reported in open sources. | `rules/unpacking.md` |
-| Grice | Grice, H. P. Logic and conversation (1975), in *Studies in the Way of Words* (1989). Cited as reported in open sources. | `rules/informativeness.md` |
-| EQUATOR | EQUATOR Network, key reporting guidelines and "What is a reporting guideline?". | `rules/reporting.md` |
-| Hyland 2000 | Hyland, K. *Disciplinary Discourses*. Longman. Cited as reported in an open source. | `rules/abstracts.md` |
-| Hyland 2023 | Hyland, K. Changing times; changing texts. WAC Clearinghouse, open access. | `rules/claims.md` (engagement) |
-| S&F 1995 | Swales, J. M., & Feak, C. B. From information transfer to data commentary. *The Journal of TESOL-France*. With AWG Unit 4, as reported in an open source. | `rules/data-commentary.md` |
-| H&Z 2022 | Hyland, K., & Zou, H. Titles in research articles. *Journal of English for Academic Purposes* 56. Open access. | `rules/titles.md` |
-| Toulmin 1958 | Toulmin, S. *The Uses of Argument*. Cambridge University Press. Cited as reported in open sources. | `rules/argument.md` |
-| B&R 2018 | Boutron, I., & Ravaud, P. Misrepresentation and distortion of research in biomedical literature. *PNAS*, 115(11), 2613–2619. Open access; cited by section. | `rules/spin.md` |
-
-Page numbers refer to these editions. Each rules file gives its own citation conventions and lists its reporting sources.
+Each rules file lists its sources, and how it cites them, at its end. The README lists every work the skill draws on.

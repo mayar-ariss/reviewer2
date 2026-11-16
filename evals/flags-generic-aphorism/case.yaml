@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: flags-generic-aphorism
+expected_outcome: |
+  The review treats the sentence as an introduction opening and finds that it says little:
+  it names no event, no quantity and no hydraulic property, and states something no reader
+  would dispute. It cites rules from the introduction, informativeness, vagueness and/or
+  unpacking files by file and number, and asks the author for the specific events,
+  quantities or properties meant instead of inventing them.

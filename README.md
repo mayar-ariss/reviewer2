@@ -10,7 +10,7 @@ Works with Claude Code, Cursor, Codex, GitHub Copilot, Gemini CLI and any agent 
 
 ## What it does
 
-The skill keeps one rules file per part of the text, plus files for checks that apply to any part, and each file draws on a single authority. `SKILL.md` tells the agent which file to read for the task.
+The skill keeps one rules file per part of the text, plus files for checks that apply to any part, and each file draws on a single authority. `SKILL.md` tells the agent which file to read for the task, and `rules/index.md` lists every rule in one line so the agent can choose its checks before opening the files. Each rules file puts its procedure and rules first and its sources at the end.
 
 | Part or check | File | Authority |
 |---|---|---|
@@ -147,6 +147,12 @@ Once installed, ask your agent the way you normally would:
 - *"Review my whole manuscript, and check that the sections agree with each other."*
 - *"Does my abstract actually state the findings?"*
 - *"Lay out the argument behind my main conclusion. Which warrants would a reviewer question?"*
+
+## Tests
+
+`evals/` holds test cases, one folder per case: a prompt a user might send, a description of a good review, and statements a grader checks (for example, that the review cites the rule it applies by file and number, invents no figures, and does not apply the health-research checks to an engineering paper). They use the layout that `claude plugin eval` reads, so they can be run with and without the skill to compare.
+
+After changing a rule heading, rebuild the index with `python3 scripts/build_index.py`.
 
 ## Faithful to its sources
 
