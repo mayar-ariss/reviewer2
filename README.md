@@ -155,7 +155,7 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 ## Planned
 
 - **Research proposals and whole theses:** the moves of a research or grant proposal, and the organization of a thesis across chapters
-- **Verification:** check page numbers taken from open texts and secondary sources against the original works, starting with the Methods table in `rules/methods.md`
+- **Verification:** check page numbers taken from open texts and secondary sources against the original works. Done so far from open sources: part of the Methods table (Bloor 2004), Channell (her 1983 thesis), Hyland's abstract model (two further studies) and the definition of explicating results (two of the framework's authors). Still single-source: the Methods table's rows on subsections, verbs per clause, "how" statements and linking phrases; Halliday and Hasan's page numbers in `rules/cohesion.md`; the data commentary guidance on graphs
 
 ## Based on
 
