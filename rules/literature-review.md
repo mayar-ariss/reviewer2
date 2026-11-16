@@ -130,6 +130,8 @@ Good writers of reviews vary both their citation patterns and their reporting ve
 
 A citation can be ambiguous about whether the cited author claimed something or actually found or did it; one editor in their field refused to accept such "hanging" citations (p. 56). The risk is greatest in number systems with references placed at the ends of sentences (p. 56). Where a reader cannot tell which claim goes with which source, or whether a source is research or commentary, rewrite so the intended meaning is clear (pp. 56–58).
 
+- For what each reporting verb commits the writer to, see `rules/claims.md`, rule 9.
+
 ### 13. Take a stance toward the literature, and balance description with evaluation
 
 *Source: F&S, pp. 66–73, 95.*
@@ -193,4 +195,14 @@ They give no fixed length for a review, no number of sources, and no single requ
 ## Validation checklist
 
 - [ ] The questions in rule 16 were answered
+
+*Added by this skill, for rules the closing questions do not cover:*
+
+- [ ] The review's purpose for this research is clear (rule 1)
+- [ ] The weaknesses advisors report were checked (rule 3)
+- [ ] The review has an introduction, a body and a conclusion (rule 6)
+- [ ] Sections are linked so the information flows (rule 8)
+- [ ] Each source is brought in in a way that fits its role (rule 9)
+- [ ] The research story is told in the writer's own words (rule 14)
+- [ ] Paraphrases and summaries work from the points, not the sentences (rule 15)
 - [ ] No reference, finding or evaluation was invented
