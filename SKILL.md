@@ -51,7 +51,13 @@ This skill reviews and revises parts of a research article, and the matching cha
 
 Read only the files the task needs.
 
-- **Full review** of a title, abstract, introduction, literature review, Methods, Results or Discussion: apply its file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/data-commentary.md` (for sections that comment on figures or tables), `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/cohesion.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`.
+- **Full review** of a title, abstract, introduction, literature review, Methods, Results or Discussion: read the draft once and note the problems most visible in it; apply the section's file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/data-commentary.md` (for sections that comment on figures or tables), `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/cohesion.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`. Run first the checks that address the problems you noted, then the rest in this order.
+- **Whole manuscript:** review each section in the paper's order, as a full review, then check the sections against each other:
+  - any result the title states is supported by the paper (`rules/titles.md`, rule 4);
+  - every finding in the abstract appears in the Results (`rules/abstracts.md`, rule 5);
+  - each question, hypothesis or purpose set out in the introduction (`rules/introduction.md`, rule 9) has its results reported (`rules/results.md`, rule 1);
+  - the Discussion restates and interprets the results the Results section reports, and each of its main claims rests on them (`rules/discussion.md`, rules 5–6; `rules/argument.md`, rule 1);
+  - each figure and table supports a claim (`rules/argument.md`, rule 6), and their number has been compared with the target journal (`rules/data-commentary.md`, procedure).
 - **Quick review:** apply the section file, then only the two or three checks that address the problems most visible in the draft, and say which checks were not run.
 
 **Parts this skill does not cover yet:** the structure of a whole thesis and of a research proposal, apart from the checks for any part. If the user asks about one of these, say that this skill has no rules for its structure. Do not stretch the rules above to cover it, and do not supply rules of your own.
@@ -65,6 +71,16 @@ Read only the files the task needs.
 3. **Cite the rule behind every proposed change**, by file and number (for example, "introduction, rule 7").
 4. **Keep the author's content.** Keep the author's claims, data and citations. Never invent findings, gaps, references, figures or evaluations; where a rule needs content the draft does not have, ask the author for it.
 5. **Finish with the rules file's checklist.**
+
+## How to present a review
+
+*Procedure for this skill, not a rule from any authority.*
+
+1. **Group findings by passage**, not by rules file, so the author sees everything about one sentence or paragraph in one place.
+2. **Merge findings that make the same point.** Where several files flag the same problem (for example, a claim stronger than its data, flagged by the claims, argument and data commentary files), report it once and cite every rule behind it.
+3. **Order by consequence:** problems of structure and argument first (missing moves, unsupported claims, results that do not answer the questions), then interpretation and stance, then sentences and words.
+4. **Separate what to change from what to ask.** List proposed revisions apart from the questions only the author can answer: missing content, intended referents, explanations.
+5. **Say what was not covered:** the checks not run, and any part of the draft this skill has no rules for.
 
 ## Sources
 
