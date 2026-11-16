@@ -144,6 +144,7 @@ Once installed, ask your agent the way you normally would:
 - *"Are there sentences in my Discussion that just state the obvious?"*
 - *"Check my clinical paper's abstract for spin."*
 - *"Give my Discussion a quick review."*
+- *"Review my whole manuscript, and check that the sections agree with each other."*
 - *"Does my abstract actually state the findings?"*
 - *"Lay out the argument behind my main conclusion. Which warrants would a reviewer question?"*
 
