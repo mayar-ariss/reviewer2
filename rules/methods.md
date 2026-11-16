@@ -20,9 +20,10 @@ Each rule cites these works as reported by:
 | Bruce | Bruce, I. (2008). Cognitive genre structures in Methods sections of research articles: A corpus study. *Journal of English for Academic Purposes*, 7(1), 38–54. Abstract: https://researchcommons.waikato.ac.nz/handle/10289/8280 |
 | Enago | Enago Academy (2016). Importance of the "Methods" section in academic papers. Table 1, credited to AWG: https://www.enago.com/academy/importance-methods-section-academic-papers/ |
 | SUU | Graduate Writing Center, Southern Utah University. Handout on drafting a Methods section, citing AWG p. 224: https://www.suu.edu/writingcenter/graduate/pdf/drafting-a-methods-section.pdf |
+| Bloor | Bloor, M. (2004). Towards a systemic functional model for comparing forms of discourse in academic writing. *Ilha do Desterro*, 46, 83–114. Open access (CC BY): https://periodicos.ufsc.br/index.php/desterro/article/view/7389 Reports AWG (1994), p. 165. |
 | Marcuzzo | Marcuzzo, P. (2010). Uma análise da seção de metodologia de relatos de pesquisa em Linguística Aplicada. *The ESPecialist*, 31(2), 121–143: https://revistas.pucsp.br/index.php/esp/article/download/7165/6516/21345 |
 
-**A caution on rules 3–7.** These rules rest on a single reproduction of Swales and Feak's condensed–extended table (Enago, which gives no edition or page). No second open source for the table was found. Check the table against *Academic Writing for Graduate Students* before relying on these rules for anything beyond a first pass.
+**How well the table is sourced.** The table comes from one reproduction (Enago, which gives no edition or page). Bloor (2004) independently reports part of the same account from AWG (1994, p. 165): extended sections are explicit about details and procedures and give justifications, explanations and sometimes examples, while condensed sections omit explanation because standard methods are widely available. The rows on background, definitions and examples, and justifications (rules 2, 3 and 6) therefore have two sources. The rows on named subsections, verbs per clause, "how" statements and linking phrases (rules 4, 5 and 7) rest on Enago alone; treat them as first-pass checks until the table is checked against *Academic Writing for Graduate Students*.
 
 For what a Methods section must report, as distinct from how it is written, see `rules/reporting.md` (health research only). For which functions it performs and in what order, see `rules/methods-structure.md`.
 
@@ -55,25 +56,25 @@ Swales and Feak contrast condensed and extended Methods sections (AWG, Table 1, 
 
 ### 1. Place the section on the condensed–extended range the field expects
 
-*Source: AWG (Bruce; SUU, citing p. 224; Enago); Swales 2008.*
+*Source: AWG (Bruce; SUU, citing p. 224; Bloor, citing 1994 p. 165; Enago); Swales 2008.*
 
-In Bruce's account of AWG, Swales and Feak describe Methods sections in the social sciences as tending to be slow, or extended, and those in the physical sciences, such as medicine, as tending to be fast, or compressed; the metaphors refer to how much detail the section gives in describing and justifying the design and process (Bruce). Methods sections vary in how much information and explanation they contain (AWG, p. 224, as cited by SUU). The condensed approach suits fields where standard methods are widely available, such as the natural sciences, engineering and parts of medical research; the extended approach suits many social sciences (Enago). Swales argues that it is in Methods sections that research articles vary most across disciplines (Swales 2008).
+In Bruce's account of AWG, Swales and Feak describe Methods sections in the social sciences as tending to be slow, or extended, and those in the physical sciences, such as medicine, as tending to be fast, or compressed; the metaphors refer to how much detail the section gives in describing and justifying the design and process (Bruce). Methods sections vary in how much information and explanation they contain (AWG, p. 224, as cited by SUU). In Bloor's report of the 1994 edition, Swales and Feak place Methods sections on a cline from slow through fairly slow and fairly fast to fast, with the sciences at the fast end (Bloor, p. 88). The condensed approach suits fields where standard methods are widely available, such as the natural sciences, engineering and parts of medical research; the extended approach suits many social sciences (Enago). Swales argues that it is in Methods sections that research articles vary most across disciplines (Swales 2008).
 
 - Decide first how condensed or extended the target journal's Methods sections are, and judge the draft against that, not against a single standard.
 
 ### 2. Assume only the background your readers have
 
-*Source: AWG, Table 1 (Enago); Swales 1990, pp. 167, 169 (Marcuzzo); Swales 2004, p. 220 (Marcuzzo).*
+*Source: AWG, Table 1 (Enago); AWG 1994, p. 165 (Bloor, p. 88); Swales 1990, pp. 167, 169 (Marcuzzo); Swales 2004, p. 220 (Marcuzzo).*
 
-A condensed section assumes background knowledge; an extended one sees a need to provide it (AWG, Table 1). Swales reports that in biochemistry, biology and medicine, methods are often named rather than described (1990, p. 167), so the Methods section in these fields tends to be enigmatic, relies on the reader's prior knowledge and is not designed for easy replication (1990, p. 169, as reported by Marcuzzo). He describes Methods sections as synthetic texts that presuppose the reader's knowledge of the methodology (2004, p. 220, as reported by Marcuzzo).
+A condensed section assumes background knowledge; an extended one sees a need to provide it (AWG, Table 1). Swales and Feak explain the lack of explanation in the sciences by the wide availability of standard practices and established methods (AWG 1994, p. 165, as reported by Bloor, p. 88). Swales reports that in biochemistry, biology and medicine, methods are often named rather than described (1990, p. 167), so the Methods section in these fields tends to be enigmatic, relies on the reader's prior knowledge and is not designed for easy replication (1990, p. 169, as reported by Marcuzzo). He describes Methods sections as synthetic texts that presuppose the reader's knowledge of the methodology (2004, p. 220, as reported by Marcuzzo).
 
 - Ask who will read the section. Where readers may come from outside the specialism, check that each named procedure is described or can be found.
 
 ### 3. Choose between shorthand and description
 
-*Source: AWG, Table 1 (Enago).*
+*Source: AWG, Table 1 (Enago); AWG 1994, p. 165 (Bloor, p. 88).*
 
-Condensed sections use acronyms and citations as shorthand for procedures; extended sections use descriptions. Condensed sections give few definitions and examples; extended sections give more (AWG, Table 1).
+Condensed sections use acronyms and citations as shorthand for procedures; extended sections use descriptions. Condensed sections give few definitions and examples; extended sections give more (AWG, Table 1), including, sometimes, examples (AWG 1994, p. 165, as reported by Bloor, p. 88).
 
 - For each acronym and each "as described in [citation]", decide whether the target readership can follow it, and ask the author to describe or define where it cannot.
 
@@ -95,9 +96,9 @@ Condensed sections run a series of verbs together and make few *by* + *-ing* sta
 
 ### 6. Justify choices in proportion to how extended the section is
 
-*Source: AWG, Table 1 (Enago); Bruce.*
+*Source: AWG, Table 1 (Enago); AWG 1994, p. 165 (Bloor, p. 88); Bruce.*
 
-Condensed sections give few justifications; extended sections give several, often as initial purpose clauses (AWG, Table 1). Justifying the design and process is part of what makes a section extended (Bruce).
+Condensed sections give few justifications; extended sections give several, often as initial purpose clauses (AWG, Table 1). Bloor reports the same contrast from the 1994 edition: slow sections give justifications and explanations (p. 88). Justifying the design and process is part of what makes a section extended (Bruce).
 
 - In an extended section, check that each non-obvious choice says why it was made, for example with an opening purpose clause (*To test whether…*, *In order to…*).
 - Ask the author for the reason; do not supply one.
