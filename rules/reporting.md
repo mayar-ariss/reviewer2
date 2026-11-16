@@ -75,6 +75,7 @@ Reporting guidelines say what to report; the EQUATOR pages used here say nothing
 
 ## Validation checklist
 
+- [ ] The guideline was used as the minimum to report, not as a ceiling (rule 1)
 - [ ] The study design was identified, with the author if needed (rule 2)
 - [ ] The matching guideline, and any better-fitting extension, was named (rule 2)
 - [ ] Each checklist item was checked against the draft, with its location recorded (rule 3)
