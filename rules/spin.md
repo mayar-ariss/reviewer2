@@ -4,13 +4,7 @@ Load this file when the user wants a draft checked for spin: reporting that make
 
 **Every rule below is Boutron and Ravaud's.** Their review is open access and was read in full; rules cite it by section. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Source and how it is cited
-
-| Short form | Work |
-|---|---|
-| B&R 2018 | Boutron, I., & Ravaud, P. (2018). Misrepresentation and distortion of research in biomedical literature. *Proceedings of the National Academy of Sciences*, 115(11), 2613–2619. https://doi.org/10.1073/pnas.1710755115 (open access: https://pmc.ncbi.nlm.nih.gov/articles/PMC5856510/) |
-
-Rules cite the review's section headings. Boutron and Ravaud base the review on a literature search and their own collection of studies on spin, and limit it to biomedicine ("Methods").
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -114,3 +108,11 @@ The review covers biomedicine; its prevalence figures come from specific bodies 
 - [ ] Rhetorical claims of priority, strength and dismissal were flagged (rule 5)
 - [ ] The abstract's conclusions were checked sentence by sentence against the Results (rules 6–7)
 - [ ] Instances were raised as questions; no intent was attributed and no result was rewritten
+
+## Source and how it is cited
+
+| Short form | Work |
+|---|---|
+| B&R 2018 | Boutron, I., & Ravaud, P. (2018). Misrepresentation and distortion of research in biomedical literature. *Proceedings of the National Academy of Sciences*, 115(11), 2613–2619. https://doi.org/10.1073/pnas.1710755115 (open access: https://pmc.ncbi.nlm.nih.gov/articles/PMC5856510/) |
+
+Rules cite the review's section headings. Boutron and Ravaud base the review on a literature search and their own collection of studies on spin, and limit it to biomedicine ("Methods").

@@ -4,19 +4,7 @@ Load this file when the user wants a draft checked for sentences that are hard t
 
 **Every rule below is Halliday's.** His books were not available to check, so rules cite them as reported in named open sources. Where he gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| Halliday 1985 | Halliday, M. A. K. (1985). *An Introduction to Functional Grammar*. London: Edward Arnold. |
-| Halliday 1993 | Halliday, M. A. K. (1993). Some grammatical problems in scientific English. In M. A. K. Halliday & J. R. Martin, *Writing Science: Literacy and Discursive Power* (ch. 4, pp. 69–85). London: Falmer. First published 1989 in *Australian Review of Applied Linguistics*, Series S, 6, 13–37. |
-
-Each rule cites Halliday with the page the reporting source gives, followed by that source:
-
-| Reporting source | Work |
-|---|---|
-| Randaccio | Randaccio, M. (2004). Language change in scientific discourse. *JCOM*, 3(2): https://jcom.sissa.it/article/97/galley/137/download |
-| Washitake | Washitake, M. Toward academic reading (I): From general reading to research papers in cell biology. Aichi Gakuin University: https://agu.repo.nii.ac.jp/record/2637 |
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -109,3 +97,17 @@ Halliday describes how scientific English works and why it is hard; in the sourc
 - [ ] Ambiguous nominalized phrases were raised with the author (rule 6)
 - [ ] Difficulty was diagnosed against the seven problems before changes were proposed (rule 7)
 - [ ] No participant, process, relation or figure was invented
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| Halliday 1985 | Halliday, M. A. K. (1985). *An Introduction to Functional Grammar*. London: Edward Arnold. |
+| Halliday 1993 | Halliday, M. A. K. (1993). Some grammatical problems in scientific English. In M. A. K. Halliday & J. R. Martin, *Writing Science: Literacy and Discursive Power* (ch. 4, pp. 69–85). London: Falmer. First published 1989 in *Australian Review of Applied Linguistics*, Series S, 6, 13–37. |
+
+Each rule cites Halliday with the page the reporting source gives, followed by that source:
+
+| Reporting source | Work |
+|---|---|
+| Randaccio | Randaccio, M. (2004). Language change in scientific discourse. *JCOM*, 3(2): https://jcom.sissa.it/article/97/galley/137/download |
+| Washitake | Washitake, M. Toward academic reading (I): From general reading to research papers in cell biology. Aichi Gakuin University: https://agu.repo.nii.ac.jp/record/2637 |

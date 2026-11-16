@@ -4,13 +4,7 @@ Load this file when the user wants to check what a Methods section contains and 
 
 **Every rule below is Cotos, Huffman and Link's.** Rules cite the authors' accepted manuscript by section, because the manuscript's page numbers differ from the journal's. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| CHL 2017 | Cotos, E., Huffman, S., & Link, S. (2017). A move/step model for methods sections: Demonstrating rigour and credibility. *English for Specific Purposes*, 46, 90–106. https://doi.org/10.1016/j.esp.2017.01.001 Cited from the accepted manuscript, Iowa State University Digital Repository (CC BY-NC-ND 4.0): https://dr.lib.iastate.edu/entities/publication/c038e897-339f-4815-8631-f5e6b8db8443 |
-
-The model was built from the Methods sections of 900 research articles, 30 from each of 30 disciplines, in the tradition of Swales's genre analysis; its name echoes Swales's CARS model for introductions (CHL 2017, abstract and §4.1). Disciplinary experts reviewed the model, and three annotators coded the corpus with high agreement (§3.2).
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How this file relates to the other Methods files
 
@@ -110,3 +104,11 @@ The authors give no rule on the wording of headings or subheadings; they note on
 - [ ] Each rationale sits with its decision (rule 4)
 - [ ] Observations the findings rest on are in Results, not Methods (rule 5)
 - [ ] No setting, data, tool, variable or rationale was invented
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| CHL 2017 | Cotos, E., Huffman, S., & Link, S. (2017). A move/step model for methods sections: Demonstrating rigour and credibility. *English for Specific Purposes*, 46, 90–106. https://doi.org/10.1016/j.esp.2017.01.001 Cited from the accepted manuscript, Iowa State University Digital Repository (CC BY-NC-ND 4.0): https://dr.lib.iastate.edu/entities/publication/c038e897-339f-4815-8631-f5e6b8db8443 |
+
+The model was built from the Methods sections of 900 research articles, 30 from each of 30 disciplines, in the tradition of Swales's genre analysis; its name echoes Swales's CARS model for introductions (CHL 2017, abstract and §4.1). Disciplinary experts reviewed the model, and three annotators coded the corpus with high agreement (§3.2).

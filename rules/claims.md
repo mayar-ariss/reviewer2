@@ -4,19 +4,9 @@ Load this file when the user wants the claims in a draft checked: how strongly e
 
 **Every rule below is Hyland's.** Each names its source by work and page. Where Hyland gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| Hyland 2010 | Hyland, K. (2010). Metadiscourse: Mapping interactions in academic writing. *Nordic Journal of English Studies*, 9(2), 125–143. Open access. Corpus of 240 masters and doctoral dissertations by L2 writers in Hong Kong. |
-| Hyland 2005 | Hyland, K. (2005). Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112. Open access. |
-| Hyland 2017 (MS) | Hyland, K. (2017). Metadiscourse: What is it and where is it going? *Journal of Pragmatics*, 113, 16–29. Cited from the author's accepted manuscript; page numbers are the manuscript's. |
-| Hyland & Jiang 2023 (MS) | Hyland, K., & Jiang, F. K. (2023). Talking to the literature: Stance taking in citing others' work. In R. Wette (Ed.), *Teaching and learning source-based writing*. Routledge. Cited from the authors' manuscript; page numbers are the manuscript's. |
-| Hyland 2023 | Hyland, K. (2023). Changing times; changing texts. Chapter 3 (pp. 79–100), WAC Clearinghouse, open access. https://doi.org/10.37514/PER-B.2023.1800.2.03 Corpus of research articles in four disciplines, 1965–2015. |
-
-Hyland's fuller treatments, *Hedging in Scientific Research Articles* (1998), *Metadiscourse* (2005) and "Stance and engagement: A model of interaction in academic discourse" (*Discourse Studies*, 2005), are not cited here by page, because they were not available to check. Page numbers were read from the open texts above; check them against your copies before a release.
-
 For stance in a literature review, `rules/literature-review.md` rule 13 gives Feak and Swales's account, which draws on Hyland.
+
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -219,3 +209,15 @@ The sources cited here describe practice; they do not prescribe it. Hyland gives
 - [ ] Presumed shared knowledge and agreement were checked (rule 12)
 - [ ] Engagement fits the field and the journal (rule 13)
 - [ ] No evidence, source or finding was invented; what the draft lacks was requested from the author
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| Hyland 2010 | Hyland, K. (2010). Metadiscourse: Mapping interactions in academic writing. *Nordic Journal of English Studies*, 9(2), 125–143. Open access. Corpus of 240 masters and doctoral dissertations by L2 writers in Hong Kong. |
+| Hyland 2005 | Hyland, K. (2005). Prudence, precision, and politeness: Hedges in academic writing. *Quaderns de Filologia. Estudis Lingüístics*, X, 99–112. Open access. |
+| Hyland 2017 (MS) | Hyland, K. (2017). Metadiscourse: What is it and where is it going? *Journal of Pragmatics*, 113, 16–29. Cited from the author's accepted manuscript; page numbers are the manuscript's. |
+| Hyland & Jiang 2023 (MS) | Hyland, K., & Jiang, F. K. (2023). Talking to the literature: Stance taking in citing others' work. In R. Wette (Ed.), *Teaching and learning source-based writing*. Routledge. Cited from the authors' manuscript; page numbers are the manuscript's. |
+| Hyland 2023 | Hyland, K. (2023). Changing times; changing texts. Chapter 3 (pp. 79–100), WAC Clearinghouse, open access. https://doi.org/10.37514/PER-B.2023.1800.2.03 Corpus of research articles in four disciplines, 1965–2015. |
+
+Hyland's fuller treatments, *Hedging in Scientific Research Articles* (1998), *Metadiscourse* (2005) and "Stance and engagement: A model of interaction in academic discourse" (*Discourse Studies*, 2005), are not cited here by page, because they were not available to check. Page numbers were read from the open texts above; check them against your copies before a release.

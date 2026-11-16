@@ -4,15 +4,9 @@ Load this file when the user is writing or revising the Discussion of an empiric
 
 **Every rule below is Moreno and Swales's.** Each names its source by page. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Source and how it is cited
-
-| Short form | Work |
-|---|---|
-| M&S 2018 (MS) | Moreno, A. I., & Swales, J. M. (2018). Strengthening move analysis methodology towards bridging the function-form gap. *English for Specific Purposes*, 50, 40–63. Cited from the authors' preprint; page numbers are the preprint's. |
-
-The scheme comes from the ENEIDA project's analysis of 32 matched pairs of empirical research articles published in 2000–2010, one of each pair in an English-medium international journal and one in a Spanish-medium journal, across the life sciences, health sciences, social sciences and other natural sciences (pp. 15–16). It does not cover history (p. 28). Page numbers were read from the open preprint; check them against the published version before a release.
-
 For the strength of the claims in a Discussion, apply `rules/claims.md` after this file.
+
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -153,3 +147,11 @@ They do not specify which moves or steps are obligatory. The steps in their tabl
 - [ ] Labels rest on function in context, not on signal words alone (rule 9)
 - [ ] The draft has been compared with Discussions of the same study type in the target journal (rule 10)
 - [ ] No explanation, comparison, limitation or implication was invented; what the draft lacks was requested from the author
+
+## Source and how it is cited
+
+| Short form | Work |
+|---|---|
+| M&S 2018 (MS) | Moreno, A. I., & Swales, J. M. (2018). Strengthening move analysis methodology towards bridging the function-form gap. *English for Specific Purposes*, 50, 40–63. Cited from the authors' preprint; page numbers are the preprint's. |
+
+The scheme comes from the ENEIDA project's analysis of 32 matched pairs of empirical research articles published in 2000–2010, one of each pair in an English-medium international journal and one in a Spanish-medium journal, across the life sciences, health sciences, social sciences and other natural sciences (pp. 15–16). It does not cover history (p. 28). Page numbers were read from the open preprint; check them against the published version before a release.

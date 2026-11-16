@@ -6,18 +6,7 @@ Load this file when the user is writing or revising the introduction of a resear
 
 **Every rule below is Swales's.** Each names its source by work and page. Where Swales gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| Swales 1990 | *Genre Analysis: English in Academic and Research Settings*. Cambridge University Press. Presents the CARS model. |
-| Swales 2004 | *Research Genres: Explorations and Applications*. Cambridge University Press. Revises the model. |
-| Swales & Feak 1994 | *Academic Writing for Graduate Students* (AWG), 1st ed. University of Michigan Press. Unit 8. |
-| Swales & Feak 2012 | *Academic Writing for Graduate Students*, 3rd ed. University of Michigan Press. Unit 8 (pp. 327–363). |
-| Feak & Swales 2009 | *Telling a Research Story: Writing a Literature Review*. University of Michigan Press. Used in `rules/literature-review.md`. |
-| Feak & Swales 2011 | *Creating Contexts: Writing Introductions across Genres*. University of Michigan Press. |
-
-Page numbers refer to these editions. Where the same guidance appears in both editions of AWG, both are cited.
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -146,6 +135,8 @@ Not every Move 2 needs an obvious gap (1994, p. 189):
 
 Swales notes that in longer introductions Move 1 and Move 2 can recur in cycles rather than occurring once each. A cycle still follows the pattern: territory, then niche.
 
+- Do not flag a recurrence of Moves 1 and 2 in a long introduction as a fault. Check that each cycle runs territory, then niche.
+
 ### 9. Move 3: open with a purposive or descriptive statement that points to the present text
 
 *Source: Swales & Feak 1994, p. 191; Swales 2004, p. 232; Swales 1990, p. 159.*
@@ -153,6 +144,8 @@ Swales notes that in longer introductions Move 1 and Move 2 can recur in cycles 
 Move 3 turns the niche into the space the present paper occupies (1990, p. 159). Its first element is obligatory and has two variants: **purposive**, stating the main purpose or purposes, or **descriptive**, describing the main feature of the research (1994, p. 191; 2004, Step 1, p. 232).
 
 Move 3 is usually signalled by a reference to the present text: *this*, *the present*, *reported*, *here*. These signals come early in the sentence. Where the field or journal allows, writers may switch from impersonal to personal *we* (1994, p. 191).
+
+- Check that Move 3 opens with a purposive or a descriptive statement, signalled early by a reference to the present text, and flag a Move 3 that opens with anything else.
 
 ### 10. Tense in the purpose statement follows what you name
 
@@ -210,3 +203,16 @@ Swales gives no fixed length for an introduction or for each move, beyond noting
 - [ ] Optional Move 3 elements are included only where the field or paper needs them (rule 11)
 - [ ] The move pattern has been compared with recent introductions in the target journal (rule 12)
 - [ ] No claim, gap, finding or citation was invented; content the draft lacks was requested from the author
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| Swales 1990 | *Genre Analysis: English in Academic and Research Settings*. Cambridge University Press. Presents the CARS model. |
+| Swales 2004 | *Research Genres: Explorations and Applications*. Cambridge University Press. Revises the model. |
+| Swales & Feak 1994 | *Academic Writing for Graduate Students* (AWG), 1st ed. University of Michigan Press. Unit 8. |
+| Swales & Feak 2012 | *Academic Writing for Graduate Students*, 3rd ed. University of Michigan Press. Unit 8 (pp. 327–363). |
+| Feak & Swales 2009 | *Telling a Research Story: Writing a Literature Review*. University of Michigan Press. Used in `rules/literature-review.md`. |
+| Feak & Swales 2011 | *Creating Contexts: Writing Introductions across Genres*. University of Michigan Press. |
+
+Page numbers refer to these editions. Where the same guidance appears in both editions of AWG, both are cited.

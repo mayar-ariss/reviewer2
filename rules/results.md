@@ -4,14 +4,7 @@ Load this file when the user is writing or revising the Results section of an em
 
 **Every rule below is Cotos, Huffman and Link's.** Rules cite the authors' accepted manuscript by section, because the manuscript's page numbers differ from the journal's. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| CHL 2015 | Cotos, E., Huffman, S., & Link, S. (2015). Furthering and applying move/step constructs: Technology-driven marshalling of Swalesian genre theory for EAP pedagogy. *Journal of English for Academic Purposes*, 19, 52–72. https://doi.org/10.1016/j.jeap.2015.05.004 Cited from the accepted manuscript, Iowa State University Digital Repository: https://dr.lib.iastate.edu/entities/publication/28d99fb0-7668-4470-8a86-6141785c264b |
-| HCB 2023 | Huffman, S., Cotos, E., & Becker, K. (2023). *Preparing to Publish*, ch. 5, "Writing the Results Section." Iowa State University Digital Press, open textbook (CC BY-NC-SA 4.0): https://iastate.pressbooks.pub/preparingtopublish/ Written by two of the framework's authors; cited only for step definitions the 2015 article does not give. |
-
-The framework comes from a corpus of 900 empirical research articles, 30 from each of 30 disciplines, published in 2009–2011 in high-impact peer-reviewed journals recommended by disciplinary experts; three coders annotated it with high agreement (CHL 2015, §2.1.1–2.1.2). It follows Swales's metaphorical approach to research article discourse (§2.2.1). The same authors' full account of Methods sections is the basis of `rules/methods-structure.md`.
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -120,3 +113,12 @@ The article presents the framework with step names and frequency findings, but d
 - [ ] Each comment's step is identifiable; explanations are offered as possible reasons (rule 5)
 - [ ] The order of moves fits the field and the study (rule 6)
 - [ ] No result, comparison, explanation or limitation was invented
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| CHL 2015 | Cotos, E., Huffman, S., & Link, S. (2015). Furthering and applying move/step constructs: Technology-driven marshalling of Swalesian genre theory for EAP pedagogy. *Journal of English for Academic Purposes*, 19, 52–72. https://doi.org/10.1016/j.jeap.2015.05.004 Cited from the accepted manuscript, Iowa State University Digital Repository: https://dr.lib.iastate.edu/entities/publication/28d99fb0-7668-4470-8a86-6141785c264b |
+| HCB 2023 | Huffman, S., Cotos, E., & Becker, K. (2023). *Preparing to Publish*, ch. 5, "Writing the Results Section." Iowa State University Digital Press, open textbook (CC BY-NC-SA 4.0): https://iastate.pressbooks.pub/preparingtopublish/ Written by two of the framework's authors; cited only for step definitions the 2015 article does not give. |
+
+The framework comes from a corpus of 900 empirical research articles, 30 from each of 30 disciplines, published in 2009–2011 in high-impact peer-reviewed journals recommended by disciplinary experts; three coders annotated it with high agreement (CHL 2015, §2.1.1–2.1.2). It follows Swales's metaphorical approach to research article discourse (§2.2.1). The same authors' full account of Methods sections is the basis of `rules/methods-structure.md`.

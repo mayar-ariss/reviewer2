@@ -4,19 +4,7 @@ Load this file when the user wants a draft checked for sentences that tell the r
 
 **Every rule below is Grice's.** His essay was not available to check, so rules cite it as reported in named open sources. Grice wrote about conversation, not academic writing; where a rule applies his maxims to a research text, the file says so. Where he gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| Grice | Grice, H. P. (1975). Logic and conversation. Reprinted in Grice, H. P. (1989), *Studies in the Way of Words*. Cambridge, MA: Harvard University Press. Page numbers are those given by the reporting source. |
-
-Each rule cites Grice as reported by:
-
-| Reporting source | Work |
-|---|---|
-| SEP Grice | Warner, R. "Paul Grice." *Stanford Encyclopedia of Philosophy* (current and archived versions): https://plato.stanford.edu/entries/grice/ |
-| SEP Implicature | Davis, W. "Implicature." *Stanford Encyclopedia of Philosophy* (rev. 2024): https://plato.stanford.edu/entries/implicature/ |
-| Sider | Sider, T. "Grice on implicature." Philosophy of language teaching handout: https://tedsider.org/teaching/language/HO_Grice.pdf |
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -128,3 +116,17 @@ Grice describes conversation; he gives no rules for academic writing, says nothi
 - [ ] Obscure or ambiguous sentences, and words that add nothing, were flagged (rule 6)
 - [ ] Loose words for properties, general classes and abstract phrases were flagged, with candidate terms offered and the choice left to the author (rule 7)
 - [ ] No claim, figure, result or citation was invented
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| Grice | Grice, H. P. (1975). Logic and conversation. Reprinted in Grice, H. P. (1989), *Studies in the Way of Words*. Cambridge, MA: Harvard University Press. Page numbers are those given by the reporting source. |
+
+Each rule cites Grice as reported by:
+
+| Reporting source | Work |
+|---|---|
+| SEP Grice | Warner, R. "Paul Grice." *Stanford Encyclopedia of Philosophy* (current and archived versions): https://plato.stanford.edu/entries/grice/ |
+| SEP Implicature | Davis, W. "Implicature." *Stanford Encyclopedia of Philosophy* (rev. 2024): https://plato.stanford.edu/entries/implicature/ |
+| Sider | Sider, T. "Grice on implicature." Philosophy of language teaching handout: https://tedsider.org/teaching/language/HO_Grice.pdf |

@@ -4,20 +4,7 @@ Load this file when the user wants the argument of a draft checked: whether each
 
 **Every rule below is Toulmin's.** *The Uses of Argument* was not available to check, so rules cite it as quoted and explained in named open sources. Where Toulmin gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| Toulmin 1958 | Toulmin, S. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press. |
-
-Each rule cites Toulmin as reported by:
-
-| Reporting source | Work |
-|---|---|
-| Verheij | Verheij, B. (2001). Evaluating arguments based on Toulmin's scheme. OSSA Conference Archive, paper 115 (Ontario Society for the Study of Argumentation). Open access: https://core.ac.uk/download/72787777.pdf |
-| SEP | Dutilh Novaes, C. (2021). "Argument and argumentation." *Stanford Encyclopedia of Philosophy*: https://plato.stanford.edu/entries/argument/ |
-
-Toulmin set out to challenge the assumption that significant arguments can be fully captured in formal, deductive terms; his work helped give rise to informal logic, the study of everyday argument (SEP).
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -115,3 +102,18 @@ Toulmin gives no analogue of logical validity for evaluating arguments, and does
 - [ ] Exceptions to each main claim are stated, or the author was asked (rule 5)
 - [ ] Each figure and table supports a named claim, and each main claim's data are shown somewhere (rule 6)
 - [ ] No data, warrant, backing or exception was invented
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| Toulmin 1958 | Toulmin, S. (1958). *The Uses of Argument*. Cambridge: Cambridge University Press. |
+
+Each rule cites Toulmin as reported by:
+
+| Reporting source | Work |
+|---|---|
+| Verheij | Verheij, B. (2001). Evaluating arguments based on Toulmin's scheme. OSSA Conference Archive, paper 115 (Ontario Society for the Study of Argumentation). Open access: https://core.ac.uk/download/72787777.pdf |
+| SEP | Dutilh Novaes, C. (2021). "Argument and argumentation." *Stanford Encyclopedia of Philosophy*: https://plato.stanford.edu/entries/argument/ |
+
+Toulmin set out to challenge the assumption that significant arguments can be fully captured in formal, deductive terms; his work helped give rise to informal logic, the study of everyday argument (SEP).

@@ -2,15 +2,7 @@
 
 Load this file when the user is writing or revising a literature review: a review chapter in a thesis or dissertation, the literature review of a proposal, or the review of previous work inside a research article.
 
-## Source and how it is cited
-
-| Short form | Work |
-|---|---|
-| F&S | Feak, C. B., & Swales, J. M. (2009). *Telling a Research Story: Writing a Literature Review*. Ann Arbor: University of Michigan Press. |
-
-Every rule is drawn from this book and cited with page numbers. Where Feak and Swales report another researcher's finding (Hyland, Charles, Boote and Beile), the rule says so; the finding is theirs, the use of it is Feak and Swales's. Where Feak and Swales give no rule, this file says so rather than supplying one.
-
-The book covers student genres (review chapters, dissertation proposals, dissertations) most fully, and the review sections of research articles as well (F&S, p. xiv). For a review inside a research article introduction, apply this file together with rules 3–5 in `rules/introduction.md`.
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -29,11 +21,15 @@ The book covers student genres (review chapters, dissertation proposals, dissert
 
 Feak and Swales give three reasons for reviewing the literature: to avoid repeating work others have already done; to show how the present work is situated within, builds on, or departs from earlier work; and to show that the writer belongs to the field (p. 2). A review therefore organizes previous work in relation to the writer's own planned or actual research, and its priorities depend on that research (p. 6). They also present Swales's own account of citation: describing what has been done points to what has not, and so prepares a space for new research (p. 8).
 
+- Check that the review is organized around the writer's own research, not around the literature for its own sake, and that it shows where the present work fits in, builds on or departs from earlier work.
+
 ### 2. Make the review lead to the need for your research
 
 *Source: F&S, pp. 10, 19, 21.*
 
 A frequent criticism of reviews in article manuscripts is that the review does not contribute to the argumentative shape of the introduction: it does not lead to the conclusion that the new research is relevant (p. 10). One goal of a review is to make a point or answer a question, guiding the reader to see the need for the research the writer has done or intends to do (pp. 19, 21). A review is more than a listing of previous work; the choice of what to include and exclude establishes the context for the writer's contribution (p. 21).
+
+- Check that the review ends by making clear why the present research is needed, and flag passages that list previous work without contributing to that point.
 
 ### 3. Avoid the weaknesses advisors report
 
@@ -59,17 +55,24 @@ As a preparatory step they recommend a matrix, chart, tree diagram or table, or 
 
 Thematic organization does not mean abandoning chronology: within each category, time order can work well, especially when tracing the development of a concept or a technology (p. 18). The first grouping will rarely be the final one; papers chosen early may later be dropped (p. 18).
 
+- Name the category that organizes the review. Flag a review ordered only by date or by author, and ask which category fits the research question.
+- Within a category, chronological order is acceptable, especially for tracing how a concept or technology developed.
+
 ### 5. Say how the literature was selected, where the field expects it
 
 *Source: F&S, pp. 20, 26, 32.*
 
 Readers may expect particular work to appear in a review, and questions about what was left out can reach the dissertation defense (p. 26). So, depending on the field, the writer may need to explain how the papers were identified for inclusion (p. 26). An advisor's comment in Feak and Swales's case study asks for the selection criteria before the findings (p. 20). For doctoral candidates, who are not assumed to know the literature, Feak and Swales believe that clarifying how the literature was selected is a way to demonstrate command of it (p. 32). Systematic reviews, common in the health sciences, make their inclusion and exclusion criteria fully transparent (p. 3).
 
+- Where the field, the genre or the readers expect it (a dissertation, a systematic review), check that the review says how its sources were identified and selected; ask the author for the criteria.
+
 ### 6. Give the review an introduction, a body and a conclusion
 
 *Source: F&S, pp. 23, 41.*
 
 A typical review has an introduction, a body and a conclusion. The introduction may open with a general description of the topic and show that it is interesting, problematic or otherwise relevant; it may then establish that a review is valuable for understanding the research area; and at its end it clarifies the scope and overall organization of the review (p. 23). One way to begin the first paragraph is a generalization, accepted knowledge in the field, or widely known information (p. 23). At the end, the writer may recapitulate what the review has accomplished (p. 41).
+
+- Check that the review's introduction sets out its scope and organization, and that its end draws together what the review has shown.
 
 ### 7. Use metadiscourse to guide the reader, more in longer and more complex reviews
 
@@ -92,11 +95,15 @@ In a review it typically takes three forms: projections of what is coming, orien
 
 A challenge in a review is linking its sections so that the flow of information is smooth (p. 33). Feak and Swales's example closes one section by announcing the next and ends the following section the same way (pp. 33–35).
 
+- Check each boundary between sections: flag a section that ends without leading into the next.
+
 ### 9. Decide, for each source, how to bring it in
 
 *Source: F&S, pp. 43–45.*
 
 When referring to prior work, the writer decides whether to quote, paraphrase or summarize, and which studies to discuss as a group and which alone. The citation patterns themselves are limited by the field's style guide and further by disciplinary preference (p. 43). Feak and Swales report Hyland's (1999) study of eight disciplines: summary and paraphrase dominated everywhere, and no quotations at all appeared in the science and engineering papers studied (pp. 44–45).
+
+- For each source, check whether it is quoted, paraphrased or summarized, and whether it is discussed alone or with related work. In science and engineering, flag direct quotations and ask whether a paraphrase or summary would serve.
 
 ### 10. Use integral and non-integral citations for what each does
 
@@ -122,6 +129,8 @@ Feak and Swales offer only general guidelines, to be tested against writing in t
 
 Extensive reviews use all three, which adds variety (p. 52). Citing Charles (2006), they note that verbs of arguing, claiming and suggesting tend to take the present, and verbs of finding and showing the past (pp. 52–53). With verbs for what a researcher did, the past is by and large obligatory; with verbs for what a researcher wrote or thought, tense options exist, and moving from past toward present signals that the reported work is closer to the writer's own opinion, research or current knowledge (p. 53). The present is also used for famous or important sources (p. 54). Other patterns exist, such as *according to*, *as indicated by* and *in the view of* (p. 54).
 
+- For each citing sentence, identify what it reports (a single study, an area of inquiry, accepted knowledge) and check that the tense fits; test the result against reviews in the writer's field.
+
 ### 12. Vary reporting verbs, and make each citation's meaning unambiguous
 
 *Source: F&S, pp. 54–58.*
@@ -139,6 +148,8 @@ A citation can be ambiguous about whether the cited author claimed something or 
 In many fields readers expect to see the writer's own perspective on the research in the field: what the writer thinks about it, not only what the writer knows (p. 70). Stance shows in evaluative words and in caution: characterizing results as inconsistent or as having broad consensus, describing work as groundbreaking, hedging claims, and engaging the reader (pp. 70–72). Feak and Swales present Hyland's (2005) account of the elements that reveal stance: hedges, boosters, attitude markers and personal pronouns (p. 73).
 
 Their case study shows the limits. The advisor sends back a draft that is enthusiastic in tone, groups the studies by country without discussing any of them, and ends with a verdict beyond the writer's purpose (p. 66); the advisor is pleased with the revision, which discusses the studies, qualifies its generalizations and leads into the next section (pp. 67–69). Whether description and evaluation are balanced is one of their closing questions (p. 95).
+
+- Check that the review says what the writer makes of the work it describes, and that its evaluations are qualified where the evidence calls for it (see `rules/claims.md`). Flag a review that only describes, or that evaluates without discussing the studies.
 
 ### 14. Tell the research story in your own words
 
@@ -206,3 +217,13 @@ They give no fixed length for a review, no number of sources, and no single requ
 - [ ] The research story is told in the writer's own words (rule 14)
 - [ ] Paraphrases and summaries work from the points, not the sentences (rule 15)
 - [ ] No reference, finding or evaluation was invented
+
+## Source and how it is cited
+
+| Short form | Work |
+|---|---|
+| F&S | Feak, C. B., & Swales, J. M. (2009). *Telling a Research Story: Writing a Literature Review*. Ann Arbor: University of Michigan Press. |
+
+Every rule is drawn from this book and cited with page numbers. Where Feak and Swales report another researcher's finding (Hyland, Charles, Boote and Beile), the rule says so; the finding is theirs, the use of it is Feak and Swales's. Where Feak and Swales give no rule, this file says so rather than supplying one.
+
+The book covers student genres (review chapters, dissertation proposals, dissertations) most fully, and the review sections of research articles as well (F&S, p. xiv). For a review inside a research article introduction, apply this file together with rules 3–5 in `rules/introduction.md`.

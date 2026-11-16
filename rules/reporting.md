@@ -4,14 +4,7 @@ Load this file when the user wants to know whether a draft reports what readers,
 
 **Every rule below is the EQUATOR Network's.** Rules cite EQUATOR's own pages. The checklists themselves are long and change between versions, so this file points to them rather than reproducing them. Where EQUATOR gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| EQUATOR home | EQUATOR Network (Enhancing the QUAlity and Transparency Of health Research), home page and key reporting guidelines: https://www.equator-network.org/ |
-| EQUATOR definition | EQUATOR Network, "What is a reporting guideline?": https://www.equator-network.org/about-us/what-is-a-reporting-guideline/ |
-
-EQUATOR describes itself as a global academic network dedicated to improving the quality of research reporting, and promotes transparent, accurate reporting and wider use of reporting guidelines (EQUATOR home).
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -81,3 +74,12 @@ Reporting guidelines say what to report; the EQUATOR pages used here say nothing
 - [ ] Each checklist item was checked against the draft, with its location recorded (rule 3)
 - [ ] Items that do not apply were noted with a reason (rule 3)
 - [ ] Missing items were listed for the author; no information was supplied
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| EQUATOR home | EQUATOR Network (Enhancing the QUAlity and Transparency Of health Research), home page and key reporting guidelines: https://www.equator-network.org/ |
+| EQUATOR definition | EQUATOR Network, "What is a reporting guideline?": https://www.equator-network.org/about-us/what-is-a-reporting-guideline/ |
+
+EQUATOR describes itself as a global academic network dedicated to improving the quality of research reporting, and promotes transparent, accurate reporting and wider use of reporting guidelines (EQUATOR home).

@@ -4,13 +4,7 @@ Load this file when the user wants sentences or paragraphs checked for how they 
 
 **Every rule below is Gopen and Swan's.** Each names its source by the section of their article. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Source and how it is cited
-
-| Short form | Work |
-|---|---|
-| G&S 1990 | Gopen, G. D., & Swan, J. A. (1990). The science of scientific writing. *American Scientist*, 78(6), 550–558. |
-
-Rules cite the article's own section headings, because the authorized reprint used for this file (Penn State's *Style for Students Online*, reprinted with the permission of *American Scientist*) does not carry the journal's page numbers. The seven numbered principles are the authors' own list.
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -148,3 +142,11 @@ The article does not discuss pronouns or reference, such as what *this*, *it* or
 - [ ] Logical links between sentences are stated (rule 9)
 - [ ] Violations of the principles are deliberate and effective, or flagged (rule 10)
 - [ ] No action, agent, link or finding was invented; what the draft lacks was requested from the author
+
+## Source and how it is cited
+
+| Short form | Work |
+|---|---|
+| G&S 1990 | Gopen, G. D., & Swan, J. A. (1990). The science of scientific writing. *American Scientist*, 78(6), 550–558. |
+
+Rules cite the article's own section headings, because the authorized reprint used for this file (Penn State's *Style for Students Online*, reprinted with the permission of *American Scientist*) does not carry the journal's page numbers. The seven numbered principles are the authors' own list.

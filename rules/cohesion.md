@@ -4,24 +4,9 @@ Load this file when the user wants a draft checked for how its sentences are tie
 
 **Every rule below is Halliday and Hasan's.** Their book was not available to check, so each rule cites it as reported in a named open source. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| H&H 1976 | Halliday, M. A. K., & Hasan, R. (1976). *Cohesion in English*. London: Longman. |
-
-Each rule cites H&H 1976 with the page the reporting source gives, followed by that source:
-
-| Reporting source | Work |
-|---|---|
-| Ahmed | Ahmed, A. R. "Reference as a cohesive device." Open-access article: https://iasj.rdd.edu.iq/journals/uploads/2025/01/04/a01c6c68323b169661432cb694fd0606.pdf |
-| Cerban | Cerban, M. Article on cohesion following Halliday and Hasan, *Translation Studies* (Galați). Open access: https://gup.ugal.ro/ugaljournals/index.php/translation_studies/article/download/8703/7400 |
-| Sandulescu | Sandulescu, C. G. (1976). Review of *Cohesion in English*: https://editura.mttlc.ro/sandulescu/h111.htm |
-| Nguyen | Nguyen, T. T. H. Review of *Cohesion in English*, *VNU Journal of Foreign Studies*: https://js.vnu.edu.vn/FS/article/view/4406/4068 |
-| JBM | Article applying Halliday and Hasan's reference categories, *Jurnal Bahasa Moden* (Universiti Malaya): https://ajap.um.edu.my/index.php/JML/article/download/3806/1707/9645 |
-| Crane | Crane, P. A. Texture in text: A discourse analysis of a news article using Halliday and Hasan's model of cohesion, pp. 131–156. Nagoya University of Foreign Studies repository: https://nufs-nuas.repo.nii.ac.jp/record/252/files/08.pdf |
-
 Halliday and Hasan define cohesion as non-structural text-forming relations (p. 7, as quoted by Crane): the ties of meaning between one element and another that it presupposes (p. 4, as reported by Crane). Rules 1–4 cover reference, rule 5 conjunction, rule 6 lexical cohesion and rule 7 substitution and ellipsis.
+
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -126,3 +111,20 @@ A second draft passage: "The model was calibrated on the 2021 flood. However, th
 - [ ] Each key object and quantity is named consistently, and general words can be traced (rule 6)
 - [ ] Each substitute and each ellipsis can be resolved to exactly one item in the text (rule 7)
 - [ ] No referent, relation or term was guessed; unclear ones were raised with the author
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| H&H 1976 | Halliday, M. A. K., & Hasan, R. (1976). *Cohesion in English*. London: Longman. |
+
+Each rule cites H&H 1976 with the page the reporting source gives, followed by that source:
+
+| Reporting source | Work |
+|---|---|
+| Ahmed | Ahmed, A. R. "Reference as a cohesive device." Open-access article: https://iasj.rdd.edu.iq/journals/uploads/2025/01/04/a01c6c68323b169661432cb694fd0606.pdf |
+| Cerban | Cerban, M. Article on cohesion following Halliday and Hasan, *Translation Studies* (Galați). Open access: https://gup.ugal.ro/ugaljournals/index.php/translation_studies/article/download/8703/7400 |
+| Sandulescu | Sandulescu, C. G. (1976). Review of *Cohesion in English*: https://editura.mttlc.ro/sandulescu/h111.htm |
+| Nguyen | Nguyen, T. T. H. Review of *Cohesion in English*, *VNU Journal of Foreign Studies*: https://js.vnu.edu.vn/FS/article/view/4406/4068 |
+| JBM | Article applying Halliday and Hasan's reference categories, *Jurnal Bahasa Moden* (Universiti Malaya): https://ajap.um.edu.my/index.php/JML/article/download/3806/1707/9645 |
+| Crane | Crane, P. A. Texture in text: A discourse analysis of a news article using Halliday and Hasan's model of cohesion, pp. 131–156. Nagoya University of Foreign Studies repository: https://nufs-nuas.repo.nii.ac.jp/record/252/files/08.pdf |

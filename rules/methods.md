@@ -4,28 +4,9 @@ Load this file when the user is writing or revising the Methods section of a res
 
 **Every rule below is Swales's, or Swales and Feak's.** Their books were not available to check, so rules cite them as reported in named open sources, and cite Swales's own talk abstract directly. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| Swales 1990 | Swales, J. M. (1990). *Genre Analysis: English in Academic and Research Settings*. Cambridge University Press. |
-| Swales 2004 | Swales, J. M. (2004). *Research Genres: Explorations and Applications*. Cambridge University Press. |
-| AWG | Swales, J. M., & Feak, C. B. *Academic Writing for Graduate Students: Essential Tasks and Skills* (1994; 3rd ed. 2012). University of Michigan Press. Unit 7 treats Methods sections. |
-| Swales 2008 | Swales, J. M. Variation in methods sections of research articles. Talk abstract, METM08 (Mediterranean Editors and Translators): https://www.metmeetings.org/en/variation-in-methods-sections:551 |
-
-Each rule cites these works as reported by:
-
-| Reporting source | Work |
-|---|---|
-| Bruce | Bruce, I. (2008). Cognitive genre structures in Methods sections of research articles: A corpus study. *Journal of English for Academic Purposes*, 7(1), 38–54. Abstract: https://researchcommons.waikato.ac.nz/handle/10289/8280 |
-| Enago | Enago Academy (2016). Importance of the "Methods" section in academic papers. Table 1, credited to AWG: https://www.enago.com/academy/importance-methods-section-academic-papers/ |
-| SUU | Graduate Writing Center, Southern Utah University. Handout on drafting a Methods section, citing AWG p. 224: https://www.suu.edu/writingcenter/graduate/pdf/drafting-a-methods-section.pdf |
-| Bloor | Bloor, M. (2004). Towards a systemic functional model for comparing forms of discourse in academic writing. *Ilha do Desterro*, 46, 83–114. Open access (CC BY): https://periodicos.ufsc.br/index.php/desterro/article/view/7389 Reports AWG (1994), p. 165. |
-| Marcuzzo | Marcuzzo, P. (2010). Uma análise da seção de metodologia de relatos de pesquisa em Linguística Aplicada. *The ESPecialist*, 31(2), 121–143: https://revistas.pucsp.br/index.php/esp/article/download/7165/6516/21345 |
-
-**How well the table is sourced.** The table comes from one reproduction (Enago, which gives no edition or page). Bloor (2004) independently reports part of the same account from AWG (1994, p. 165): extended sections are explicit about details and procedures and give justifications, explanations and sometimes examples, while condensed sections omit explanation because standard methods are widely available. The rows on background, definitions and examples, and justifications (rules 2, 3 and 6) therefore have two sources. The rows on named subsections, verbs per clause, "how" statements and linking phrases (rules 4, 5 and 7) rest on Enago alone; treat them as first-pass checks until the table is checked against *Academic Writing for Graduate Students*.
-
 For what a Methods section must report, as distinct from how it is written, see `rules/reporting.md` (health research only). For which functions it performs and in what order, see `rules/methods-structure.md`.
+
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -142,3 +123,24 @@ In Bruce's account, Swales and Feak offer no generic move structure for Methods 
 - [ ] In an extended section, steps are linked (rule 7)
 - [ ] Departures from plan that bear on the results were raised with the author (rule 8)
 - [ ] No step, setting, justification or source was invented
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| Swales 1990 | Swales, J. M. (1990). *Genre Analysis: English in Academic and Research Settings*. Cambridge University Press. |
+| Swales 2004 | Swales, J. M. (2004). *Research Genres: Explorations and Applications*. Cambridge University Press. |
+| AWG | Swales, J. M., & Feak, C. B. *Academic Writing for Graduate Students: Essential Tasks and Skills* (1994; 3rd ed. 2012). University of Michigan Press. Unit 7 treats Methods sections. |
+| Swales 2008 | Swales, J. M. Variation in methods sections of research articles. Talk abstract, METM08 (Mediterranean Editors and Translators): https://www.metmeetings.org/en/variation-in-methods-sections:551 |
+
+Each rule cites these works as reported by:
+
+| Reporting source | Work |
+|---|---|
+| Bruce | Bruce, I. (2008). Cognitive genre structures in Methods sections of research articles: A corpus study. *Journal of English for Academic Purposes*, 7(1), 38–54. Abstract: https://researchcommons.waikato.ac.nz/handle/10289/8280 |
+| Enago | Enago Academy (2016). Importance of the "Methods" section in academic papers. Table 1, credited to AWG: https://www.enago.com/academy/importance-methods-section-academic-papers/ |
+| SUU | Graduate Writing Center, Southern Utah University. Handout on drafting a Methods section, citing AWG p. 224: https://www.suu.edu/writingcenter/graduate/pdf/drafting-a-methods-section.pdf |
+| Bloor | Bloor, M. (2004). Towards a systemic functional model for comparing forms of discourse in academic writing. *Ilha do Desterro*, 46, 83–114. Open access (CC BY): https://periodicos.ufsc.br/index.php/desterro/article/view/7389 Reports AWG (1994), p. 165. |
+| Marcuzzo | Marcuzzo, P. (2010). Uma análise da seção de metodologia de relatos de pesquisa em Linguística Aplicada. *The ESPecialist*, 31(2), 121–143: https://revistas.pucsp.br/index.php/esp/article/download/7165/6516/21345 |
+
+**How well the table is sourced.** The table comes from one reproduction (Enago, which gives no edition or page). Bloor (2004) independently reports part of the same account from AWG (1994, p. 165): extended sections are explicit about details and procedures and give justifications, explanations and sometimes examples, while condensed sections omit explanation because standard methods are widely available. The rows on background, definitions and examples, and justifications (rules 2, 3 and 6) therefore have two sources. The rows on named subsections, verbs per clause, "how" statements and linking phrases (rules 4, 5 and 7) rest on Enago alone; treat them as first-pass checks until the table is checked against *Academic Writing for Graduate Students*.

@@ -4,21 +4,7 @@ Load this file when the user wants a draft checked for vague quantities and cate
 
 **Every rule below is Channell's.** Her book was not available to check in full, so rules cite its sections and pages from the published table of contents, or quotations of it in named open sources. Where she gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| Channell 1994 | Channell, J. (1994). *Vague Language*. Oxford: Oxford University Press. |
-| Channell 1983 | Channell, J. M. (1983). *Vague Language: Some Vague Expressions in English*. PhD thesis, University of York. Open access, White Rose eTheses Online: https://etheses.whiterose.ac.uk/id/eprint/10896/ Read directly; cited by thesis page. |
-
-Section titles and page numbers for the book come from its table of contents. Channell's thesis, the study the book grew from, was read directly and is cited where it states the same point. Quotations and paraphrases of the book come from these open sources:
-
-| Reporting source | Work |
-|---|---|
-| ISSA | "How to put it vaguely", *ISSA Proceedings 2014*, Rozenberg Quarterly: https://rozenbergquarterly.com/issa-proceedings-2014-how-to-put-it-vaguely/ |
-| Ondari & Michieka | Ondari, H., & Michieka, M. (2012). An analysis of the pragmatic functions of vague language in Ekegusii. *Journal of Language, Technology & Entrepreneurship in Africa*, 3(2): https://core.ac.uk/download/478413547.pdf |
-
-Channell's data are mostly spoken and general English. She also wrote on vague quantities in academic writing (Channell, J. (1990). Precise and vague quantities in writing on economics. In W. Nash (Ed.), *The Writing Scholar* (pp. 95–117). Sage), which was not available; nothing here is cited to it.
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -110,3 +96,19 @@ Channell describes how vague language works, mostly in speech; she does not set 
 - [ ] Vague expressions that give the right amount of information were left alone (rules 1, 4)
 - [ ] Where vagueness withholds, persuades or covers missing information, the figure was requested or the gap stated (rule 4)
 - [ ] No figure was invented
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| Channell 1994 | Channell, J. (1994). *Vague Language*. Oxford: Oxford University Press. |
+| Channell 1983 | Channell, J. M. (1983). *Vague Language: Some Vague Expressions in English*. PhD thesis, University of York. Open access, White Rose eTheses Online: https://etheses.whiterose.ac.uk/id/eprint/10896/ Read directly; cited by thesis page. |
+
+Section titles and page numbers for the book come from its table of contents. Channell's thesis, the study the book grew from, was read directly and is cited where it states the same point. Quotations and paraphrases of the book come from these open sources:
+
+| Reporting source | Work |
+|---|---|
+| ISSA | "How to put it vaguely", *ISSA Proceedings 2014*, Rozenberg Quarterly: https://rozenbergquarterly.com/issa-proceedings-2014-how-to-put-it-vaguely/ |
+| Ondari & Michieka | Ondari, H., & Michieka, M. (2012). An analysis of the pragmatic functions of vague language in Ekegusii. *Journal of Language, Technology & Entrepreneurship in Africa*, 3(2): https://core.ac.uk/download/478413547.pdf |
+
+Channell's data are mostly spoken and general English. She also wrote on vague quantities in academic writing (Channell, J. (1990). Precise and vague quantities in writing on economics. In W. Nash (Ed.), *The Writing Scholar* (pp. 95–117). Sage), which was not available; nothing here is cited to it.

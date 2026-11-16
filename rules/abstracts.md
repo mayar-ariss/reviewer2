@@ -4,26 +4,7 @@ Load this file when the user is writing or revising the abstract of a research a
 
 **Every rule below is Hyland's.** His book was not available to check, so rules cite it as reported in named open sources. Where he gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| Hyland 2000 | Hyland, K. (2000). *Disciplinary Discourses: Social Interactions in Academic Writing*. Harlow: Longman. Chapter on abstracts. |
-
-Each rule cites Hyland 2000 as reported by:
-
-| Reporting source | Work |
-|---|---|
-| S&U | Suntara, W., & Usaha, S. (2013). Research article abstracts in two related disciplines: Rhetorical variation between linguistics and applied linguistics. *English Language Teaching*, 6(2), 84–99. Open access: https://files.eric.ed.gov/fulltext/EJ1076961.pdf |
-
-Two further open sources describe the model the same way, and are cited where they confirm a point:
-
-| Corroborating source | Work |
-|---|---|
-| El-Dakhs | El-Dakhs, D. A. S. (2018). Comparative genre analysis of research article abstracts in more and less prestigious journals: Linguistics journals in focus. *Research in Language*, 16(1), 47–63. https://doi.org/10.2478/rela-2018-0002 |
-| Magday et al. | Magday, W. D., Jr., et al. (2022). Comparative genre analysis of research abstracts: Philippine versus international colloquia. *Theory and Practice in Language Studies*, 12(6), 1059–1067. https://doi.org/10.17507/tpls.1206.05 |
-
-Hyland's model was derived from 800 abstracts, 100 in each of eight disciplines: philosophy, sociology, applied linguistics, marketing, electrical engineering, mechanical engineering, physics and biology (S&U). It covers both the sciences and the social sciences (S&U).
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -112,3 +93,24 @@ The source used here does not report which moves Hyland found obligatory or opti
 - [ ] The conclusion and every reported finding are supported by the paper (rule 5)
 - [ ] Journal requirements on structure and length were checked
 - [ ] No result, method or implication was invented
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| Hyland 2000 | Hyland, K. (2000). *Disciplinary Discourses: Social Interactions in Academic Writing*. Harlow: Longman. Chapter on abstracts. |
+
+Each rule cites Hyland 2000 as reported by:
+
+| Reporting source | Work |
+|---|---|
+| S&U | Suntara, W., & Usaha, S. (2013). Research article abstracts in two related disciplines: Rhetorical variation between linguistics and applied linguistics. *English Language Teaching*, 6(2), 84–99. Open access: https://files.eric.ed.gov/fulltext/EJ1076961.pdf |
+
+Two further open sources describe the model the same way, and are cited where they confirm a point:
+
+| Corroborating source | Work |
+|---|---|
+| El-Dakhs | El-Dakhs, D. A. S. (2018). Comparative genre analysis of research article abstracts in more and less prestigious journals: Linguistics journals in focus. *Research in Language*, 16(1), 47–63. https://doi.org/10.2478/rela-2018-0002 |
+| Magday et al. | Magday, W. D., Jr., et al. (2022). Comparative genre analysis of research abstracts: Philippine versus international colloquia. *Theory and Practice in Language Studies*, 12(6), 1059–1067. https://doi.org/10.17507/tpls.1206.05 |
+
+Hyland's model was derived from 800 abstracts, 100 in each of eight disciplines: philosophy, sociology, applied linguistics, marketing, electrical engineering, mechanical engineering, physics and biology (S&U). It covers both the sciences and the social sciences (S&U).

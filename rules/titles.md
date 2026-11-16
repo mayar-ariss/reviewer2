@@ -4,13 +4,7 @@ Load this file when the user is writing or revising the title of a research arti
 
 **Every rule below is Hyland and Zou's.** Their article is open access and was read in full; rules cite its page numbers. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
-## Source and how it is cited
-
-| Short form | Work |
-|---|---|
-| H&Z 2022 | Hyland, K., & Zou, H. (2022). Titles in research articles. *Journal of English for Academic Purposes*, 56, 101094. https://doi.org/10.1016/j.jeap.2022.101094 Open access (CC BY): https://ueaeprints.uea.ac.uk/id/eprint/83612 |
-
-The study analyses 5,070 titles of original research articles from 13 highly ranked journals in each of six fields: applied linguistics, education, history, mathematics, mechanical engineering and biochemistry (H&Z 2022, pp. 3–4). It examines formal features only: structure, content focus and length.
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How to apply this file
 
@@ -94,3 +88,11 @@ The study examines formal features only, not qualities such as cleverness or den
 - [ ] Any detail (approach or result) is the author's and is supported by the paper (rule 4)
 - [ ] Length and explicitness fit the field and the journal (rule 5)
 - [ ] No method, site or result was added without the author
+
+## Source and how it is cited
+
+| Short form | Work |
+|---|---|
+| H&Z 2022 | Hyland, K., & Zou, H. (2022). Titles in research articles. *Journal of English for Academic Purposes*, 56, 101094. https://doi.org/10.1016/j.jeap.2022.101094 Open access (CC BY): https://ueaeprints.uea.ac.uk/id/eprint/83612 |
+
+The study analyses 5,070 titles of original research articles from 13 highly ranked journals in each of six fields: applied linguistics, education, history, mathematics, mechanical engineering and biochemistry (H&Z 2022, pp. 3–4). It examines formal features only: structure, content focus and length.

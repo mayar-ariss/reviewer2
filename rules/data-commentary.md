@@ -4,19 +4,7 @@ Load this file when the user wants the text that accompanies a figure or table c
 
 **Every rule below is Swales and Feak's.** Rules cite their 1995 article by page, and their textbook as reported in a named open source. Where they give no rule, this file says so rather than supplying one. Nothing here is a general writing preference, and nothing here concerns the design of the visual itself.
 
-## Sources and how they are cited
-
-| Short form | Work |
-|---|---|
-| S&F 1995 | Swales, J. M., & Feak, C. B. (1995). From information transfer to data commentary. *The Journal of TESOL-France*, pp. 79 ff. Made available by the author: https://www.researchgate.net/publication/287118826 Pages 78–91 were read. |
-| AWG | Swales, J. M., & Feak, C. B. (2012). *Academic Writing for Graduate Students* (3rd ed.), Unit 4, "Data Commentary." University of Michigan Press. |
-
-AWG is cited as reported by:
-
-| Reporting source | Work |
-|---|---|
-| T&R | Tikhonova, E., & Raitskaya, L. (2024). Data commentary in research publications: A systematic scoping review. *Journal of Language and Education*, 10(3), 5–24. https://doi.org/10.17323/jle.2024.23769 |
-| Yoo | Yoo, I. W. (2004). Data commentary, handout adapted from Swales and Feak, *Academic Writing for Graduate Students* (1994), pp. 77–104 (Unit 4, including its section on graphs). MIT OpenCourseWare, 21G.213: https://ocw.mit.edu/courses/21g-213-high-intermediate-academic-communication-spring-2004/029c4e6efe74b0083b96d1cea689ba7d_MIT21G_213S04_data.pdf |
+*Sources and how they are cited are listed at the end of this file.*
 
 ## How this file relates to the other files
 
@@ -152,3 +140,17 @@ A second draft, on a figure of observed and modelled discharge over the flood: "
 - [ ] The statements form one connected commentary (rule 7)
 - [ ] For a graph, the axes and symbols are explained, and the commentary states the pattern rather than reading off points (rules 2, 8)
 - [ ] No explanation, comparison or critique was invented
+
+## Sources and how they are cited
+
+| Short form | Work |
+|---|---|
+| S&F 1995 | Swales, J. M., & Feak, C. B. (1995). From information transfer to data commentary. *The Journal of TESOL-France*, pp. 79 ff. Made available by the author: https://www.researchgate.net/publication/287118826 Pages 78–91 were read. |
+| AWG | Swales, J. M., & Feak, C. B. (2012). *Academic Writing for Graduate Students* (3rd ed.), Unit 4, "Data Commentary." University of Michigan Press. |
+
+AWG is cited as reported by:
+
+| Reporting source | Work |
+|---|---|
+| T&R | Tikhonova, E., & Raitskaya, L. (2024). Data commentary in research publications: A systematic scoping review. *Journal of Language and Education*, 10(3), 5–24. https://doi.org/10.17323/jle.2024.23769 |
+| Yoo | Yoo, I. W. (2004). Data commentary, handout adapted from Swales and Feak, *Academic Writing for Graduate Students* (1994), pp. 77–104 (Unit 4, including its section on graphs). MIT OpenCourseWare, 21G.213: https://ocw.mit.edu/courses/21g-213-high-intermediate-academic-communication-spring-2004/029c4e6efe74b0083b96d1cea689ba7d_MIT21G_213S04_data.pdf |
