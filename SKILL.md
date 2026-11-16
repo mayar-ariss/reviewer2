@@ -72,8 +72,8 @@ Read only the files the task needs. `rules/index.md` lists every rule in one lin
 1. **Establish the context.** Ask for the field, the target journal or degree, the genre and, for empirical work, the study design, or read them from the draft. Many rules depend on them. If they cannot be found and the user is not there to ask, state your assumption once at the top of the review, and mark the findings that depend on the field or journal as conditional on it.
 2. **Follow the procedure at the top of the rules file.** Where it asks you to label each sentence and the draft is long, label paragraphs first, then label sentences only in the paragraphs where a check finds a problem. Keep every question for the author for the end of the review (see *How to present a review*), rather than stopping at each one.
 3. **Cite the rule behind every proposed change**, by file and number (for example, "introduction, rule 7").
-4. **Keep the author's content.** Keep the author's claims, data and citations. Never invent findings, gaps, references, figures or evaluations; where a rule needs content the draft does not have, ask the author for it.
-5. **Finish with the rules file's checklist.**
+4. **Keep the author's content.** Keep the author's claims, data and citations. Never invent findings, gaps, references, figures or evaluations; where a rule needs content the draft does not have, ask the author for it. Check that the numbers in the draft agree with each other and with its tables and figures; where a value does not, or looks copied from another row, column or place, ask the author to confirm it rather than correcting it.
+5. **Finish with the rules file's checklist.** Run it every time; show it in the review only when the draft is longer than a paragraph or the user asks for it.
 
 ## How to present a review
 
@@ -84,6 +84,7 @@ Read only the files the task needs. `rules/index.md` lists every rule in one lin
 3. **Order by consequence:** problems of structure and argument first (missing moves, unsupported claims, results that do not answer the questions), then interpretation and stance, then sentences and words.
 4. **Separate what to change from what to ask.** List proposed revisions apart from the questions only the author can answer: missing content, intended referents, explanations.
 5. **Say what was not covered:** the checks not run, and any part of the draft this skill has no rules for.
+6. **Fit the length of the review to the draft.** For a draft of a sentence or a short paragraph, give the findings, the proposed revisions and the questions; say in one line which checks were run and which were not, and leave out the labelled outline, the checklists and the assumptions beyond one line. Expand only for longer drafts or when the user asks.
 
 ## Sources
 

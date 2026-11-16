@@ -22,6 +22,7 @@ Load this file when the user wants the text that accompanies a figure or table c
 *Procedure, not a rule of Swales and Feak's.*
 
 1. **For each table and figure, collect the text that comments on it**, and ask what the paper's question or hypothesis is at that point.
+   *This skill's application, not a rule from Swales and Feak:* check every value the text gives against the table or figure, and check the values in the table or figure against each other. Where a value disagrees, or repeats one from another row or column, ask the author to confirm it before commenting on it.
 2. **Count the figures and tables**, and compare the number with recent articles in the target journal and with its author guidelines. The sources give no rule on how many a paper should have, so report the comparison and leave the decision to the author. Whether each figure is needed at all is checked in `rules/argument.md` (rule 6) and `rules/results.md` (rule 1).
 3. **Label each sentence** with its element: location or summary, highlighting, or discussion (see the structure).
 4. **Check the commentary against rules 1–8** (rule 8 for graphs).
@@ -132,6 +133,7 @@ A second draft, on a figure of observed and modelled discharge over the flood: "
 - [ ] Each sentence of the commentary is labelled with its element
 - [ ] Values are not restated without being singled out or interpreted, and no data are shown twice (rule 1)
 - [ ] The number of figures and tables was compared with the target journal (procedure)
+- [ ] Values in the text were checked against the table or figure, and against each other; any that disagree or look copied were put to the author (procedure)
 - [ ] The reader is told which visual is discussed, and where useful what it shows (rule 2)
 - [ ] Highlighted results bear on the question; relevant results are not left out (rule 3)
 - [ ] Results that do not fit are interpreted and linked to the question (rule 4)
