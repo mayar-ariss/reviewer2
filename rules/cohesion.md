@@ -117,6 +117,7 @@ A second draft passage: "The model was calibrated on the 2021 flood. However, th
 
 ## Validation checklist
 
+- [ ] Each reference item was treated as an instruction to look elsewhere, and followed (rule 1)
 - [ ] Every personal, demonstrative and comparative reference item was marked (rule 2)
 - [ ] Each points to something the reader can find in the text, or that the reader can be expected to share (rule 3)
 - [ ] Each has exactly one recoverable referent (rule 4)
