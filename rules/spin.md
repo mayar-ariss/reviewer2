@@ -104,6 +104,7 @@ The review covers biomedicine; its prevalence figures come from specific bodies 
 
 ## Validation checklist
 
+- [ ] The text was judged, not the author: what could mislead a reader was flagged, with the reason (rule 1)
 - [ ] The Methods and Results were read before the abstract and conclusions (procedure)
 - [ ] Stated objectives, outcomes and analyses were compared with the protocol or registration where available (rule 2)
 - [ ] Methodological labels are supported by the Methods (rule 2)
