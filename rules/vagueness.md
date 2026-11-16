@@ -9,8 +9,9 @@ Load this file when the user wants a draft checked for vague quantities and cate
 | Short form | Work |
 |---|---|
 | Channell 1994 | Channell, J. (1994). *Vague Language*. Oxford: Oxford University Press. |
+| Channell 1983 | Channell, J. M. (1983). *Vague Language: Some Vague Expressions in English*. PhD thesis, University of York. Open access, White Rose eTheses Online: https://etheses.whiterose.ac.uk/id/eprint/10896/ Read directly; cited by thesis page. |
 
-Section titles and page numbers come from the book's table of contents. Quotations and paraphrases of the text come from these open sources:
+Section titles and page numbers for the book come from its table of contents. Channell's thesis, the study the book grew from, was read directly and is cited where it states the same point. Quotations and paraphrases of the book come from these open sources:
 
 | Reporting source | Work |
 |---|---|
@@ -33,9 +34,9 @@ Channell's data are mostly spoken and general English. She also wrote on vague q
 
 ### 1. Judge vagueness by whether it is appropriate, not by whether it is vague
 
-*Source: Channell 1994, pp. 3–4 (ISSA; Ondari & Michieka).*
+*Source: Channell 1994, pp. 3–4 (ISSA; Ondari & Michieka); Channell 1983, p. 2.*
 
-For Channell, vagueness in language is neither all bad nor all good: what matters is that vague language is used appropriately (p. 3, as quoted by ISSA and by Ondari & Michieka). Speakers and writers vary their level of precision to suit the situation (p. 4, as reported by ISSA).
+For Channell, vagueness in language is neither all bad nor all good: what matters is that vague language is used appropriately (p. 3, as quoted by ISSA and by Ondari & Michieka). Speakers and writers vary their level of precision to suit the situation (p. 4, as reported by ISSA). Her thesis makes the same point from the start: much vagueness causes the hearer no difficulty at all (1983, p. 2).
 
 - Do not flag every approximation or quantifier. Flag those that are wrong for their purpose.
 
@@ -59,7 +60,7 @@ She also asks how a reader can tell when an apparently exact number is an approx
 
 ### 3. Identify what each vague expression is doing
 
-*Source: Channell 1994, ch. 8, pp. 165–194 (table of contents); pp. 170, 179 (ISSA).*
+*Source: Channell 1994, ch. 8, pp. 165–194 (table of contents); pp. 170, 179 (ISSA); Channell 1983, ch. 5, pp. 147–163.*
 
 Channell's chapter on the uses of vague language distinguishes these functions (ch. 8):
 
@@ -73,15 +74,17 @@ Channell's chapter on the uses of vague language distinguishes these functions (
 - power and politeness (p. 190);
 - informality and atmosphere (p. 191).
 
+Her thesis already distinguishes most of these uses, in a chapter on being vague: giving the right amount of information, withholding, saying what you do not know how to say, talking about things you are not sure about, self-protection, deference, and informality (1983, ch. 5, pp. 147–163).
+
 Vague language lets speakers talk about a topic they know little about, or lack the vocabulary for (p. 170, as reported by ISSA). Withholding information the hearer expects violates the maxim of quantity and gives rise to implicatures (p. 179, as quoted by ISSA).
 
 - Name the function of each vague expression before judging it.
 
 ### 4. In a research text, state the quantity where the vagueness withholds, persuades or hides a gap
 
-*Source: Channell 1994, pp. 173, 178–179, 184 (table of contents; ISSA). Application to research writing is this skill's.*
+*Source: Channell 1994, pp. 173, 178–179, 184 (table of contents; ISSA); Channell 1983, pp. 140, 148–150, 154–155. Application to research writing is this skill's, except where her thesis is cited.*
 
-Channell's functions sort vague quantities in a draft into those that suit their purpose and those that do not:
+Channell's functions sort vague quantities in a draft into those that suit their purpose and those that do not. Her thesis gives the grounds in her own words: where the purpose demands exact figures, as in financial reports, speakers keep them (1983, pp. 148–150); writers, who have time to choose their words, need fewer vague expressions than speakers (p. 154); a written report can use vague quantities to avoid claiming more than its data support (p. 155); and rounding can mislead a hasty reader about the size of an amount (p. 140).
 
 - **Right amount of information (p. 173):** an approximation is enough for the point being made. Leave it.
 - **Withholding (p. 178):** the writer has the figure but does not give it, and the reader draws an implicature from its absence (p. 179, ISSA). Ask the author for the figure.
@@ -90,7 +93,7 @@ Channell's functions sort vague quantities in a draft into those that suit their
 
 ## Where Channell gives no rule
 
-Channell describes how vague language works, mostly in speech; she does not set rules for academic writing in the sources used here. The judgement in rule 4 of which functions suit a research text is this skill's application of her categories, not her prescription. Her 1990 study of quantities in economics writing would be the place to check that application. This file adds nothing else where Channell is silent.
+Channell describes how vague language works, mostly in speech; she does not set rules for academic writing in the sources used here. Her thesis discusses written texts in passing (1983, pp. 140, 154–156), and rule 4 cites those passages; the judgement of which functions suit a research text is otherwise this skill's application of her categories, not her prescription. Her 1990 study of quantities in economics writing would be the place to check that application. This file adds nothing else where Channell is silent.
 
 ## Example
 
