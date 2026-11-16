@@ -9,6 +9,7 @@ Load this file when the user is writing or revising the Results section of an em
 | Short form | Work |
 |---|---|
 | CHL 2015 | Cotos, E., Huffman, S., & Link, S. (2015). Furthering and applying move/step constructs: Technology-driven marshalling of Swalesian genre theory for EAP pedagogy. *Journal of English for Academic Purposes*, 19, 52–72. https://doi.org/10.1016/j.jeap.2015.05.004 Cited from the accepted manuscript, Iowa State University Digital Repository: https://dr.lib.iastate.edu/entities/publication/28d99fb0-7668-4470-8a86-6141785c264b |
+| HCB 2023 | Huffman, S., Cotos, E., & Becker, K. (2023). *Preparing to Publish*, ch. 5, "Writing the Results Section." Iowa State University Digital Press, open textbook (CC BY-NC-SA 4.0): https://iastate.pressbooks.pub/preparingtopublish/ Written by two of the framework's authors; cited only for step definitions the 2015 article does not give. |
 
 The framework comes from a corpus of 900 empirical research articles, 30 from each of 30 disciplines, published in 2009–2011 in high-impact peer-reviewed journals recommended by disciplinary experts; three coders annotated it with high agreement (CHL 2015, §2.1.1–2.1.2). It follows Swales's metaphorical approach to research article discourse (§2.2.1). The same authors' full account of Methods sections is the basis of `rules/methods-structure.md`.
 
@@ -82,7 +83,9 @@ Construing the niche has five steps. Explicating results occupies 34% to 74% of 
 - **Accounting for results:** suggesting reasons that help explain what may have determined the results (for example, agricultural and bio-systems engineering, and meteorology).
 - **Clarifying expectations:** reasoning about anticipated or unanticipated findings, frequent in the humanities and social sciences.
 - **Acknowledging limitations:** infrequent, but used fairly consistently across disciplines, although one would expect it in the Discussion.
-- **Explicating results:** named in the framework; the text read for this file does not define it.
+- **Explicating results:** interpreting the results to say what they mean and imply, drawing immediate deductions and setting up discussion beyond the study. It differs from accounting for results, which asks why the results occurred (HCB 2023, ch. 5).
+
+In their later textbook, two of the authors name the comparison step "comparing results with literature review" and the expectations step "relating to expectations" (HCB 2023, ch. 5); the 2015 article describes comparison of results within the study (§2.2.2). Check both kinds of comparison.
 
 - For each comment, name the step. Where an explanation is offered, check that it is presented as a possible reason; where a comparison is made, check that both results are reported.
 
@@ -96,7 +99,7 @@ The moves do not imply a sequence; they reflect the logic of the scientific argu
 
 ## Where Cotos, Huffman and Link give no rule
 
-The article presents the framework with step names and frequency findings, but defines only some of the steps for Results; it gives no rule on tense, on the wording of references to tables and figures, or on statistical reporting. In health research, for what a Results section must report for a given study design, see `rules/reporting.md`, and for selective or misleading reporting of results, see `rules/spin.md`. This file adds nothing else where the authors are silent.
+The article presents the framework with step names and frequency findings, but defines only some of the steps for Results, and the definition of explicating results comes from two of the authors' later textbook; it gives no rule on tense, on the wording of references to tables and figures, or on statistical reporting. In health research, for what a Results section must report for a given study design, see `rules/reporting.md`, and for selective or misleading reporting of results, see `rules/spin.md`. This file adds nothing else where the authors are silent.
 
 ## Example
 
