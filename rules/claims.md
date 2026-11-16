@@ -154,6 +154,7 @@ Verbs such as *demonstrate*, *prove* and *show* commit the writer to the claim; 
 
 - *show* makes the writer vouch for the claim. Use it only where the writer would.
 - Where the draft disagrees with prior work, note that writers in Hyland and Jiang's corpus now usually state the gap rather than criticise the author (pp. 9–10), and let the author choose.
+- For varying reporting verbs in a literature review, see `rules/literature-review.md`, rule 12.
 
 ### 10. Engage the reader for a purpose
 
@@ -205,6 +206,7 @@ The sources cited here describe practice; they do not prescribe it. Hyland gives
 
 ## Validation checklist
 
+- [ ] Each claim is written for a reader who can reject it (rule 1)
 - [ ] Features were identified by their function in each sentence, not by word lists (rule 2)
 - [ ] Every claim has a source: an evidential, the writer's own data or reasoning, or a flag to the author (rule 3)
 - [ ] Each claim's certainty matches its evidence; interpretations and generalizations are hedged (rules 4–5)
