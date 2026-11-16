@@ -2,7 +2,7 @@
 
 Load this file when the user is writing or revising the abstract of a research article, thesis or dissertation.
 
-**Every rule below is Hyland's.** His book was not available to check, so rules cite it as reported in a named open source. Where he gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
+**Every rule below is Hyland's.** His book was not available to check, so rules cite it as reported in named open sources. Where he gives no rule, this file says so rather than supplying one. Nothing here is a general writing preference.
 
 ## Sources and how they are cited
 
@@ -15,6 +15,13 @@ Each rule cites Hyland 2000 as reported by:
 | Reporting source | Work |
 |---|---|
 | S&U | Suntara, W., & Usaha, S. (2013). Research article abstracts in two related disciplines: Rhetorical variation between linguistics and applied linguistics. *English Language Teaching*, 6(2), 84–99. Open access: https://files.eric.ed.gov/fulltext/EJ1076961.pdf |
+
+Two further open sources describe the model the same way, and are cited where they confirm a point:
+
+| Corroborating source | Work |
+|---|---|
+| El-Dakhs | El-Dakhs, D. A. S. (2018). Comparative genre analysis of research article abstracts in more and less prestigious journals: Linguistics journals in focus. *Research in Language*, 16(1), 47–63. https://doi.org/10.2478/rela-2018-0002 |
+| Magday et al. | Magday, W. D., Jr., et al. (2022). Comparative genre analysis of research abstracts: Philippine versus international colloquia. *Theory and Practice in Language Studies*, 12(6), 1059–1067. https://doi.org/10.17507/tpls.1206.05 |
 
 Hyland's model was derived from 800 abstracts, 100 in each of eight disciplines: philosophy, sociology, applied linguistics, marketing, electrical engineering, mechanical engineering, physics and biology (S&U). It covers both the sciences and the social sciences (S&U).
 
@@ -31,7 +38,7 @@ Hyland's model was derived from 800 abstracts, 100 in each of eight disciplines:
 
 ## The model
 
-Hyland's classification of moves in research article abstracts (Hyland 2000, p. 67, as reproduced by S&U):
+Hyland's classification of moves in research article abstracts (Hyland 2000, p. 67, as reproduced by S&U; the same five moves and functions are described by Magday et al., pp. 1060–1061, and El-Dakhs, p. 49):
 
 | Move | Function |
 |---|---|
@@ -54,7 +61,7 @@ Hyland's classification of moves in research article abstracts (Hyland 2000, p. 
 
 *Source: Hyland 2000, p. 67 (S&U).*
 
-Hyland separates the Purpose move, which states the purpose, thesis or hypothesis, from the Introduction move, which sets the context.
+Hyland separates the Purpose move, which states the purpose, thesis or hypothesis, from the Introduction move, which sets the context. El-Dakhs notes that this gives purpose a place of its own, which is what makes Hyland's model five moves rather than four (p. 49).
 
 - Check that the abstract states what the paper sets out to do, not only why the topic matters.
 
