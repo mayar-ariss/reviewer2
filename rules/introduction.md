@@ -90,6 +90,7 @@ Reviewing items of previous research is obligatory in AWG's model (1994, p. 179)
 
 - Group the cited work so the grouping leads toward the niche in Move 2.
 - Do not list studies one after another without an organizing principle.
+- For a review section or chapter, see also `rules/literature-review.md`, rule 4.
 
 ### 5. Choose citation form and tense by what the sentence is about
 
@@ -108,6 +109,8 @@ Swales and Feak describe three tense patterns that cover about two-thirds of cit
 Patterns I and II put the attention on what researchers did; Pattern III on what was found. Patterns I and II are most common in the humanities and least common in science, engineering and medicine; extensive reviews mix all three (1994, p. 183; 2012, p. 345).
 
 With verbs for what a researcher did (investigated, studied, analysed), the past is in general obligatory. With verbs for what a researcher wrote or thought (stated, concluded, claimed), past, present perfect and present are all possible; moving from past toward present signals that the cited work is closer to the writer's own view, research or current knowledge. The present is also used for famous or important sources, the citational present (1994, pp. 184–185; 2012, p. 345).
+
+- For a review section or chapter, the fuller account of citation form, tense and reporting verbs is in `rules/literature-review.md`, rules 10–12.
 
 ### 6. Move 2: make the niche, briefly and clearly
 
@@ -201,6 +204,7 @@ Swales gives no fixed length for an introduction or for each move, beyond noting
 - [ ] Citation forms and tenses match what each sentence reports (rule 5)
 - [ ] Move 2 is present, brief, and states a gap, an addition, a question or a continuation (rule 6)
 - [ ] The shift into Move 2 is signalled (rule 7)
+- [ ] In a long introduction, each cycle of Moves 1 and 2 still runs territory, then niche (rule 8)
 - [ ] Move 3 opens with a purposive or descriptive statement that refers to the present text (rule 9)
 - [ ] The purpose statement's tense matches whether it names the text or the investigation (rule 10)
 - [ ] Optional Move 3 elements are included only where the field or paper needs them (rule 11)
