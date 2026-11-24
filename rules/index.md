@@ -110,6 +110,18 @@ One line per rule, taken from the rule headings. Use it to choose which checks t
 7. Connect the statements into one commentary
 8. For a graph, highlight the pattern and say what it suggests
 
+### `rules/numbers.md`: Numbers: Miller on writing about numbers
+
+1. Give each number its context
+2. State the units, and make them consistent before comparing
+3. Report each number and say what it means
+4. Name the comparison and its reference value
+5. Judge a value against a stated reference
+6. Report digits and decimal places to suit the measurement
+7. Check that each value is plausible and agrees with the data
+8. Keep statistical and substantive significance apart
+9. Give the test result behind a statement of significance
+
 ### `rules/claims.md`: Claims: Hyland on stance and metadiscourse
 
 1. Write each claim for a reader who can reject it

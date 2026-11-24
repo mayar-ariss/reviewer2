@@ -6,13 +6,13 @@ description: >-
   skill whenever the user asks to review, check, edit, tighten or improve any part
   of a research article, manuscript, thesis or dissertation chapter: the title,
   abstract, introduction, literature review, Methods, Results, Discussion or
-  conclusion, the text around figures and tables, or a whole manuscript before
-  submission. Also use it when the user asks whether a sentence or claim is vague,
-  generic, unsupported, overstated or hard to follow, or how a reviewer would read
-  the draft, even if they never say "review". Rules come from Swales, Feak, Hyland,
-  Cotos and colleagues, Moreno, Toulmin, Gopen and Swan, Halliday and Hasan,
-  Channell and Grice; reporting-guideline and spin checks apply to health research
-  only.
+  conclusion, the text around figures and tables, the numbers it reports, or a whole
+  manuscript before submission. Also use it when the user asks whether a sentence or
+  claim is vague, generic, unsupported, overstated or hard to follow, or how a
+  reviewer would read the draft, even if they never say "review". Rules come from
+  Swales, Feak, Hyland, Cotos and colleagues, Moreno, Toulmin, Gopen and Swan,
+  Halliday and Hasan, Channell, Grice and Miller; reporting-guideline and spin
+  checks apply to health research only.
 ---
 
 # Reviewer 2: research writing, rule by cited rule
@@ -46,6 +46,7 @@ This skill reviews and revises parts of a research article, and the matching cha
 | Argument: whether each main claim has data, a warrant the reader would accept, backing, a stated strength and stated exceptions; whether each figure and table supports a claim | `rules/argument.md` | Toulmin 1958 |
 | Sentences and paragraphs: whose story each sentence tells, where the action and the emphasis fall, the links between sentences | `rules/sentences.md` | Gopen & Swan 1990 |
 | Cohesion: what pronouns, *this*, *the*, comparatives and substitutes point to; whether linking words signal the relation that holds; whether key terms are used consistently | `rules/cohesion.md` | Halliday & Hasan 1976 |
+| Numbers: context and units, what each number means and what it is compared with or judged against, digits, plausibility, and statements of statistical significance | `rules/numbers.md` | Miller |
 | Vague quantities and categories: *about*, *many*, *how much*, *and so on* | `rules/vagueness.md` | Channell 1994 |
 | Dense or empty wording: nominalizations, relations packed into one verb, sentences that sound weighty but say little | `rules/unpacking.md` | Halliday |
 | Informativeness: truisms, platitudes, sentences that tell the reader nothing new or have no clear point, and loose words for technical properties | `rules/informativeness.md` | Grice |
@@ -54,7 +55,7 @@ This skill reviews and revises parts of a research article, and the matching cha
 
 Read only the files the task needs. `rules/index.md` lists every rule in one line each; use it to choose which checks to run, then open only the files whose checks you need.
 
-- **Full review** of a title, abstract, introduction, literature review, Methods, Results or Discussion: read the draft once, note the problems most visible in it, and match them to checks in `rules/index.md`; apply the section's file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/data-commentary.md` (for sections that comment on figures or tables), `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/cohesion.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`. Run first the checks that address the problems you noted, then the rest in this order.
+- **Full review** of a title, abstract, introduction, literature review, Methods, Results or Discussion: read the draft once, note the problems most visible in it, and match them to checks in `rules/index.md`; apply the section's file first (for Methods, both `rules/methods.md` and `rules/methods-structure.md`), then the checks in this order: `rules/data-commentary.md` (for sections that comment on figures or tables), `rules/numbers.md` (for passages that state numbers), `rules/claims.md`, `rules/argument.md` (for argued sections such as the Discussion), `rules/spin.md` (health research only), `rules/reporting.md` (health research only; Methods and Results), `rules/sentences.md`, `rules/cohesion.md`, `rules/vagueness.md`, `rules/unpacking.md`, `rules/informativeness.md`. Run first the checks that address the problems you noted, then the rest in this order.
 - **Whole manuscript:** review each section in the paper's order, as a full review, then check the sections against each other:
   - any result the title states is supported by the paper (`rules/titles.md`, rule 4);
   - every finding in the abstract appears in the Results (`rules/abstracts.md`, rule 5);
@@ -72,7 +73,7 @@ Read only the files the task needs. `rules/index.md` lists every rule in one lin
 1. **Establish the context.** Ask for the field, the target journal or degree, the genre and, for empirical work, the study design, or read them from the draft. Many rules depend on them. If they cannot be found and the user is not there to ask, state your assumption once at the top of the review, and mark the findings that depend on the field or journal as conditional on it.
 2. **Follow the procedure at the top of the rules file.** Where it asks you to label each sentence and the draft is long, label paragraphs first, then label sentences only in the paragraphs where a check finds a problem. Keep every question for the author for the end of the review (see *How to present a review*), rather than stopping at each one.
 3. **Cite the rule behind every proposed change**, by file and number (for example, "introduction, rule 7").
-4. **Keep the author's content.** Keep the author's claims, data and citations. Never invent findings, gaps, references, figures or evaluations; where a rule needs content the draft does not have, ask the author for it. Check that the numbers in the draft agree with each other and with its tables and figures; where a value does not, or looks copied from another row, column or place, ask the author to confirm it rather than correcting it.
+4. **Keep the author's content.** Keep the author's claims, data and citations. Never invent findings, gaps, references, figures or evaluations; where a rule needs content the draft does not have, ask the author for it. Check that the numbers in the draft agree with each other and with its tables and figures (`rules/numbers.md`, rule 7); where a value does not, or looks copied from another row, column or place, ask the author to confirm it rather than correcting it.
 5. **Finish with the rules file's checklist.** Run it every time; show it in the review only when the draft is longer than a paragraph or the user asks for it.
 
 ## How to present a review

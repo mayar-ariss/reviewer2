@@ -22,7 +22,7 @@ Load this file when the user wants the text that accompanies a figure or table c
 *Procedure, not a rule of Swales and Feak's.*
 
 1. **For each table and figure, collect the text that comments on it**, and ask what the paper's question or hypothesis is at that point.
-   *This skill's application, not a rule from Swales and Feak:* check every value the text gives against the table or figure, and check the values in the table or figure against each other. Where a value disagrees, or repeats one from another row or column, ask the author to confirm it before commenting on it.
+   *This skill's application, not a rule from Swales and Feak:* check every value the text gives against the table or figure, and check the values in the table or figure against each other. Where a value disagrees, or repeats one from another row or column, ask the author to confirm it before commenting on it. For the numbers themselves (units, digits, plausibility), see `rules/numbers.md`.
 2. **Count the figures and tables**, and compare the number with recent articles in the target journal and with its author guidelines. The sources give no rule on how many a paper should have, so report the comparison and leave the decision to the author. Whether each figure is needed at all is checked in `rules/argument.md` (rule 6) and `rules/results.md` (rule 1).
 3. **Label each sentence** with its element: location or summary, highlighting, or discussion (see the structure).
 4. **Check the commentary against rules 1–8** (rule 8 for graphs).

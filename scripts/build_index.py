@@ -10,7 +10,7 @@ import re
 ORDER = [
     ("Parts of the text", ["titles", "abstracts", "introduction", "literature-review",
                            "methods", "methods-structure", "results", "discussion"]),
-    ("Checks for any part", ["data-commentary", "claims", "argument", "sentences",
+    ("Checks for any part", ["data-commentary", "numbers", "claims", "argument", "sentences",
                              "cohesion", "vagueness", "unpacking", "informativeness"]),
     ("Health research only", ["reporting", "spin"]),
 ]

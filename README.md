@@ -24,6 +24,7 @@ The skill keeps one rules file per part of the text, plus files for checks that 
 | Discussions | `rules/discussion.md` | Moreno & Swales 2018 |
 | Claims and reader engagement, in any part | `rules/claims.md` | Hyland 2005, 2010, 2017, 2023; Hyland & Jiang 2023 |
 | Data commentary on figures and tables | `rules/data-commentary.md` | Swales & Feak 1995; AWG |
+| Numbers, in any part | `rules/numbers.md` | Miller 2015, 2013 |
 | Argument, in any part | `rules/argument.md` | Toulmin 1958 |
 | Sentences, in any part | `rules/sentences.md` | Gopen & Swan 1990 |
 | Cohesion, in any part | `rules/cohesion.md` | Halliday & Hasan 1976 |
@@ -91,6 +92,10 @@ From Ken Hyland's interpersonal model of metadiscourse and his work on hedging a
 
 From Swales and Feak's account of data commentary: the text that accompanies a figure or table should be a selective, interpretive commentary, not a restatement of the visual. It checks that the commentary locates the visual, highlights the results that bear on the question and says why, accounts for results that do not fit, qualifies its interpretations, and connects its statements into one account. For graphs, it checks that the axes are explained and that the commentary states the pattern or trend rather than reading off values. It also flags data shown twice, and compares the number of figures and tables with the target journal. It does not concern the design of the visual.
 
+### Numbers
+
+From Jane Miller's *Chicago Guide to Writing about Numbers* and its companion on multivariate analysis: each stated number should have its context and units, say what it means, name what it is compared with and what it is judged against, carry digits that suit the measurement, be plausible and agree with its table, and, where significance is claimed, match the test result without confusing statistical with substantive significance. It covers stated numbers; vague quantities stay with Channell, and Miller's advice on describing patterns and on causality is left to the data commentary and argument files that already cover it.
+
 ### Argument
 
 From Toulmin's model of argument: for each main claim, the data it rests on, the warrant that licenses the step from data to claim, backing for warrants a reader might doubt, a qualifier stating its strength, and the exceptions under which it would not hold. Warrants are usually left unstated; the skill writes them out so the author can see which ones need support. Treating each figure and table as data, it flags visuals that support no claim and main claims whose data are shown nowhere.
@@ -146,6 +151,7 @@ Once installed, ask your agent the way you normally would:
 - *"Give my Discussion a quick review."*
 - *"Review my whole manuscript, and check that the sections agree with each other."*
 - *"Does my abstract actually state the findings?"*
+- *"Check the numbers in my Results: units, digits, and what each one is compared with."*
 - *"Lay out the argument behind my main conclusion. Which warrants would a reviewer question?"*
 
 ## Tests
@@ -161,7 +167,7 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 ## Planned
 
 - **Research proposals and whole theses:** the moves of a research or grant proposal, and the organization of a thesis across chapters
-- **Verification:** check page numbers taken from open texts and secondary sources against the original works. Done so far from open sources: part of the Methods table (Bloor 2004), Channell (her 1983 thesis), Hyland's abstract model (two further studies) and the definition of explicating results (two of the framework's authors). Still single-source: the Methods table's rows on subsections, verbs per clause, "how" statements and linking phrases; Halliday and Hasan's page numbers in `rules/cohesion.md`; the data commentary guidance on graphs
+- **Verification:** check page numbers taken from open texts and secondary sources against the original works. Done so far from open sources: part of the Methods table (Bloor 2004), Channell (her 1983 thesis), Hyland's abstract model (two further studies) and the definition of explicating results (two of the framework's authors). Still single-source: the Methods table's rows on subsections, verbs per clause, "how" statements and linking phrases; Halliday and Hasan's page numbers in `rules/cohesion.md`; the data commentary guidance on graphs; Miller's rules, which rest on the publisher's study guides and one review rather than the books
 
 ## Based on
 
@@ -191,6 +197,8 @@ Every rule names its source, and no rule combines authorities. Most rules cite t
 - Swales, J. M., & Feak, C. B. (1995). From information transfer to data commentary. *The Journal of TESOL-France*.
 - Hyland, K., & Zou, H. (2022). Titles in research articles. *Journal of English for Academic Purposes*, 56, 101094.
 - Toulmin, S. (1958). *The Uses of Argument*. Cambridge University Press.
+- Miller, J. E. (2015). *The Chicago Guide to Writing about Numbers* (2nd ed.). University of Chicago Press.
+- Miller, J. E. (2013). *The Chicago Guide to Writing about Multivariate Analysis* (2nd ed.). University of Chicago Press.
 
 The skill paraphrases these works and cites them; it does not reproduce their text. Read the originals for the full treatment, examples and exercises.
 
