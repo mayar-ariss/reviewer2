@@ -120,7 +120,7 @@ One line per rule, taken from the rule headings. Use it to choose which checks t
 6. Report digits and decimal places to suit the measurement
 7. Check that each value is plausible and agrees with the data
 8. Keep statistical and substantive significance apart
-9. Give the test result behind a statement of significance
+9. Point to the test result behind a statement of significance
 
 ### `rules/claims.md`: Claims: Hyland on stance and metadiscourse
 
