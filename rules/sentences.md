@@ -120,14 +120,14 @@ The article does not discuss pronouns or reference, such as what *this*, *it* or
 
 ## Example
 
-*An illustration of this file's procedure, not Gopen and Swan's.* Draft sentence: "Extreme events show how much rests on their hydraulics."
+*An illustration of this file's procedure, not Gopen and Swan's.* Draft sentence: "Recent crises show how much rests on their supply chains."
 
-- **Whose story (rule 3):** the topic position holds *extreme events*, but the sentence seems to be about the hydraulics of something else: structures, channels or rivers. Ask the author whose story it is.
-- **Action (rule 6):** the main verb *show* states no action in the system being described. The real action, something depending on hydraulics, is hidden in *rests on*, inside a clause, and never stated as a relation between named things.
-- **Stress position (rule 5):** the sentence ends on *their hydraulics*, which is not new information the reader can take away; what matters, and how much, is left unsaid.
-- **Logical gap (rule 9):** the link between the events and the hydraulics is asserted, not stated.
-- **Revision:** ask the author for the structure, the hydraulic property, the outcome and the evidence, then build the sentence so that whose story it is opens it, the action is the verb and the outcome is the stress position: "During [event], [structure]'s [hydraulic property] determined whether [outcome] ([citation])."
-- **Not covered here:** *their* refers to events, which have no hydraulics (see `rules/cohesion.md`); *how much* states no quantity (see `rules/vagueness.md`); the missing source and the unearned certainty of *show* are for `rules/claims.md`; unpacking the sentence to show its empty slots is in `rules/unpacking.md`.
+- **Whose story (rule 3):** the topic position holds *recent crises*, but the sentence seems to be about the supply chains of something else: firms, sectors or countries. Ask the author whose story it is.
+- **Action (rule 6):** the main verb *show* states no action in the system being described. The real action, something depending on supply chains, is hidden in *rests on*, inside a clause, and never stated as a relation between named things.
+- **Stress position (rule 5):** the sentence ends on *their supply chains*, which is not new information the reader can take away; what matters, and how much, is left unsaid.
+- **Logical gap (rule 9):** the link between the crises and the supply chains is asserted, not stated.
+- **Revision:** ask the author for the firms or sector, the supply-chain property, the outcome and the evidence, then build the sentence so that whose story it is opens it, the action is the verb and the outcome is the stress position: "During [crisis], [sector]'s [supply-chain property] determined whether [outcome] ([citation])."
+- **Not covered here:** *their* refers to crises, which have no supply chains (see `rules/cohesion.md`); *how much* states no quantity (see `rules/vagueness.md`); the missing source and the unearned certainty of *show* are for `rules/claims.md`; unpacking the sentence to show its empty slots is in `rules/unpacking.md`.
 
 ## Validation checklist
 

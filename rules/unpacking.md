@@ -82,11 +82,11 @@ Halliday describes how scientific English works and why it is hard; in the sourc
 
 ## Example
 
-*An illustration of this file's procedure, not Halliday's.* Draft sentence: "Extreme events show how much rests on their hydraulics."
+*An illustration of this file's procedure, not Halliday's.* Draft sentence: "Recent crises show how much rests on their supply chains."
 
-- **Metaphor (rules 2, 4):** *rests on* stands for a logical relation (depends on); *hydraulics* stands for processes (how water flows through or over something); *show* may be relational (events as a sign) or verbal (events as a sayer).
-- **Unpacked (rule 3):** "When [which] extreme events happen, [someone] can see that [what outcome] depends [to what degree] on how water flows through [which structure]."
-- **Reading the unpacked version:** every slot that would make it a claim is empty: the events, the observer or evidence, the outcome, the degree and the structure. Ask the author to fill them; the sentence can then be written either way.
+- **Metaphor (rules 2, 4):** *rests on* stands for a logical relation (depends on); *supply chains* stands for processes (how goods are sourced, made and moved); *show* may be relational (crises as a sign) or verbal (crises as a sayer).
+- **Unpacked (rule 3):** "When [which] crises happen, [someone] can see that [what outcome] depends [to what degree] on how [which firms or countries] source and move goods."
+- **Reading the unpacked version:** every slot that would make it a claim is empty: the crises, the observer or evidence, the outcome, the degree and the firms or countries. Ask the author to fill them; the sentence can then be written either way.
 
 ## Validation checklist
 

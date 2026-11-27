@@ -86,12 +86,12 @@ Toulmin gives no analogue of logical validity for evaluating arguments, and does
 
 ## Example
 
-*An illustration of this file's procedure, not Toulmin's.* Draft sentence, in a Discussion: "Because the model reproduced the 2021 flood peak, its predictions for larger events are reliable."
+*An illustration of this file's procedure, not Toulmin's.* Draft sentence, in the Discussion of an ecology paper: "Because the 2022 survey recorded more bird species than the 2012 survey, the restoration programme has reversed biodiversity loss in the region."
 
-- **Claim and data (rule 1):** claim: the predictions for larger events are reliable; data: the model reproduced the 2021 peak.
-- **Warrant (rule 2):** unstated: a model that reproduces one observed event will be reliable for larger, unobserved ones. Many readers would doubt this.
-- **Backing (rule 3):** ask what supports extrapolation beyond the calibrated range: validation on other events, a physical argument.
-- **Qualifier and rebuttal (rules 4–5):** "reliable" is unqualified, and no exception is stated (for example, flows beyond the range the model was calibrated on). Ask the author.
+- **Claim and data (rule 1):** claim: the programme has reversed biodiversity loss in the region; data: more species were recorded in 2022 than in 2012.
+- **Warrant (rule 2):** unstated: a higher species count in one later survey shows a lasting regional increase, caused by the programme. Many readers would doubt this.
+- **Backing (rule 3):** ask what supports the step: comparable survey effort and methods in both years, counts from more years, or trends at sites outside the programme.
+- **Qualifier and rebuttal (rules 4–5):** "reversed" is unqualified, and no exception is stated (for example, a change in survey effort, or a regional trend that would have happened anyway). Ask the author.
 
 ## Validation checklist
 

@@ -96,11 +96,11 @@ The article presents the framework with step names and frequency findings, but d
 
 ## Example
 
-*An illustration of this file's procedure, not the authors'.* Draft sentences, in a separate Results section of a hydraulic modelling paper: "Overall, the model performed well. This confirms that two-dimensional models are the best tool for flood mapping."
+*An illustration of this file's procedure, not the authors'.* Draft sentences, in a separate Results section of a remote sensing paper: "Overall, the classifier performed well. This confirms that deep learning is the best approach to land-cover mapping."
 
 - **Moves (rules 1, 4):** neither sentence reports a specific result (Move 2). The first evaluates the study as a whole; the second generalizes beyond it (Move 4, generalizing results).
 - **Placement (rule 4):** in a separate Results section, ask whether the generalization belongs in the Discussion.
-- **Content:** ask the author which results show the model's performance (which measures, at which locations, for which events) and where they are shown (rule 3); then check the claim with `rules/claims.md` and `rules/argument.md`.
+- **Content:** ask the author which results show the classifier's performance (which measures, for which classes, on which test data) and where they are shown (rule 3); then check the claim with `rules/claims.md` and `rules/argument.md`.
 
 ## Validation checklist
 

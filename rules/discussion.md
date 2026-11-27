@@ -128,12 +128,12 @@ They do not specify which moves or steps are obligatory. The steps in their tabl
 
 ## Example
 
-*An illustration of this file's procedure, not Moreno and Swales's.* Draft Discussion, in full: "The model reproduced the observed peak within 5%. This confirms that the model is reliable. Future studies should use it."
+*An illustration of this file's procedure, not Moreno and Swales's.* Draft Discussion of a chemistry paper, in full: "The new catalyst increased the yield by 12%. This confirms that the catalyst is superior. Future studies should use it."
 
 - **Labels (rules 2, 5–8):** sentence 1 summarizes a key result (presenting results neutrally); sentence 2 comments on it (establishing the meaning of results); sentence 3 draws an implication (making recommendations for future research).
 - **Missing moves (rule 7):** nothing evaluates the study: no limitation, contribution or strength. Ask the author what the study cannot show, and what it adds.
-- **Comment (rule 6):** no comparison with previous research and no explanation. Ask whether earlier models of the event exist.
-- **Implication (rule 8):** check that the recommendation follows from the results; a single reproduced peak may not support it (see `rules/argument.md` and `rules/claims.md`).
+- **Comment (rule 6):** no comparison with previous research and no explanation. Ask whether other catalysts have been tested under the same conditions.
+- **Implication (rule 8):** check that the recommendation follows from the results; one yield comparison may not support it (see `rules/argument.md` and `rules/claims.md`).
 
 ## Validation checklist
 

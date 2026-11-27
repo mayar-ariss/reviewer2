@@ -83,11 +83,11 @@ Channell describes how vague language works, mostly in speech; she does not set 
 
 ## Example
 
-*An illustration of this file's procedure, not Channell's.* Draft sentence: "Extreme events show how much rests on their hydraulics."
+*An illustration of this file's procedure, not Channell's.* Draft sentence: "Recent crises show how much rests on their supply chains."
 
 - **Form (rule 2):** *how much* is a non-numerical vague quantity, with no number, range or unit.
-- **Function (rules 3–4):** it does not give the right amount of information, since the reader cannot tell whether a little or a great deal rests on the hydraulics. It reads as persuasion (the quantity sounds large) or as a cover for missing information.
-- **Revision:** ask the author whether a measure exists (a discharge, a failure rate, a cost) and state it; if none exists, say so and calibrate the claim with `rules/claims.md`.
+- **Function (rules 3–4):** it does not give the right amount of information, since the reader cannot tell whether a little or a great deal rests on the supply chains. It reads as persuasion (the quantity sounds large) or as a cover for missing information.
+- **Revision:** ask the author whether a measure exists (a delivery delay, a shortage rate, a cost) and state it; if none exists, say so and calibrate the claim with `rules/claims.md`.
 
 ## Validation checklist
 

@@ -74,10 +74,10 @@ The study examines formal features only, not qualities such as cleverness or den
 
 ## Example
 
-*An illustration of this file's procedure, not Hyland and Zou's.* Draft title: "The Importance of Hydraulics in Extreme Events".
+*An illustration of this file's procedure, not Hyland and Zou's.* Draft title, for a mechanical engineering journal: "The Importance of Lubrication in Gear Failure".
 
-- **Description (rules 2–4):** seven words; indicative, single, descriptive.
-- **Field (rules 4–5):** in mechanical engineering, a third of indicative titles give detail, usually the approach. Ask whether the title should name the method or the case (for example, a two-dimensional model of a particular flood), and check the target journal's titles.
+- **Description (rules 2–4):** six words; indicative, single, descriptive.
+- **Field (rules 4–5):** in mechanical engineering, a third of indicative titles give detail, usually the approach. Ask whether the title should name the method or the case (for example, a finite-element model of a particular gearbox), and check the target journal's titles.
 - **Informativeness (rule 1):** *the importance of* names no searchable content. Ask which terms a reader would search for (see also `rules/informativeness.md`).
 
 ## Validation checklist

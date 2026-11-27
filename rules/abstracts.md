@@ -78,7 +78,7 @@ The source used here does not report which moves Hyland found obligatory or opti
 
 ## Example
 
-*An illustration of this file's procedure, not Hyland's.* Draft abstract: "Flood risk is a growing concern worldwide. This paper examines hydraulic modelling of extreme events. Results are presented and their implications discussed."
+*An illustration of this file's procedure, not Hyland's.* Draft abstract, for an education journal: "Student engagement is a growing concern in higher education. This paper examines peer assessment in large lectures. Results are presented and their implications discussed."
 
 - **Moves (rules 1–3):** Introduction (sentence 1), a partial Purpose (sentence 2), and no Product: "results are presented" states no finding. There is no Method move.
 - **Problem (rule 4):** the Introduction gives the importance of the topic but no problem.

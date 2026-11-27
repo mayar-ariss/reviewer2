@@ -89,11 +89,11 @@ The authors give no rule on the wording of headings or subheadings; they note on
 
 ## Example
 
-*An illustration of this file's procedure, not the authors'.* Methods outline of a hydraulic modelling paper: "2.1 Model performance; 2.2 Study area; 2.3 Model set-up; 2.4 Boundary conditions."
+*An illustration of this file's procedure, not the authors'.* Methods outline of a field ecology paper: "2.1 Species richness estimates; 2.2 Study area; 2.3 Sampling design; 2.4 Data sources."
 
 - **Labels:** 2.1 Move 3 (credibility) or results; 2.2 Move 1, step 4 (setting); 2.3 Move 2, steps 3–4 (procedures, tools); 2.4 Move 2, steps 1–2 (data).
 - **Order (rule 3):** the analysis comes before the study it analyses. Ask whether 2.1 should follow 2.4, or whether it reports findings that belong in Results (rule 5).
-- **Missing steps (rule 2):** no data preparation or analysis step for calibration. Ask the author how the model was calibrated and evaluated.
+- **Missing steps (rule 2):** no data preparation or analysis step for the richness estimates. Ask the author how the estimates were computed and checked.
 
 ## Validation checklist
 

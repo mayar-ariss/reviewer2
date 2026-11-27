@@ -129,13 +129,13 @@ The sources used here do not cover the uncertainty of physical measurements (ins
 
 ## Example
 
-*An illustration of this file's procedure, not Miller's.* Draft sentence, in a Results section: "The model reproduced the observed peak within 5%, and the modelled peak at gauge D was 2.4013 m, an excellent result."
+*An illustration of this file's procedure, not Miller's.* Draft sentence, in the Results of an economics paper: "The model forecast inflation within 5%, and the forecast for region D was 3.4013%, an excellent result."
 
-- **Context (rule 1):** which peak (which event, which quantity: water level or discharge)? "The observed peak" names no gauge or date.
-- **Comparison (rule 4):** *within 5%* of what? Name the type of comparison (relative error of the modelled peak against the observed one) and its reference value.
-- **Reference (rule 5):** *excellent* is judged against nothing stated. Ask the author what the agreement is judged against: the uncertainty of the observations, a criterion used in the field, or results of earlier models, with a source.
-- **Digits (rule 6):** 2.4013 m implies a precision of 0.1 mm. Ask what precision the gauge and the model support.
-- **Agreement (rule 7):** if Table 2 gives a value that differs beyond rounding, ask which is right. If it gives 2.40 m, the two agree once rounded, and only the digits in the text need attention (rule 6).
+- **Context (rule 1):** which inflation (which period, which measure: headline or core)? "Inflation" names no region, period or index.
+- **Comparison (rule 4):** *within 5%* of what? For a rate, it could mean 5 percentage points or 5 percent of the observed value. Name the type of comparison (absolute or relative forecast error) and its reference value.
+- **Reference (rule 5):** *excellent* is judged against nothing stated. Ask the author what the accuracy is judged against: the errors of a benchmark forecast, a criterion used in the field, or results of earlier models, with a source.
+- **Digits (rule 6):** 3.4013% implies a precision of 0.0001 percentage points. Ask what precision the data and the model support.
+- **Agreement (rule 7):** if Table 2 gives a value that differs beyond rounding, ask which is right. If it gives 3.40%, the two agree once rounded, and only the digits in the text need attention (rule 6).
 - **Revision:** keep the author's values and ask for the missing context, reference and precision; do not supply a criterion.
 
 ## Validation checklist

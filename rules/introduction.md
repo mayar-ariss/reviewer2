@@ -180,7 +180,7 @@ Swales gives no fixed length for an introduction or for each move, beyond noting
 
 ## Example
 
-*An illustration of this file's procedure, not Swales's.* Draft introduction, in full: "Extreme events show how much rests on their hydraulics. Flood models are widely used. This paper presents a two-dimensional model of the 2021 flood."
+*An illustration of this file's procedure, not Swales's.* Draft introduction, in full: "Recent crises show how much rests on their supply chains. Supply chain models are widely used. This paper presents an agent-based model of the 2021 semiconductor shortage."
 
 - **Moves (rule 1):** sentences 1–2 attempt Move 1; sentence 3 is Move 3. There is no Move 2.
 - **Territory (rule 3):** neither sentence cites earlier work, and neither narrows from the general to the specific. Ask the author for the studies the paper builds on.

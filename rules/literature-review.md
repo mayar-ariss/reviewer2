@@ -195,10 +195,10 @@ They give no fixed length for a review, no number of sources, and no single requ
 
 ## Example
 
-*An illustration of this file's procedure, not Feak and Swales's.* Draft review paragraph: "Smith (2015) used a one-dimensional model. Jones (2017) used a two-dimensional model. Lee (2019) studied channel roughness. Many studies have modelled floods."
+*An illustration of this file's procedure, not Feak and Swales's.* Draft review paragraph: "Smith (2015) surveyed teachers. Jones (2017) interviewed principals. Lee (2019) studied class size. Many studies have examined school leadership."
 
 - **Purpose (rules 1–2):** the paragraph lists studies but does not lead to a need for the present research. Ask the author which research question it serves.
-- **Order (rule 4):** the studies are ordered by date. Ask which grouping fits the research question, for example by model type or by what was calibrated.
+- **Order (rule 4):** the studies are ordered by date. Ask which grouping fits the research question, for example by method or by what was measured.
 - **Citations (rule 10):** every citation is integral, which puts the researchers rather than the findings in focus. Check whether that is what the author intends.
 - **Stance (rule 13):** nothing evaluates the studies. Ask what the author makes of each, and how they bear on the gap.
 - For "many studies", see `rules/vagueness.md`.

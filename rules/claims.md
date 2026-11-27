@@ -186,13 +186,13 @@ The sources cited here describe practice; they do not prescribe it. Hyland gives
 
 ## Example
 
-*An illustration of this file's procedure, not Hyland's.* Draft sentence: "Extreme events show how much rests on their hydraulics."
+*An illustration of this file's procedure, not Hyland's.* Draft sentence: "Recent crises show how much rests on their supply chains."
 
-- **Source (rule 3):** no evidential, and no writer stands behind the claim; the inanimate subject *extreme events* is not evidence in the way *the data* would be. Ask the author which events, and which study or result supports the claim.
+- **Source (rule 3):** no evidential, and no writer stands behind the claim; the inanimate subject *recent crises* is not evidence in the way *the data* would be. Ask the author which crises, and which study or result supports the claim.
 - **Commitment (rules 4, 9):** *show* is factive: the sentence vouches for a claim it gives no grounds for.
 - **Attitude (rule 7):** *how much rests on* is an evaluation of importance with no stated magnitude, holder or support.
-- **Revision:** do not invent the content. Ask the author for the event, the hydraulic property, the result and the citation, then state the claim with the commitment that evidence supports.
-- **Not covered here:** how the sentence is built (whose story it tells, where the action and the emphasis fall) is the subject of `rules/sentences.md`. That *their* refers to events, which have no hydraulics, is a failure of reference (see `rules/cohesion.md`); that *how much* states no quantity is for `rules/vagueness.md`.
+- **Revision:** do not invent the content. Ask the author for the crisis, the supply-chain property, the result and the citation, then state the claim with the commitment that evidence supports.
+- **Not covered here:** how the sentence is built (whose story it tells, where the action and the emphasis fall) is the subject of `rules/sentences.md`. That *their* refers to crises, which have no supply chains, is a failure of reference (see `rules/cohesion.md`); that *how much* states no quantity is for `rules/vagueness.md`.
 
 ## Validation checklist
 

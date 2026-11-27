@@ -99,12 +99,12 @@ Grice describes conversation; he gives no rules for academic writing, says nothi
 
 ## Example
 
-*An illustration of this file's procedure, not Grice's.* Draft sentence: "What a simulation can say depends on how real its inputs are."
+*An illustration of this file's procedure, not Grice's.* Draft sentence, from a political science paper: "What a survey can tell us depends on how honest its answers are."
 
-- **What it tells the reader (rule 2):** that a model's outputs are only as good as its inputs, which any reader of a simulation paper already accepts. At the level of what is said, it is close to a tautology.
-- **What it implies (rule 3):** ask the author. Is this the authors' own model? Which outputs are limited by which inputs? Is this a limitation of the present study?
-- **Obscure wording (rule 7):** inputs are not more or less *real*. Ask which property is meant: the accuracy of measured inputs, the uncertainty of estimated parameters, the resolution of spatial data, or how representative the boundary conditions are. *A simulation* names no particular model: ask whether it is the authors' own. *What a simulation can say* stands for particular outputs: ask which.
-- **Evidence (rule 4):** a specific version ("the predicted peak discharge is sensitive to channel roughness") needs results or a citation. Ask for them; do not supply them.
+- **What it tells the reader (rule 2):** that survey findings are only as good as the responses behind them, which any reader of survey research already accepts. At the level of what is said, it is close to a tautology.
+- **What it implies (rule 3):** ask the author. Is this the authors' own survey? Which estimates are limited by which answers? Is this a limitation of the present study?
+- **Obscure wording (rule 7):** answers are not more or less *honest* as a measured property. Ask which property is meant: the accuracy of self-reports, social desirability bias, the reliability of the measure, or how representative the respondents are. *A survey* names no particular survey: ask whether it is the authors' own. *What a survey can tell us* stands for particular estimates: ask which.
+- **Evidence (rule 4):** a specific version ("reported turnout exceeds validated turnout in our sample") needs results or a citation. Ask for them; do not supply them.
 
 ## Validation checklist
 

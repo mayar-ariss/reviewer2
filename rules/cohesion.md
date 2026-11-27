@@ -72,7 +72,7 @@ Halliday and Hasan group conjunction into four types: additive (*and*, *also*, *
 
 Lexical cohesion is the cohesive effect achieved by the selection of vocabulary (p. 274, as quoted by Crane). Its two categories are reiteration, in which an item is repeated directly or through a synonym, a superordinate or a general word, and collocation, between items that share the same lexical environment (p. 286, as quoted by Crane).
 
-- For each key object or quantity, list the words used for it. Where a draft moves between terms (*discharge*, *flow*, *runoff*), ask whether they name the same thing; in a research text a new term may be read as a new referent.
+- For each key object or quantity, list the words used for it. Where a draft moves between terms (*participants*, *respondents*, *the sample*), ask whether they name the same thing; in a research text a new term may be read as a new referent.
 - Where a general word (*thing*, *issue*, *aspect*, *factor*) stands for something named earlier, check that the reader can tell which.
 
 ### 7. Make what a substitute stands for, or what is left out, recoverable
@@ -90,15 +90,15 @@ Cohesion links a presupposing element to a presupposed one (p. 4, as reported by
 
 ## Example
 
-*An illustration of this file's procedure, not Halliday and Hasan's.* Draft sentence: "Extreme events show how much rests on their hydraulics."
+*An illustration of this file's procedure, not Halliday and Hasan's.* Draft sentence: "Recent crises show how much rests on their supply chains."
 
 - **Reference item (rule 2):** *their* is personal reference, a possessive that presupposes a plural referent.
-- **Referent (rules 3–4):** the only candidate in the sentence is *extreme events*. Events do not have hydraulics, so the referent the grammar points to does not fit the clause, and the one the author presumably meant (a structure, channel or river) is not in the text. Ask the author what *their* refers to, and name it.
+- **Referent (rules 3–4):** the only candidate in the sentence is *recent crises*. Crises do not have supply chains, so the referent the grammar points to does not fit the clause, and the one the author presumably meant (firms, sectors or countries) is not in the text. Ask the author what *their* refers to, and name it.
 
-A second draft passage: "The model was calibrated on the 2021 flood. However, the roughness coefficient was set to 0.035. The flow then increased."
+A second draft passage, from an education study: "The survey was sent to all 40 schools in March. However, it contained 42 items. The sample then shrank."
 
 - **Conjunction (rule 5):** *however* is adversative, but nothing in the first sentence sets up an expectation the second contradicts. Ask the author what the contrast is, or whether a different relation was meant.
-- **Lexical cohesion (rule 6):** *the flow* may or may not be the discharge the model computed. Ask which quantity is meant, and keep one term for it.
+- **Lexical cohesion (rule 6):** *the sample* may be the schools, the teachers or the pupils who answered. Ask which is meant, and keep one term for it.
 
 ## Validation checklist
 

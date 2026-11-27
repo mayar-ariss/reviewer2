@@ -114,19 +114,19 @@ The sources used here give no rule on the content of captions and legends, on wh
 
 ## Example
 
-*An illustration of this file's procedure, not Swales and Feak's.* Draft commentary on a table of observed and modelled peak water levels at four gauges: "Table 2 shows the results. At gauge A the observed level was 3.21 m and the modelled level 3.18 m; at gauge B, 2.95 m and 2.90 m; at gauge C, 2.40 m and 2.37 m; at gauge D, 1.80 m and 2.40 m."
+*An illustration of this file's procedure, not Swales and Feak's.* Draft commentary on a table of mean reading scores before and after an intervention at four schools: "Table 2 shows the results. At school A the mean score was 61 before and 63 after; at school B, 58 and 60; at school C, 70 and 71; at school D, 55 and 72."
 
 - **Elements:** a location element, then restated values; no highlighting statement and no discussion.
 - **Restatement (rule 1):** every value is repeated from the table. Ask what the reader should take from them.
-- **Highlighting (rule 3):** the result that bears on the model's accuracy, the large overestimate at gauge D, is not singled out.
-- **Exception (rule 4):** gauge D departs from the pattern. Ask the author what explains it and what it means for the model's use.
-- **Strength (rule 5):** once the author interprets the agreement at A–C, check that the claim fits four gauges and one event.
+- **Highlighting (rule 3):** the result that bears on the intervention's effect, the large gain at school D, is not singled out.
+- **Exception (rule 4):** school D departs from the pattern. Ask the author what explains it and what it means for the intervention's use.
+- **Strength (rule 5):** once the author interprets the small gains at A–C, check that the claim fits four schools and one year.
 
-A second draft, on a figure of observed and modelled discharge over the flood: "Figure 3 shows the hydrographs. At 06:00 the observed discharge was 120 m³/s and the modelled 115 m³/s; at 12:00, 410 and 455 m³/s; at 18:00, 300 and 290 m³/s."
+A second draft, on a figure of regional and national unemployment rates over a year: "Figure 3 shows the unemployment rates. In January the regional rate was 6.1% and the national rate 5.8%; in June, 7.9% and 6.0%; in December, 6.4% and 5.9%."
 
 - **Orientation (rule 2):** the text does not say what the axes or the two lines are; check that the caption does.
-- **Pattern (rule 8):** the commentary reads off three points. Ask for the pattern: both hydrographs rise to a peak and recede, and the model overestimates the peak.
-- **Exception and meaning (rules 4, 8):** ask the author whether the peak is also early or late, what explains the overestimate, and what it means for the model's use; check that the claim fits one event.
+- **Pattern (rule 8):** the commentary reads off three points. Ask for the pattern: the regional rate rises to a mid-year peak and falls back, while the national rate barely changes.
+- **Exception and meaning (rules 4, 8):** ask the author whether the regional peak is seasonal, what explains it, and what it means for the paper's question; check that the claim fits one year.
 
 ## Validation checklist
 
