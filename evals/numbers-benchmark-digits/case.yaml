@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: numbers-benchmark-digits
+expected_outcome: |
+  The review applies the numbers file. It flags 6.2731% as reported with more digits than a
+  yield measurement can support and asks what precision the data support; asks what
+  "excellent" is judged against (a criterion, earlier trials, the variability between
+  plots) without supplying one; notes that "0.8 lower" has no unit and asks for it; and says
+  that p = 0.03 indicates statistical significance, not a large or important effect, so
+  "proves" and "large effect" do not follow. It also asks which crop, site and season the
+  figures refer to. It invents no unit, benchmark or precision.
