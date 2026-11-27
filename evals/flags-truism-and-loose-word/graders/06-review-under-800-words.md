@@ -1,7 +1,8 @@
 ---
-type: llm
-focus: trace
+type: regex
+target: last_message
+pattern: '^\s*(?:\S+\s+){0,798}\S*\s*$'
 weight: 1
 ---
 
-The review of this one sentence is under 800 words.
+The final review is under 800 words.
