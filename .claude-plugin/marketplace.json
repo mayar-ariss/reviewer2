@@ -1,0 +1,15 @@
+{
+  "name": "reviewer2",
+  "description": "The reviewer2 skill: research writing reviewed rule by cited rule.",
+  "owner": {
+    "name": "Mayar Ariss",
+    "url": "https://github.com/mayar-ariss"
+  },
+  "plugins": [
+    {
+      "name": "reviewer2",
+      "source": "./",
+      "description": "Review research writing the way a demanding peer reviewer would, with every comment tied to a named authority."
+    }
+  ]
+}
