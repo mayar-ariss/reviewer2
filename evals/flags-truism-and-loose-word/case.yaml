@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: flags-truism-and-loose-word
+expected_outcome: |
+  The review finds that the first clause is a truism that any reader accepts (good
+  predictions need good data), and that "clean" is a loose word standing in for a technical
+  property. It offers candidate properties (for example label accuracy, missing values,
+  measurement error, duplicates, representativeness) and leaves the choice to the author. It
+  asks how the authors assessed their own data rather than asserting that the data were or
+  were not clean. Rules are cited from the informativeness file (Grice), and possibly
+  unpacking or claims.
