@@ -8,6 +8,12 @@ npx skills add mayar-ariss/reviewer2
 
 Works with Claude Code, Cursor, Codex, GitHub Copilot, Gemini CLI and any agent the [skills CLI](https://skills.sh) supports.
 
+In Claude Code you can also install it as a plugin, which `claude plugin update` keeps current:
+
+```
+/plugin install reviewer2 --marketplace mayar-ariss/reviewer2
+```
+
 ## What it does
 
 The skill keeps one rules file per part of the text, plus files for checks that apply to any part, and each file draws on a single authority. `SKILL.md` tells the agent which file to read for the task, and `rules/index.md` lists every rule in one line so the agent can choose its checks before opening the files. Each rules file puts its procedure and rules first and its sources at the end.
@@ -118,7 +124,7 @@ From Halliday's work on grammatical metaphor: congruent and metaphorical wording
 
 ### Informativeness
 
-From Grice's Cooperative Principle and conversational maxims: each sentence should be as informative as the point requires, true and supported, relevant and clear. It catches truisms and platitudes ("What a simulation can say depends on how real its inputs are"), asks the author what they were meant to imply, and does not replace them with claims the evidence cannot support. Under Grice's maxim of Manner, it also flags loose everyday words standing in for technical properties (inputs that are "real" rather than accurate, uncertain or representative) and lists the candidate terms for the author to choose from.
+From Grice's Cooperative Principle and conversational maxims: each sentence should be as informative as the point requires, true and supported, relevant and clear. It catches truisms and platitudes ("What a survey can tell us depends on how honest its answers are"), asks the author what they were meant to imply, and does not replace them with claims the evidence cannot support. Under Grice's maxim of Manner, it also flags loose everyday words standing in for technical properties (answers that are "honest" rather than accurate, unbiased or representative) and lists the candidate terms for the author to choose from.
 
 ### Completeness of reporting
 
@@ -156,7 +162,9 @@ Once installed, ask your agent the way you normally would:
 
 ## Tests
 
-`evals/` holds test cases, one folder per case: a prompt a user might send, a description of a good review, and statements a grader checks (for example, that the review cites the rule it applies by file and number, invents no figures, and does not apply the health-research checks to an engineering paper). They use the layout that `claude plugin eval` reads, so they can be run with and without the skill to compare.
+`evals/` holds test cases, one folder per case: a prompt a user might send, a description of a good review, and graders that check the final review. Checks that can be stated as a pattern, such as citing the right rule by file and number or staying under a word limit, are regex graders, which are free and give the same answer every time; judgements, such as inventing no figures or not applying the health-research checks to an engineering paper, go to a judge model that reads only the final review. Each case also records whether the skill was invoked.
+
+Run the suite from the repository root with `claude plugin eval .`. It runs each case with and without the skill and reports the difference, so you can see what the skill adds. Runs and judge calls use your Claude credentials; `--max-cost-usd` sets a ceiling.
 
 After changing a rule heading, rebuild the index with `python3 scripts/build_index.py`.
 
