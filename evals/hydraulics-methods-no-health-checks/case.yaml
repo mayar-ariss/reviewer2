@@ -1,8 +1,0 @@
-schema_version: "1.1"
-name: hydraulics-methods-no-health-checks
-expected_outcome: |
-  The review applies the Methods files (condensed versus extended detail; parts and order),
-  notes that calibration is reported without saying how it was done or against what, and
-  that no data source or justification is given. Because the study is not health research,
-  it does not apply the reporting-guideline or spin checks, and it may say they were not run
-  for that reason.

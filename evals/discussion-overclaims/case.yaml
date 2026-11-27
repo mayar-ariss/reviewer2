@@ -1,9 +1,0 @@
-schema_version: "1.1"
-name: discussion-overclaims
-expected_outcome: |
-  The review labels the sentences by function, finds that the claim of reliability is
-  stronger than one reproduced peak supports (an unstated warrant generalizing from one
-  event), that the Discussion lacks any evaluation of the study (limitations, contribution)
-  and any comparison with previous work, and that the recommendation does not follow. It
-  cites the discussion, argument and claims files by rule number, groups findings by passage
-  and separates proposed changes from questions for the author.

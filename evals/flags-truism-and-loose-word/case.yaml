@@ -1,8 +1,0 @@
-schema_version: "1.1"
-name: flags-truism-and-loose-word
-expected_outcome: |
-  The review finds that the sentence is a truism that any reader accepts, and that "real" is
-  a loose word standing in for a technical property. It offers candidate properties (for
-  example accuracy, uncertainty, resolution, representativeness) and leaves the choice to
-  the author. It asks what the authors' own simulation shows about its inputs. Rules are
-  cited from the informativeness file (Grice), and possibly unpacking or claims.
