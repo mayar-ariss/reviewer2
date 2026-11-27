@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: text-contradicts-table
+expected_outcome: |
+  The review finds that the text contradicts Table 3: the model underestimated energy use in
+  buildings A-C and overestimated it only in building D. It asks the author to confirm which
+  is right (the text or the table), and flags the causal claim about insulation as stronger
+  than the data support and as interpretation the Results may not be the place for. It
+  cites the data commentary file (and claims, argument or results where relevant) and does
+  not supply its own explanation for building D.
