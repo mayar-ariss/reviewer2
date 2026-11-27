@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: discussion-overclaims
+expected_outcome: |
+  The review labels the sentences by function, finds that the claim is stronger than one
+  comparison in one course supports (an unstated warrant generalizing from one exam to
+  learning in general), that the Discussion lacks any evaluation of the study (limitations,
+  contribution) and any comparison with previous work, and that the recommendation to all
+  universities does not follow. It cites the discussion, argument and claims files by rule
+  number, groups findings by passage and separates proposed changes from questions for the
+  author.
