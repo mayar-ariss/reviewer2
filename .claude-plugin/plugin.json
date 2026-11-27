@@ -1,0 +1,13 @@
+{
+  "name": "reviewer2",
+  "displayName": "Reviewer 2",
+  "description": "Review and revise research articles, theses and dissertations the way a demanding peer reviewer would, with every comment tied to a named authority on academic writing.",
+  "author": {
+    "name": "Mayar Ariss",
+    "url": "https://github.com/mayar-ariss"
+  },
+  "homepage": "https://github.com/mayar-ariss/reviewer2",
+  "repository": "https://github.com/mayar-ariss/reviewer2",
+  "license": "MIT",
+  "keywords": ["academic-writing", "peer-review", "research", "thesis", "manuscript", "editing"]
+}
