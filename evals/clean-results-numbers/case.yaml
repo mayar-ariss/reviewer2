@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: clean-results-numbers
+expected_outcome: |
+  The paragraph reports its numbers well: each has context and units, comparisons name their
+  reference, uncertainty is given, digits suit the measurements, and the sentence keeps
+  statistical and practical significance apart. The review applies the numbers file, says
+  the numbers are reported well, and does not flag missing units, excess digits or a
+  missing reference. Any suggestions are minor and specific.

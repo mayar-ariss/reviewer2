@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: clinical-abstract-spin
+expected_outcome: |
+  This is health research, so the review applies the spin file (and may apply the
+  reporting file). It notes that the primary outcome, pain at 12 weeks, did not differ
+  between groups, that the conclusion rests on a secondary outcome, and that "effective"
+  and "should be offered routinely" go beyond the results. It raises these as questions for
+  the author rather than accusations, asks whether the function outcome was prespecified,
+  and does not invent numbers or results.
